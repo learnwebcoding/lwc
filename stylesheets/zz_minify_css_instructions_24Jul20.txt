@@ -1,0 +1,5 @@
+Prior to 23Jul20, minified CSS using Compass/Sass, which required installing Ruby for Windows.
+
+Starting 23Jul20, minify CSS using VS Code with JS & CSS Minifier (Minify) olback.es6-css-minify extension installed, which adds Minify button to VS Code status bar:
+1.) Open VS Code | File | Open File | Point Open dialog to the xyz.css file to minify.
+2.) In VS Code status bar, click Minify. xyz.min.css is written to the same directory as xyz.css.

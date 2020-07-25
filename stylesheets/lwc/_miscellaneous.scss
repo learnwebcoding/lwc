@@ -1,0 +1,86 @@
+// -------------------- INTRODUCTION --------------------
+
+// File: /web_server_root_directory/stylesheets/lwc/_miscellaneous.scss.
+// Purpose: Miscellaneous Sass style definitions.
+// Used in: lwc.scss.
+// Last reviewed/updated: 12 Jul 2019.
+// Published: 03 Jun 2015.
+
+/* -------------------- MISCELLANEOUS (_miscellaneous.scss) -------------------- */
+
+img, header, main, footer, noscript {
+  display: block;
+}
+footer img {
+  display: inline;
+}
+.display-none {
+  display: none;
+}
+.float-left, .toc-num {
+  float: left;
+}
+.clear-both, .toc > div {
+  clear: both;
+}
+.tools-icon-dropdown-container {
+  display: inline-block;
+  position: relative;
+}
+.tools-icon-dropdown {
+  position: absolute;
+  white-space: nowrap;
+  list-style-type: none;
+}
+img {
+  max-width: 100%;
+}
+.vertical-align-top {
+  vertical-align: top;
+}
+.text-align-center, .home-page-main-subtitle-row, .home-page-main-fa-row, .home-page-footer {
+  text-align: center;
+}
+.text-align-right {
+  text-align: right;
+}
+// word-wrap and overflow-wrap allow viewport width to be decreased without inducing horizontal scrollbar. word-wrap for screen supported by all web browsers except FF. overflow-wrap to replace word-wrap.
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+// To add line numbers to blocks of code.
+pre {
+  counter-reset: line-number;
+}
+// To add line numbers to blocks of code. As opposed hard coding line numbers in HTML, line numbers via CSS ::before and ::after pseudo-elements prohibits inclusion of the line numbers (except IE10+) when use mouse click and drag to highlight the code for copy and paste. For; 1.) all blocks of code with line numbers. 2.) by itself (ie, without line-number-justify-right-one or line-number-justify-right-two) for blocks of code with 9 or less lines of code, 3.) by itself (ie, without line-number-justify-right-one or line-number-justify-right-two) for lines 10 to 99 of blocks of code with 99 or less lines of code, and 4.) by itself (ie, without line-number-justify-right-one or line-number-justify-right-two) for lines 100 to 999 of blocks of code with 999 or less lines of code.
+pre > span.line-number-all::before {
+  content: counter(line-number); // No space before line number.
+  counter-increment: line-number;
+  display: inline-block; // Allow border-right to span entire line-height.
+  color: #777;
+  border-right: 1px solid #ccc;
+  padding-right: 0.5em;
+}
+// To add line numbers to blocks of code. As opposed to using spaces to justify right line numbers via hard coded HTML, using spaces to justify right line numbers via CSS ::before and ::after pseudo-elements content property prohibits inclusion of the spaces when mouse click and drag to highlight code for copy and paste. For; 1.) Lines 1 to 9 of blocks of code with 99 or less lines of code, 2.) Lines 10 to 99 of blocks of code with 999 or less lines of code.
+pre > span.line-number-justify-right-one::before {
+  content: " " counter(line-number); // One space before line number (hence, justify right one).
+  counter-increment: line-number;
+}
+// To add line numbers to blocks of code. As opposed to using spaces to justify right line numbers via hard coded HTML, using spaces to justify right line numbers via CSS ::before and ::after pseudo-elements content property prohibits inclusion of the spaces when mouse click and drag to highlight code for copy and paste. For lines 1 to 9 of blocks of code with 999 or less lines of code.
+pre > span.line-number-justify-right-two::before {
+  content: "  " counter(line-number); // Two spaces before line number (hence, justify right two).
+  counter-increment: line-number;
+}
+// To add line numbers to blocks of code. As opposed to using spaces to separate line numbers from code via hard coded HTML, using spaces to separate line numbers from code via CSS ::before and ::after pseudo-elements content property prohibits inclusion of the spaces when mouse click and drag to highlight code for copy and paste.
+pre > span::after {
+  content: "";
+  padding-right: 0.25em; // Small space between line number border-right and code.
+}
+ul {
+  list-style-type: disc;
+}
+.cursor-pointer, .tools-icon-dropdown-option {
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+W3C And WHATWG Agree The WHATWG HTML And DOM Standards Are Official
+https://blog.learnwebcoding.com/?p=34
+
+On 28 May 2019 the W3C and WHATWG agreed that HTML and DOM shall be developed principally by the WHATWG, following the WHATWG Living Standard specification process. Also, the W3C agreed to discontinue its release plans for the W3C versions of HTML 5.3 and DOM 4.1. In other words, the W3C and WHATWG have agreed to recognize the WHATWG HTML Living Standard and the WHATWG DOM Living Standard as the official HTML and DOM standards moving forward.
+
+For additional information, see:
+
+Memorandum Of Understanding Between W3C And WHATWG:
+<a href="https://www.w3.org/2019/04/WHATWG-W3C-MOU.html" target="_blank">https://www.w3.org/2019/04/WHATWG-W3C-MOU.html</a>
+
+---
+
+Categories:
+HTML, JavaScript
