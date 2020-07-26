@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/css/css_font_size_property_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/css/css_font_size_property.php.
- * Last reviewed/updated: 14 Jul 2019.
+ * Last reviewed/updated: 25 Jul 2020.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -124,7 +124,7 @@ html {
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
  &lt;head&gt;
-  &lt;style type=&quot;text/css&quot;&lt;
+  &lt;style type=&quot;text/css&quot;&gt;
    html { font-size: 16px; }
    body { font-size: 0.875em; } <span class='comment'>/* em = 16px. font-size = 0.875 x 16px = 14px. */</span>
    h1 { font-size: 2em; } <span class='comment'>/* em = 14px. font-size = 2 x 14px = 28px. */</span>
