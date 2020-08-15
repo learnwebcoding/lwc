@@ -4,8 +4,10 @@
 /* File: /web_server_root_directory/php/install_quickinstall_windows_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/php/install_quickinstall_windows.php
- * Last reviewed/updated: 19 Feb 2019.
- * Published: 21 Sep 2016. */
+ * Last reviewed/updated: 14 Aug 2020.
+ * Published: 21 Sep 2016.
+ * NOTE: Blurry images are being shrunken to fit allowed page width. Images located deep in lists are first to appear blurry. */
+
 return
    "<section>
 
@@ -27,7 +29,8 @@ return
          <li>The URI for the root of the web server is http://localhost/.</li>
         </ul>
        </li>
-       <li>Alternative solutions for developing phpBB board styles locally include the <a href='http://www.ampps.com/'>Softaculous AMPPS Stack (ampps.com)</a>, the <a href='https://bitnami.com/stack/phpbb'>Bitnami phpBB Stack (bitnami.com)</a>, the <a href='https://bitnami.com/stack/wamp/modules#phpbb'>Bitnami phpBB Module For Bitnami WAMP (bitnami.com)</a>, and the <a href='https://bitnami.com/stack/xampp#phpbb'>Bitnami phpBB Module For Apache Friends XAMPP (bitnami.com)</a>. Although the installation and setup of the phpBB board software by the Softaculous and Bitnami products is more automated/less manual compared to QuickInstall; the Softaculous and Bitnami products share one downside: when a new version of the phpBB board software is released, it can take up to two days for Softaculous, and up to four weeks for Bitnami, to build the new version of the phpBB board software into their products. In this example, new versions of the phpBB board software and phpBB board styles, including release candidates, can be installed as soon as they are released.</li>
+       <li>Alternative solutions for developing phpBB board styles locally include the <a href='https://www.ampps.com/'>Softaculous AMPPS Stack (ampps.com)</a>, the <a href='https://bitnami.com/stack/phpbb'>Bitnami phpBB Stack (bitnami.com)</a>, and the <a href='https://bitnami.com/stack/xampp#phpbb'>Bitnami phpBB Module For XAMPP (bitnami.com)</a>. Although the installation and setup of the phpBB board software by the Softaculous and Bitnami products is more automated/less manual compared to QuickInstall, the Softaculous and Bitnami products share one downside: when a new version of the phpBB board software is released, it can take a couple of days to a week or more for Softaculous and Bitnami to build the new version of the phpBB board software into their products. In this example, new versions of the phpBB board software and phpBB board styles, including release candidates, can be installed as soon as they are released.</li>
+       <li>QuickInstall 1.5.x supports phpBB 3.0.x, 3.1.x, 3.2.x, and 3.3.x. However, phpBB 3.0.x and 3.1.x have reached End Of Life. Therefore, this web page discusses using QuickInstall 1.5.x with phpBB 3.2.x and 3.3.x, not phpBB 3.0.x and 3.1.x. phpBB 3.2.x reaches End Of Life in November 2020.</li>
       </ul>
      </div>
 
@@ -70,10 +73,9 @@ return
      <p>To install QuickInstall:</p>
 
      <ol>
-      <li>Download the source code (zip) file for the latest official version, not release candidate (RC) version, of QuickInstall from <a href='https://github.com/phpbb/quickinstall/releases'>GitHub phpBB QuickInstall Releases (github.com)</a>. In this example, the source code (zip) file for QuickInstall 1.3.1 was downloaded.</li>
-      <li>Extract the downloaded file. In this example, the downloaded <span class='filename'>quickinstall-1.3.1.zip</span> file was extracted to the <span class='filename'>quickinstall-1.3.1</span> folder.</li>
-      <li>For consistency, rename the QuickInstall software folder to <span class='filename'>quickinstall</span>. In this example, the <span class='filename'>quickinstall-1.3.1</span> folder was renamed <span class='filename'>quickinstall</span>.</li>
-      <li>Copy the <span class='filename'>quickinstall</span> QuickInstall software folder to the root of the web server. In this example, the <span class='filename'>quickinstall</span> QuickInstall software folder was copied to the root of XAMPP Apache as <span class='filename'>C:\\xampp\\htdocs\\quickinstall</span>.</li>
+      <li>Download the source code (zip) file for the latest official version, not release candidate (RC) version, of QuickInstall from <a href='https://github.com/phpbb/quickinstall/releases'>GitHub phpBB QuickInstall Releases (github.com)</a>. In this example, the source code (zip) file for QuickInstall 1.5.0 was downloaded.</li>
+      <li>Extract the downloaded file. In this example, the downloaded <span class='filename'>quickinstall_1.5.0.zip</span> file was extracted to the <span class='filename'>quickinstall</span> folder.</li>
+      <li>Copy the <span class='filename'>quickinstall</span> QuickInstall software folder to the root of the web server. In this example, the <span class='filename'>quickinstall</span> QuickInstall software folder was copied to the root of XAMPP as <span class='filename'>C:\\xampp\\htdocs\\quickinstall</span>.</li>
       <li>The QuickInstall software is installed.</li>
      </ol>
 
@@ -87,7 +89,7 @@ return
 
      <p>phpBB board software is installed on QuickInstall. Multiple phpBB board software can be installed. phpBB board software is installed by simply copying the phpBB board software folder to the correct QuickInstall software <span class='filename'>sources</span> directory. The first phpBB board software to install is copied to the QuickInstall software <span class='filename'>sources</span> directory. Subsequent phpBB board software to install is copied to the QuickInstall software <span class='filename'>sources\phpBB3_alt</span> directory.</p>
 
-     <p>The installed phpBB board software serves as source files for the creation of phpBB boards. QuickInstall 1.3.x supports phpBB 3.0.x, 3.1.x, and 3.2.x board software.</p>
+     <p>The installed phpBB board software serves as source files for the creation of phpBB boards.</p>
 
      <h3><a id='installFirstBoardSoftware'></a>3.1. Install The First phpBB Board Software To The QuickInstall Software <span class='filename'>sources</span> Directory</h3>
 
@@ -96,8 +98,8 @@ return
      <p>To install the first phpBB board software to the QuickInstall software <span class='filename'>sources</span> directory:</p>
 
      <ol>
-      <li>Download phpBB board software from <a href='https://www.phpbb.com/downloads/'>phpBB Downloads (phpbb.com)</a>. In this example, phpBB 3.2.1 was downloaded.</li>
-      <li>Extract the downloaded file. In this example, the downloaded <span class='filename'>phpBB-3.2.1.zip</span> file was extracted to the <span class='filename'>phpBB3</span> folder.</li>
+      <li>Download phpBB board software from <a href='https://www.phpbb.com/downloads/'>phpBB Downloads (phpbb.com)</a>. In this example, phpBB 3.3.1 was downloaded.</li>
+      <li>Extract the downloaded file. In this example, the downloaded <span class='filename'>phpBB-3.3.1.zip</span> file was extracted to the <span class='filename'>phpBB3</span> folder.</li>
       <li>Copy the <span class='filename'>phpBB3</span> phpBB board software folder to the QuickInstall software <span class='filename'>sources</span> directory. In this example, the <span class='filename'>phpBB3</span> phpBB board software folder was copied to the QuickInstall software <span class='filename'>sources</span> directory as <span class='filename'>C:\\xampp\\htdocs\\quickinstall\\sources\\phpBB3</span>.</li>
       <li>The first phpBB board software is installed.</li>
      </ol>
@@ -114,10 +116,10 @@ return
      <p>To install subsequent phpBB board software to the QuickInstall software <span class='filename'>sources\phpBB3_alt</span> directory:</p>
 
      <ol>
-      <li>Download phpBB board software from <a href='https://www.phpbb.com/downloads/'>phpBB Downloads (phpbb.com)</a> In this example, phpBB 3.1.11 was downloaded.</li>
-      <li>Extract the downloaded file. In this example, the downloaded <span class='filename'>phpBB-3.1.11.zip</span> file was extracted to the <span class='filename'>phpBB3</span> folder.</li>
-      <li><a id='subsequentPhpbbBoardSoftwareFolderName'></a>Rename the <span class='filename'>phpBB3</span> phpBB board software folder to something unique and descriptive about the phpBB board software. In this example, the <span class='filename'>phpBB3</span> folder was renamed <span class='filename'>phpBB3_3111</span>.</li>
-      <li>Copy the phpBB board software folder to the QuickInstall software <span class='filename'>sources\phpBB3_alt</span> directory. In this example, the <span class='filename'>phpBB3_3111</span> phpBB board software folder was copied to the QuickInstall software <span class='filename'>sources\phpBB3_alt</span> directory as <span class='filename'>C:\\xampp\\htdocs\\quickinstall\\sources\\phpBB3_alt\\phpBB3_3111</span>.</li>
+      <li>Download phpBB board software from <a href='https://www.phpbb.com/downloads/'>phpBB Downloads (phpbb.com)</a> In this example, phpBB 3.2.10 was downloaded.</li>
+      <li>Extract the downloaded file. In this example, the downloaded <span class='filename'>phpBB-3.2.10.zip</span> file was extracted to the <span class='filename'>phpBB3</span> folder.</li>
+      <li><a id='subsequentPhpbbBoardSoftwareFolderName'></a>Rename the <span class='filename'>phpBB3</span> phpBB board software folder to something unique and descriptive about the phpBB board software. In this example, the <span class='filename'>phpBB3</span> folder was renamed <span class='filename'>phpBB3_3210</span>.</li>
+      <li>Copy the phpBB board software folder to the QuickInstall software <span class='filename'>sources\phpBB3_alt</span> directory. In this example, the <span class='filename'>phpBB3_3210</span> phpBB board software folder was copied to the QuickInstall software <span class='filename'>sources\phpBB3_alt</span> directory as <span class='filename'>C:\\xampp\\htdocs\\quickinstall\\sources\\phpBB3_alt\\phpBB3_3210</span>.</li>
       <li>The subsequent phpBB board software is installed.</li>
      </ol>
 
@@ -137,9 +139,9 @@ return
       <li>Start the web server and SQL database server. In this example, XAMPP Apache and MySQL were started.</li>
       <li>Point the web browser to QuickInstall. In this example, QuickInstall is http://localhost/quickinstall/.</li>
       <li>The QuickInstall <b>Profiles</b> tab is selected:
-       <img src='/images/install_quickinstall_windows/qi_profiles_tab_800x260.gif' alt='phpBB3 QuickInstall Profiles Tab' class='box-shadow' />
+       <img src='/images/install_quickinstall_windows/qi_profiles_tab_1024x215.gif' alt='phpBB3 QuickInstall Profiles Tab' class='box-shadow' />
       </li>
-      <li>Go to the Database settings fieldset.
+      <li>Go to the Database fieldset.
        <ol>
         <li>Database type selects the installed SQL database server to use. If MySQL 4.1.3 or later is installed, it is recommended that MySQLi (MySQL improved), not MySQL, is selected.
          <ul>
@@ -154,47 +156,40 @@ return
         </li>
        </ol>
       </li>
-      <li>Go to the Time settings fieldset. Time zone sets the default time zone.
-       <ul>
-        <li>In the Time zone dropdown, select the time zone for your location. In this example, <kbd>America/New York</kbd> was selected.</li>
-       </ul>
-      </li>
-      <li><a id='createQuickInstallProfiles_administratorUsernamePassword'></a>Go to the Admin settings fieldset. Administrator username/password assigns a username/password to the phpBB board Administrator account. The phpBB board Administrator account has access to the phpBB board Administration Control Panel (ACP).
+      <li><a id='createQuickInstallProfiles_administratorUsernamePassword'></a>Go to the Admin account fieldset. Administrator username/password assigns a username/password to the phpBB board Administrator account. The phpBB board Administrator account has access to the phpBB board Administration Control Panel (ACP).
        <ol>
         <li>In the Administrator username field, use the default (admin) or enter a different username. In this example, <kbd>admin</kbd> was entered.</li>
         <li>In the Administrator password field, enter a password. In this example, <kbd>adminPass</kbd> was entered.</li>
        </ol>
       </li>
-      <li>Go to the Misc settings fieldset.
-       <ol>
-        <li>Alternate environment selects the installed phpBB board software to use as source files for the creation of the phpBB board. If only one phpBB board software is installed, the Alternate environment dropdown has one option. If multiple phpBB board software are installed, the Alternate environment dropdown has multiple options. In either case, the Default environment (latest phpBB) option always refers to the phpBB board software installed to the QuickInstall software <span class='filename'>sources</span> directory. Whether or not it is the <q>latest phpBB</q> is never actually determined and, therefore, could be incorrect. Subsequent phpBB board software installed to the QuickInstall software <span class='filename'>sources\phpBB3_alt</span> directory are listed in the Alternate environment dropdown by their <a href='#subsequentPhpbbBoardSoftwareFolderName'>phpBB board software folder name (above)</a>.
+      <li>Go to the Board configuration fieldset. Time zone sets the default time zone.
+       <ul>
+        <li>In the Time zone dropdown, select the time zone for your location. In this example, <kbd>America/New York</kbd> was selected.</li>
+       </ul>
+      </li>
+      <li>Go to the Install options fieldset. Alternate environment selects the installed phpBB board software to use as source files for the creation of the phpBB board. If only one phpBB board software is installed, the Alternate environment dropdown has one option. If multiple phpBB board software are installed, the Alternate environment dropdown has multiple options. In either case, the Default environment (latest phpBB) option always refers to the phpBB board software installed to the QuickInstall software <span class='filename'>sources</span> directory. Whether or not it is the <q>latest phpBB</q> is never actually determined and, therefore, could be incorrect. Subsequent phpBB board software installed to the QuickInstall software <span class='filename'>sources\phpBB3_alt</span> directory are listed in the Alternate environment dropdown by their <a href='#subsequentPhpbbBoardSoftwareFolderName'>phpBB board software folder name (above)</a>.
+       <ul>
+        <li>In the Alternate environment dropdown:
          <ul>
-          <li>In the Alternate environment dropdown:
-           <ul>
-            <li>If only one phpBB board software is installed, the Alternate environment dropdown has one option and there is nothing to do. Go to the next step.</li>
-            <li>If multiple phpBB board software are installed, select a phpBB board software. In this example, multiple phpBB board software are installed and <kbd>Default environment (latest phpBB)</kbd> was selected:
-             <img src='/images/install_quickinstall_windows/qi_profiles_tab_misc_settings_alternate_environment_800x135.gif' alt='phpBB3 QuickInstall Profiles Tab Misc Settings Alternate Environment' class='box-shadow' />
-            </li>
-           </ul>
+          <li>If only one phpBB board software is installed, the Alternate environment dropdown has one option and there is nothing to do. Go to the next step.</li>
+          <li>If multiple phpBB board software are installed, select a phpBB board software. In this example, multiple phpBB board software are installed and <kbd>Default environment (latest phpBB)</kbd> was selected:
+           <img src='/images/install_quickinstall_windows/qi_profiles_tab_install_options_alternate_environment_1024x260.gif' alt='phpBB3 QuickInstall Profiles Tab Install Options Alternate Environment' class='box-shadow' />
           </li>
          </ul>
         </li>
-        <li>autoMOD refers to phpBB 3.0.x board software modifications known as MODs. Unless you are a developer or user of MODs, to avoid the <q>AutoMOD not found in the <span class='filename'>sources</span> directory</q> error that appears when using installed phpBB 3.0.x board software as source files for the creation of phpBB boards, it is recommended that <kbd>No</kbd> is selected.
-         <ul>
-          <li>In the autoMOD radio button group, use the default (Yes) or select No. In this example, <kbd>No</kbd> was selected.</li>
-         </ul>
-        </li>
-       </ol>
-      </li>
-      <li>Go to the Save settings fieldset. Save as new profile assigns a name to the QuickInstall profile. If left empty/blank, <q>default</q> is automatically assigned. If an existing QuickInstall profile name is entered, the QuickInstall profile settings are overwritten.
-       <ul>
-        <li>In the Save as new profile field, use the default (empty/blank) or enter a QuickInstall profile name. In this example, <kbd>myProfile</kbd> was entered.</li>
        </ul>
       </li>
-      <li>For all of the other settings, use the default.</li>
-      <li>Click <kbd>Save</kbd>.</li>
+      <li>Go to the Save profile fieldset. Save as new profile assigns a name to the QuickInstall profile. If an existing QuickInstall profile name is entered, the QuickInstall profile is overwritten.
+       <ul>
+        <li>In the Save as new profile field, use the default (default) or enter a QuickInstall profile name. In this example, <kbd>myProfile</kbd> was entered.</li>
+       </ul>
+      </li>
+      <li>For all other settings use the default.</li>
+      <li>Click <kbd>Save</kbd> (located in the Save profile fieldset).</li>
       <li>The <q>Your settings were successfully saved</q> report appears and the QuickInstall Boards tab appears to the left of the QuickInstall Profiles tab. If the QuickInstall Boards tab does not appear, press <kbd>F5</kbd> or click <kbd>Refresh/Reload</kbd>.</li>
-      <li>The QuickInstall profile is created and ready to use.</li>
+      <li>The QuickInstall profile is created and ready for use.
+       <div class='note normal'>In this example, the QuickInstall myProfile profile is stored in the QuickInstall software <span class='filename'>settings\myProfile.json</span> file. To delete a QuickInstall profile, close the web browser and delete the appropriately named QuickInstall profile file.</div>
+      </li>
      </ol>
 
     </section>
@@ -205,7 +200,7 @@ return
 
      <p>After a QuickInstall profile is created, phpBB boards can be created. A phpBB board is a functional implementation of the phpBB board software.</p>
 
-     <p>phpBB boards are created in the QuickInstall Boards tab. At the top of the QuickInstall Boards tab, a QuickInstall profile is selected. Some of the QuickInstall profile settings become the defaults in, and can be changed in, the QuickInstall Boards tab. One worth noting is Alternate environment, which  selects the installed phpBB board software to use as source files for the creation of the phpBB board.</p>
+     <p>phpBB boards are created in the QuickInstall Boards tab. At the top of the QuickInstall Boards tab, a QuickInstall profile is selected. Some of the QuickInstall profile settings become the defaults in, and can be changed in, the QuickInstall Boards tab. This includes Alternate environment, which selects the installed phpBB board software to use as source files for the creation of a phpBB board.</p>
 
      <p>When a pbpBB board is created, the phpBB board software source files are copied from the QuickInstall <span class='filename'>sources</span> or <span class='filename'>sources\phpBB3_alt</span> directory to the QuickInstall <span class='filename'>boards</span> directory. The phpBB board software source files are not changed during this process, and, therefore, can serve repeatedly as original phpBB board software source files.</p>
 
@@ -215,20 +210,20 @@ return
       <li>Start the web server and SQL database server. In this example, XAMPP Apache and MySQL were started.</li>
       <li>Point the web browser to QuickInstall. In this example, QuickInstall is http://localhost/quickinstall/.</li>
       <li>The QuickInstall <b>Boards</b> tab is selected:
-       <img src='/images/install_quickinstall_windows/qi_boards_tab_800x260.gif' alt='phpBB3 QuickInstall Boards Tab' class='box-shadow' />
+       <img src='/images/install_quickinstall_windows/qi_boards_tab_1024x270.gif' alt='phpBB3 QuickInstall Boards Tab' class='box-shadow' />
        <div class='note normal'>If the QuickInstall Boards tab is absent and the QuickInstall Profiles tab is selected, first create a QuickInstall profile per <a href='#createQuickInstallProfiles'>Create QuickInstall Profiles (above)</a>.</div>
       </li>
       <li>Go to the Profiles fieldset. Current profile selects the QuickInstall profile whose settings will be incorporated into the phpBB board.
        <ul>
-        <li>For Current profile:
+        <li>In the Current profile dropdown:
          <ul>
-          <li>If only one QuickInstall profile is created, the QuickInstall profile is listed as selected and there is nothing to do. Go to the next step. In this example, only one QuickInstall profile is created, it is listed as selected, and there is nothing to do. Go to the next step.</li>
-          <li>If the Current profile dropdown appears, select a QuickInstall profile.</li>
+          <li>If only one QuickInstall profile is created, the Current profile dropdown has only one option and there is nothing to do. Go to the next step. In this example, only one QuickInstall profile (named default) is created, it is the only option, and there is nothing to do. Go to the next step.</li>
+          <li>If multiple QuickInstall profiles are created, select a QuickInstall profile.</li>
          </ul>
         </li>
        </ul>
       </li>
-      <li>Go to the Options fieldset.
+      <li>Go to the Create board fieldset.
        <ol>
         <li>Board name is the title that appears at the top of the phpBB board header.
          <ul>
@@ -237,30 +232,30 @@ return
         </li>
         <li>Board description is the subtitle that appears underneath the board name in the phpBB board header.
          <ul>
-          <li>In the Board description field, use the default (QuickInstall sandbox) or enter a different description. In this example, <kbd>For phpBB 3.2.1</kbd> was entered.</li>
+          <li>In the Board description field, use the default (QuickInstall sandbox) or enter a different description. In this example, <kbd>For phpBB 3.3.1</kbd> was entered.</li>
          </ul>
         </li>
-        <li><a id='createBoards_boardDatabaseAndDirectoryName'></a>Board database and directory name becomes; a.) The phpBB board database name, prefixed with <q>qi_</q>, b.) The directory under the QuickInstall <span class='filename'>boards</span> directory to which the phpBB board software source files are copied during the creation of the phpBB board (i.e., the phpBB board destination directory), and c.) The last directory in the phpBB board URI. Therefore, enter a name that makes sense for these purposes. It is recommended that the name and version of phpBB board software is entered.
+        <li><a id='createBoards_boardDatabaseAndDirectoryName'></a>Board database and directory name becomes: a.) The phpBB board database name, prefixed with <q>qi_</q>; b.) The directory under the QuickInstall <span class='filename'>boards</span> directory to which the phpBB board software source files are copied during the creation of the phpBB board (i.e., the phpBB board destination directory); and c.) The last directory in the phpBB board URI. Therefore, enter a name that makes sense for these purposes. It is recommended that the name and version of phpBB board software is entered.
          <ul>
-          <li>In the Board database and directory name field, enter a name. In this example, <kbd>phpbb321</kbd> was entered.</li>
+          <li>In the Board database and directory name field, enter a name. In this example, <kbd>phpbb331</kbd> was entered.</li>
          </ul>
         </li>
        </ol>
       </li>
-      <li>Expand the Misc options fieldset. Alternate environment selects the installed phpBB board software to use as source files for the creation of the phpBB board. If only one phpBB board software is installed, the Alternate environment dropdown has one option. If multiple phpBB board software are installed, the Alternate environment dropdown has multiple options. In either case, the Default environment (latest phpBB) option always refers to the phpBB board software installed to the QuickInstall software <span class='filename'>sources</span> directory. Whether or not it is the <q>latest phpBB</q> is never actually determined and, therefore, could be incorrect. Subsequent phpBB board software installed to the QuickInstall software <span class='filename'>sources\phpBB3_alt</span> directory are listed in the Alternate environment dropdown by their <a href='#subsequentPhpbbBoardSoftwareFolderName'>phpBB board software folder name (above)</a>.
+      <li>Expand the Install options fieldset. Alternate environment selects the installed phpBB board software to use as source files for the creation of the phpBB board. If only one phpBB board software is installed, the Alternate environment dropdown has one option. If multiple phpBB board software are installed, the Alternate environment dropdown has multiple options. In either case, the Default environment (latest phpBB) option always refers to the phpBB board software installed to the QuickInstall software <span class='filename'>sources</span> directory. Whether or not it is the <q>latest phpBB</q> is never actually determined and, therefore, could be incorrect. Subsequent phpBB board software installed to the QuickInstall software <span class='filename'>sources\phpBB3_alt</span> directory are listed in the Alternate environment dropdown by their <a href='#subsequentPhpbbBoardSoftwareFolderName'>phpBB board software folder name (above)</a>.
        <ul>
         <li>In the Alternate environment dropdown:
          <ul>
           <li>If only one phpBB board software is installed, the Alternate environment dropdown has one option and there is nothing to do. Go to the next step.</li>
           <li>If multiple phpBB board software are installed, select a phpBB board software. In this example, multiple phpBB board software are installed and <kbd>Default environment (latest phpBB)</kbd> was selected:
-           <img src='/images/install_quickinstall_windows/qi_boards_tab_misc_options_alternate_environment_800x135.gif' alt='phpBB3 QuickInstall Boards Tab Misc Options Alternate Environment' class='box-shadow' />
+           <img src='/images/install_quickinstall_windows/qi_boards_tab_create_board_install_options_alternate_environment_1024x120.gif' alt='phpBB3 QuickInstall Boards Tab Create Board Install Options Alternate Environment' class='box-shadow' />
           </li>
          </ul>
         </li>
        </ul>
       </li>
-      <li>For all of the other settings, use the default.</li>
-      <li>Click <kbd>Create board</kbd> (located in the Options fieldset) and be patient. The phpBB board creation can take a couple of minutes.</li>
+      <li>For all other settings use the default.</li>
+      <li>Click <kbd>Create board</kbd> (located in the Create board fieldset) and be patient. The phpBB board creation can take a couple of minutes.</li>
       <li>Upon creating the phpBB board, QuickInstall loads the phpBB board into the web browser and logs into the phpBB board as the phpBB board Administrator using the <a href='#createQuickInstallProfiles_administratorUsernamePassword'>Administrator username/password (above)</a>:
        <img src='/images/install_quickinstall_windows/created_board_loaded_in_browser_1024x768.gif' alt='phpBB Board Successfully Created And Loaded In Web Browser' class='box-shadow' />
        <div class='note normal'>
@@ -271,8 +266,8 @@ return
         </ul>
        </div>
       </li>
-      <li>In the QuickInstall Boards tab left sidebar, the created phpBB boards are listed by their <a href='#createBoards_boardDatabaseAndDirectoryName'>board database and directory name (above)</a>:
-       <img src='/images/install_quickinstall_windows/qi_installed_boards_arrow_800x260.gif' alt='phpBB3 QuickInstall Installed Boards' class='box-shadow' />
+      <li>In the QuickInstall Boards tab left sidebar, the created phpBB boards are listed by their <a href='#createBoards_boardDatabaseAndDirectoryName'>board database and directory name (above)</a> and phpBB version:
+       <img src='/images/install_quickinstall_windows/qi_installed_boards_arrow_1024x270.gif' alt='phpBB3 QuickInstall Installed Boards' class='box-shadow' />
       </li>
      </ol>
 
@@ -286,15 +281,15 @@ return
 
      <p>phpBB board style software is installed on phpBB board software as phpBB board styles. Multiple phpBB board styles can be installed and each phpBB board has its own installed phpBB board style(s).</p>
 
-     <p>phpBB board software includes one or more phpBB board styles with one of the phpBB board styles pre-configured as the phpBB board default style. More specifically, phpBB 3.0.x includes the phpBB prosilver 3.0.x board style and the subsilver2 3.0.x board style, with prosilver 3.0.x pre-configured as the phpBB board default style. phpBB 3.1.x includes the phpBB prosilver 3.1.x board style, which is pre-configured as the phpBB board default style. phpBB 3.2.x includes the phpBB prosilver 3.2.x board style, which is pre-configured as the phpBB board default style.</p>
+     <p>phpBB board software includes a phpBB board style pre-configured as the phpBB board default style. More specifically, phpBB 3.2.x includes the phpBB prosilver 3.2.x board style pre-configured as the phpBB board default style. phpBB 3.3.x includes the phpBB prosilver 3.3.x board style pre-configured as the phpBB board default style.</p>
 
-     <p>phpBB 3.0.x boards support phpBB 3.0.x board styles. phpBB 3.1.x boards support phpBB 3.1.x board styles. phpBB 3.2.x boards support phpBB 3.2.x board styles.</p>
+     <p>phpBB 3.2.x boards support phpBB 3.2.x board styles. phpBB 3.3.x boards support phpBB 3.3.x board styles.</p>
 
      <p>Some phpBB board styles are standalone styles and some are child styles. A standalone style is a fully developed/complete style that has no dependencies. The phpBB board default style, prosilver, is an example of a standalone style.</p>
 
      <p>Developing standalone styles from scratch is difficult. So, instead of developing standalone styles from scratch, most phpBB style developers take an existing standalone style and modify it to their liking. There are two practical ways of doing this. First, edit the standalone style directly, thereby creating a fork/branch of the original standalone style. Second, do not edit the standalone style at all. Instead, create a separate phpBB board style that overlays/modifies the standalone style with the changes you would like to make. Here, the unmodified standalone style is known as the parent style, and the separate style that overlays/modifies the parent style is known as the child style. In this type of style relationship, the child style inherits the style of the parent style, and, therefore, the child style only needs to specify the changes to the parent style that you would like to make. As a result, however, the child style is only a partially developed/incomplete style that is dependent on the parent style. This means the use of a child style requires; 1.) installation of both the child style and the parent style, and 2.) that the child style, not the parent style, is selected as the phpBB board default style.</p>
 
-     <p>prosilver Second Edition is an example of a child style. prosilver Special Edition is a child style of the phpBB standalone prosilver style. In other words, prosilver is the parent style of the prosilver Second Edition child style. When prosilver and prosilver Special Edition are installed and prosilver is selected as the phpBB board default style, prosilver functions as a standalone style. When prosilver and prosilver Special Edition are installed and prosilver Special Edition is selected as the phpBB board default style, prosilver functions as a parent style.</p>
+     <p>prosilver Special Edition is an example of a child style. prosilver Special Edition is a child style of the phpBB standalone prosilver style. In other words, prosilver is the parent style of the prosilver Special Edition child style. When prosilver and prosilver Special Edition are installed and prosilver is selected as the phpBB board default style, prosilver functions as a standalone style. When prosilver and prosilver Special Edition are installed and prosilver Special Edition is selected as the phpBB board default style, prosilver functions as a parent style.</p>
 
      <p>Installing phpBB board styles is a two step process:</p>
 
@@ -305,16 +300,16 @@ return
 
      <h3><a id='copyStyleSoftware'></a>6.1. Copy phpBB Board Style Software To The phpBB Board Software <span class='filename'>styles</span> Directory</h3>
 
-     <p>The first step to installing phpBB board styles is to copy the phpBB board style software to the phpBB board software <span class='filename'>styles</span> directory. This makes the phpBB board styles available to the phpBB board software Administration Control Panel (ACP) for installation.</p>
+     <p>The first step to installing phpBB board styles is to copy the phpBB board style software to the phpBB board software <span class='filename'>styles</span> directory. This makes the phpBB board style available to the phpBB board software Administration Control Panel (ACP) for installation.</p>
 
      <p>To copy phpBB board style software to the phpBB board software <span class='filename'>styles</span> directory:</p>
 
      <ol>
-      <li>Download the phpBB board style software from <a href='https://www.phpbb.com/customise/db/styles/board_styles-12'>phpBB Board Styles (phpbb.com)</a>. If the phpBB board style is a child style and the parent style is not already installed on the phpBB board software, also download the parent style. In this example, the <a href='https://www.phpbb.com/customise/db/style/prosilver_special_edition/'>phpBB prosilver Special Edition 3.2.1 (phpbb.com)</a> style was downloaded. prosilver Special Edition 3.2.1 is a child style of prosilver 3.2.1. prosilver 3.2.1 is the phpBB 3.2.1 default style and, therefore, is already installed on phpBB 3.2.1. As a result, in this example, there is no need to download a parent style.</li>
-      <li>Extract the downloaded file(s). In this example, the downloaded <span class='filename'>prosilver_se_3.2.1.zip</span> file was extracted to the <span class='filename'>prosilver_se</span> folder.</li>
+      <li>Download the phpBB board style software from <a href='https://www.phpbb.com/customise/db/styles/board_styles-12'>phpBB Board Styles (phpbb.com)</a>. If the phpBB board style is a child style and the parent style is not already installed on the phpBB board software, also download the parent style. In this example, the <a href='https://www.phpbb.com/customise/db/style/prosilver_special_edition/'>phpBB prosilver Special Edition 3.3.1 (phpbb.com)</a> style was downloaded. prosilver Special Edition 3.3.1 is a child style of prosilver 3.3.1. prosilver 3.3.1 is the phpBB 3.3.1 default style and, therefore, is already installed on phpBB 3.3.1. As a result, in this example, there is no need to download a parent style.</li>
+      <li>Extract the downloaded file(s). In this example, the downloaded <span class='filename'>prosilver_se_3.3.1.zip</span> file was extracted to the <span class='filename'>prosilver_se</span> folder.</li>
       <li>Copy the phpBB board style software folder(s) to the phpBB board software <span class='filename'>styles</span> directory. In this example, the <span class='filename'>prosilver_se</span> phpBB board style software folder was copied to the phpBB board software <span class='filename'>styles</span> directory as <span class='filename'>C:\\xampp\\htdocs\\quickinstall\\boards\\phpbb321\\styles\\prosilver_se</span>. As a result of the copy, the phpBB board software <span class='filename'>styles</span> directory contains the prosilver parent style (<span class='filename'>prosilver</span>) and the prosilver Special Edition child style (<span class='filename'>prosilver_se</span>):
-       <img src='/images/install_quickinstall_windows/prosilver_se_copied_to_board_software_styles_directory_570x603.gif' alt='prosilver Special Edition Copied To phpBB Board Software styles Directory' />
-       <div class='note normal'>The phpBB 3.2.x board software <span class='filename'>styles\all</span> directory is not a phpBB board style software folder and can be ignored.</div>
+       <img src='/images/install_quickinstall_windows/prosilver_se_copied_to_board_software_styles_directory_620x580.gif' alt='prosilver Special Edition Copied To phpBB Board Software styles Directory' class='box-shadow' />
+       <div class='note normal'>The phpBB 3.2.x and 3.3.x board software <span class='filename'>styles\all</span> directory is not a phpBB board style software folder and can be ignored.</div>
       </li>
      </ol>
 
@@ -331,33 +326,35 @@ return
 
      <ol>
       <li>Start the web server and SQL database server. In this example, XAMPP Apache and MySQL were started.</li>
-      <li>Point the web browser to the phpBB board. In this example, the phpBB board is http://localhost/quickinstall/boards/phpbb321/.</li>
+      <li>Point the web browser to the phpBB board. In this example, the phpBB board is http://localhost/quickinstall/boards/phpbb331/.</li>
       <li>Login to the Administration Control Panel (ACP) as the phpBB board Administrator:
        <ol>
         <li>Click <kbd>Login</kbd> in the board header. Login using the Administrator username/password entered in <a href='#createQuickInstallProfiles_administratorUsernamePassword'>Administrator username/password (above)</a>. In this example, the <kbd>admin</kbd> username and <kbd>adminPass</kbd> password were entered.</li>
         <li>Click <kbd>ACP</kbd> in the board header or <kbd>Administration Control Panel</kbd> at the bottom of the board. Login again using the Administrator username/password. In this example, the <kbd>admin</kbd> username and <kbd>adminPass</kbd> password were entered.</li>
        </ol>
       </li>
-      <li>Upon logging into the ACP as the phpBB board Administrator, the <b>General</b> tab is selected:
-       <div class='note normal'>In this example, upon logging into the ACP as the phpBB board Administrator, the ACP displays the following message: <q>Your config file (<span class='filename'>config.php</span>) is currently world-writable. We strongly encourage you to change the permissions to 640 or at least to 644 (for example: <a href='http://en.wikipedia.org/wiki/Chmod'>chmod</a> 640 <span class='filename'>config.php</span>).</q> In this example, the XAMPP host computer operating system is Windows, not Linux. In this example, by default; 1.) the Users group does not have write permissions to the phpBB board <span class='filename'>config.php</span> file, and 2.) the phpBB board <span class='filename'>config.php</span> file is not readable by the web browser. In this example, normal Windows file sharing and file system permissions apply to the phpBB board <span class='filename'>config.php</span> file. Further discussion of Windows and/or Linux file system permissions is beyond the scope of this web page.</div>
+      <li>The ACP appears and the <b>General</b> tab is selected:
+       <div class='note normal'>In this example, near the top of the APC the following message is displayed: <q>Your config file (<span class='filename'>config.php</span>) is currently world-writable. We strongly encourage you to change the permissions to 640 or at least to 644 (for example: <a href='https://en.wikipedia.org/wiki/Chmod'>chmod</a> 640 <span class='filename'>config.php</span>).</q> In this example, if you are using QuickInstall as <a href='#security'>intended (above)</a>, <span class='filename'>config.php</span> permissions are not important and the message can be ignored.</div>
       </li>
       <li>Click the <kbd>Customise</kbd> tab.</li>
       <li>The <b>Customise</b> web page appears. In the left sidebar under Style Management, click <kbd>Styles</kbd>.</li>
       <li>The <b>Styles</b> web page appears. Styles lists the installed phpBB board styles. In this example, the phpBB board default style, prosilver, is installed:
-       <img src='/images/install_quickinstall_windows/apc_styles_prosilver_installed_783x323.gif' alt='prosilver Style Installed' class='box-shadow' />
+       <img src='/images/install_quickinstall_windows/apc_styles_prosilver_installed_1024x315.gif' alt='prosilver Style Installed' class='box-shadow' />
       </li>
       <li>In the left sidebar under Style Management, click <kbd>Install Styles</kbd>.</li>
       <li>The <b>Install styles</b> web page appears. Install styles lists the phpBB board styles that have been copied to the phpBB board software <span class='filename'>styles</span> directory, but have not been installed. For example, if a child style is listed and its parent style is not installed, the child style cannot be installed and it reports the required parent style. If the parent style is also listed, the child style is listed indented and underneath its parent style:
-       <img src='/images/install_quickinstall_windows/apc_install_styles_parent_listed_not_installed_783x370.gif' alt='Child And Parent Styles Copied But Not Installed' class='box-shadow' />
-       If a child style is listed and its parent style is installed, the child style can be installed. In other words, when installing parent and child styles, the parent style must be installed first. In this example, because prosilver is already installed, prosilver is not listed and the copied prosilver Special Edition child style is ready to be installed:
-       <img src='/images/install_quickinstall_windows/apc_install_styles_prosilver_se_listed_783x320.gif' alt='prosilver Special Edition Child Style Ready To Be Installed' class='box-shadow' />
+       <img src='/images/install_quickinstall_windows/apc_install_styles_parent_listed_not_installed_1024x404.gif' alt='Child And Parent Styles Copied But Not Installed' class='box-shadow' />
+       If a child style is listed and its parent style is installed, the child style can be installed. In other words, when installing parent and child styles, the parent style must be installed first. In this example, because prosilver is already installed, prosilver is not listed and the copied prosilver Special Edition child style is listed as ready to be installed:
+       <img src='/images/install_quickinstall_windows/apc_install_styles_prosilver_se_listed_1024x360.gif' alt='prosilver Special Edition Child Style Ready To Be Installed' class='box-shadow' />
       </li>
-      <li>Under Actions, click <kbd>Install style</kbd>.</li>
-      <li>The <q>Information: Style <q>style name</q> has been installed.</q> report appears. In this example, the <q>Information: Style <q>prosilver Special Edition</q>; has been installed.</q> report appears.</li>
+      <li>Under the Actions column, click <kbd>Install style</kbd>. Alternatively, check the prosilver Special Edition checkbox and click <kbd>Install styles</kbd>.</li>
+      <li>The <q>Information: Style <q>style name</q> has been installed.</q> report appears. In this example, the <q>Information: Style <q>prosilver Special Edition</q> has been installed.</q> report appears:
+       <img src='/images/install_quickinstall_windows/apc_install_styles_info_prosilver_se_installed_1024x315.gif' alt='Information prosilver Special Edition Child Style Installed' class='box-shadow' />
+      </li>
       <li>The phpBB board style is installed.</li>
-      <li>Click <kbd>Return to installed styles list</kbd>, or in the left sidebar under Style Management click <kbd>Styles</kbd>.</li>
+      <li>Click <kbd>Return to installed styles list</kbd>. Alternatively, in the left sidebar under Style Management, click <kbd>Styles</kbd>.</li>
       <li>The <b>Styles</b> web page appears. Styles lists the installed phpBB board styles. The phpBB board style you just installed is added to the list of installed phpBB board styles. In this example, the prosilver Special Edition child style is added to the list indented and underneath its prosilver parent style:
-       <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_783x373.gif' alt='prosilver And prosilver Special Edition Styles Installed' class='box-shadow' />
+       <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed' class='box-shadow' />
       </li>
      </ol>
 
@@ -379,7 +376,7 @@ return
 
      <h3><a id='selectDefaultStyleGuests'></a>7.1. Select The phpBB Board Default Style For Guests</h3>
 
-<!-- 7.1 confirmed 14 Aug 2017. -->
+<!-- 7.1 confirmed 14 Aug 2020. -->
 
      <p>Selecting the phpBB board default style for guests does not affect the phpBB board default style for new users or existing users.</p>
 
@@ -387,18 +384,20 @@ return
 
      <ol>
       <li>Start the web server and SQL database server. In this example, XAMPP Apache and MySQL were started.</li>
-      <li>Point the web browser to the phpBB board. In this example, the phpBB board is http://localhost/quickinstall/boards/phpbb321/.</li>
+      <li>Point the web browser to the phpBB board. In this example, the phpBB board is http://localhost/quickinstall/boards/phpbb331/.</li>
       <li>Login to the Administration Control Panel (ACP) as the phpBB board Administrator:
        <ol>
         <li>Click <kbd>Login</kbd> in the board header. Login using the Administrator username/password entered in <a href='#createQuickInstallProfiles_administratorUsernamePassword'>Administrator username/password (above)</a>. In this example, the <kbd>admin</kbd> username and <kbd>adminPass</kbd> password were entered.</li>
         <li>Click <kbd>ACP</kbd> in the board header or <kbd>Administration Control Panel</kbd> at the bottom of the board. Login again using the Administrator username/password. In this example, the <kbd>admin</kbd> username and <kbd>adminPass</kbd> password were entered.</li>
        </ol>
       </li>
-      <li>Upon logging into the ACP as the phpBB board Administrator, the <b>General</b> tab is selected. In the left sidebar under Board Configuration, click <kbd>Board settings</kbd>.</li>
+      <li>The ACP appears and the <b>General</b> tab is selected. In the left sidebar under Board Configuration, click <kbd>Board settings</kbd>.</li>
       <li>The <b>Board settings</b> web page appears.</li>
       <li>Go to the Board style fieldset. The Guest style dropdown selects the phpBB board default style for guests.
        <ul>
-        <li>In the Guest style dropdown, select the phpBB board style to use as the phpBB board default style for guests. In this example, <kbd>prosilver Special Edition</kbd> was selected.</li>
+        <li>In the Guest style dropdown, select the phpBB board style to use as the phpBB board default style for guests. In this example, <kbd>prosilver Special Edition</kbd> was selected:
+           <img src='/images/install_quickinstall_windows/apc_board_settings_guest_style_prosilver_se_arrow_1024x180.gif' alt='prosilver Special Edition Selected As phpBB Board Default Style For Guests' class='box-shadow' />
+        </li>
        </ul>
       </li>
       <li>Click <kbd>Submit</kbd>.</li>
@@ -408,7 +407,7 @@ return
 
      <h3><a id='selectDefaultStyleNewUsers'></a>7.2. Select The phpBB Board Default Style For New Users</h3>
 
-<!-- 7.2 confirmed 14 Aug 2017. -->
+<!-- 7.2 confirmed 14 Aug 2020. -->
 
      <p>Selecting the phpBB board default style for new users does not affect the phpBB board default style for guests or existing users.</p>
 
@@ -416,14 +415,14 @@ return
 
      <ol>
       <li>Start the web server and SQL database server. In this example, XAMPP Apache and MySQL were started.</li>
-      <li>Point the web browser to the phpBB board. In this example, the phpBB board is http://localhost/quickinstall/boards/phpbb321/.</li>
+      <li>Point the web browser to the phpBB board. In this example, the phpBB board is http://localhost/quickinstall/boards/phpbb331/.</li>
       <li>Login to the Administration Control Panel (ACP) as the phpBB board Administrator:
        <ol>
         <li>Click <kbd>Login</kbd> in the board header. Login using the Administrator username/password entered in <a href='#createQuickInstallProfiles_administratorUsernamePassword'>Administrator username/password (above)</a>. In this example, the <kbd>admin</kbd> username and <kbd>adminPass</kbd> password were entered.</li>
         <li>Click <kbd>ACP</kbd> in the board header or <kbd>Administration Control Panel</kbd> at the bottom of the board. Login again using the Administrator username/password. In this example, the <kbd>admin</kbd> username and <kbd>adminPass</kbd> password were entered.</li>
        </ol>
       </li>
-      <li>Upon logging into the ACP as the phpBB board Administrator, the <b>General</b> tab is selected.</li>
+      <li>The ACP appears and the <b>General</b> tab is selected</li>
       <li>There are two ways to select the phpBB board default style for new users:
        <ul>
         <li>Via General | Board Configuration - Board settings web page (recommended):
@@ -432,7 +431,9 @@ return
           <li>The <b>Board settings</b> web page appears.</li>
           <li>Go to the Board style fieldset. The Default style dropdown selects the phpBB board default style for new users.
            <ul>
-            <li>In the Default style dropdown, select the phpBB board style to use as the phpBB board default style for new users. In this example, <kbd>prosilver Special Edition</kbd> was selected.</li>
+            <li>In the Default style dropdown, select the phpBB board style to use as the phpBB board default style for new users. In this example, <kbd>prosilver Special Edition</kbd> was selected:
+           <img src='/images/install_quickinstall_windows/apc_board_settings_default_style_prosilver_se_arrow_1024x180.gif' alt='prosilver Special Edition Selected As The phpBB Board Default Style' class='box-shadow' />
+            </li>
            </ul>
           </li>
           <li>Click <kbd>Submit</kbd>.</li>
@@ -444,16 +445,18 @@ return
          <ol>
           <li>Click the <kbd>Customise</kbd> tab.</li>
           <li>The <b>Customize</b> web page appears. In the left sidebar under Style Management, click <kbd>Styles</kbd>.</li>
-          <li>The <b>Styles</b> web page appears. Under Style Name, the phpBB board default style for new users is listed in bold. In this example, prosilver is the phpBB board default style for new users:
-           <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_default_arrow_783x373.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver The Default Style' class='box-shadow' />
+          <li>The <b>Styles</b> web page appears. Under the Style Name column, the phpBB board default style for new users is listed in bold. In this example, prosilver is the phpBB board default style for new users:
+           <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_default_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver The phpBB Board Default Style' class='box-shadow' />
           </li>
-          <li>For the phpBB board style to use as the phpBB board default style for new users, under Action, click <kbd>Details</kbd>. In this example, <kbd>Details</kbd> for prosilver Special Edition was clicked.</li>
-          <li>The phpBB board style details appear. To use the phpBB board style as the phpBB board default style for new users, in the Make default style radio button group, select <kbd>Yes</kbd>.
-           <img src='/images/install_quickinstall_windows/apc_styles_prosilver_se_details_arrow_783x414.gif' alt='prosilver Special Edition Details' class='box-shadow' />
+          <li>To select the phpBB board default style for new users, under the Actions column, click <kbd>Details</kbd> corresponding to the phpBB board default style to use for new users. In this example, <kbd>Details</kbd> for prosilver Special Edition was clicked:
+           <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_default_prosilver_se_actions_details_arrow_1024x360.gif' alt='prosilver Special Edition Details' class='box-shadow' />
+          </li>
+          <li>The phpBB board style details appear. To use the phpBB board style as the phpBB board default style for new users, in the Make default style radio button group, check <kbd>Yes</kbd>:
+           <img src='/images/install_quickinstall_windows/apc_styles_prosilver_se_details_arrow_1024x470.gif' alt='prosilver Special Edition Details Make Default Style Yes' class='box-shadow' />
           </li>
           <li>Click <kbd>Submit</kbd>.</li>
-          <li>The phpBB board default style for new users is selected and the <b>Styles</b> web page appears. If necessary, refresh/reload the Style web page in the web browser to see the phpBB board style you just selected listed in bold, which means it is the phpBB board default style for new users. In this example, prosilver Special Edition is the phpBB board default style for new users:
-           <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_se_default_arrow_783x361.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver Special Edition The Default Style' class='box-shadow' />
+          <li>The phpBB board default style for new users is selected and the <b>Styles</b> web page appears. Under the Style Name column, the phpBB board default style for new users is listed in bold. If the phpBB board style you just selected is not listed in bold, press <kbd>F5</kbd> or click <kbd>Refresh/Reload</kbd>. In this example, prosilver Special Edition is the phpBB board default style for new users:
+           <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_se_default_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver Special Edition The phpBB Board Default Style' class='box-shadow' />
           </li>
          </ol>
         </li>
@@ -463,7 +466,7 @@ return
 
      <h3><a id='selectDefaultStyleAllUsers'></a>7.3. Select The phpBB Board Default Style For All Users</h3>
 
-<!-- 7.3 confirmed 14 Aug 2017. -->
+<!-- 7.3 confirmed 14 Aug 2020. -->
 
 <!-- ACP | General | Board settings - Override user style does the following: 1.) Overrides existing user selected style, and 2.) Removes the UCP | Board preferences | Edit global settings - My board style dropdown. However, when turn off Override user style so that the My board style dropdown reappears, the existing user selected style returns to what they had selected; meaning, Override user style does just that, it overrides existing user selected style, it does not replace/change existing user selected style. Therefore, indeed the workaround described here is the proper way to actually change existing user selected style. -->
 
@@ -480,15 +483,19 @@ return
         <li>Click <kbd>ACP</kbd> in the board header or <kbd>Administration Control Panel</kbd> at the bottom of the board. Login again using the Administrator username/password. In this example, the <kbd>admin</kbd> username and <kbd>adminPass</kbd> password were entered.</li>
        </ol>
       </li>
-      <li>Upon logging into the ACP as the phpBB board Administrator, the <b>General</b> tab is selected.</li>
+      <li>The ACP appears and the <b>General</b> tab is selected.</li>
       <li>Select the phpBB board style to use as the phpBB board default style for all users as the phpBB board default style for new users per <a href='#selectDefaultStyleNewUsers'>Select The phpBB Board Default Style For New Users (above)</a>. In this example, prosilver Special Edition is the phpBB board style to use as the phpBB board default style for all users. Therefore, prosilver Special Edition was selected as the phpBB board default style for new users.</li>
       <li>Click the <kbd>Customise</kbd> tab.</li>
       <li>The <b>Customise</b> web page appears. In the left sidebar under Style Management, click <kbd>Styles</kbd>.</li>
-      <li>The <b>Styles</b> web page appears. Under Style Name, the phpBB board default style for new users is listed in bold. In this example, prosilver Special Edition is the phpBB board default style for new users:
-       <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_se_default_arrow_783x361.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver Special Edition The Default Style' class='box-shadow' />
+      <li>The <b>Styles</b> web page appears. Under the Style Name column, the phpBB board default style for new users is listed in bold. In this example, prosilver Special Edition is the phpBB board default style for new users:
+       <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_se_default_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver Special Edition The phpBB Board Default Style' class='box-shadow' />
       </li>
-      <li>For all of the phpBB board styles except the phpBB board default style for new users (i.e., for all of the phpBB styles listed with normal, not bold, text), under Actions, click <kbd>Deactivate</kbd>. In other words, deactivate all of phpBB board styles except the phpBB board default style for new users (i.e., deactivate all of phpBB board styles except the one listed in bold). In this example, <kbd>Deactivate</kbd> for prosilver was clicked.</li>
-      <li>For all of the phpBB board styles just deactivated, under Actions, click <kbd>Activate</kbd>. In this example, <kbd>Activate</kbd> for prosilver was clicked.</li>
+      <li>For all of the phpBB board styles except the phpBB board default style for new users (i.e., for all of the phpBB styles listed with normal, not bold, text), under the Actions column, click <kbd>Deactivate</kbd>. In other words, deactivate all of phpBB board styles except the phpBB board default style for new users (i.e., deactivate all of phpBB board styles except the one listed in bold). In this example, <kbd>Deactivate</kbd> for prosilver was clicked:
+       <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_se_default_prosilver_actions_deactivate_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver Special Edition The phpBB Board Default Style Deactivate prosilver' class='box-shadow' />
+      </li>
+      <li>For all of the phpBB board styles just deactivated, under the Actions column, click <kbd>Activate</kbd>. In this example, <kbd>Activate</kbd> for prosilver was clicked:
+       <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_se_default_prosilver_actions_activate_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver Special Edition The phpBB Board Default Style Activate prosilver' class='box-shadow' />
+      </li>
       <li>The phpBB board default style for all users is selected.</li>
      </ol>
 
@@ -498,7 +505,7 @@ return
 
      <h2><a id='developStyles'></a>8. Develop phpBB Board Styles</h2>
 
-     <p>To reduce server-side processing load and improve phpBB board performance, phpBB boards cache some files. Therefore, if an edit to a phpBB board style does not appear in the web browser after refreshing/reloading the web page in your web browser, the next step is to purge the phpBB board cache, and then refresh/reload the web page in your web browser again.</p>
+     <p>To reduce server-side processing load and to improve phpBB board performance, phpBB boards cache some files. Therefore, if an edit to a phpBB board style does not appear in the web browser after pressing <kbd>F5</kbd> or clicking <kbd>Refresh/Reload</kbd>, the phpBB board cache needs to be purged. Then press <kbd>F5</kbd> or click <kbd>Refresh/Reload</kbd>.</p>
 
      <p>To develop phpBB board styles:</p>
 
@@ -508,25 +515,25 @@ return
       <li>Go to the web page(s) displaying the phpBB board styles that you want to develop.</li>
       <li>Edit the phpBB board styles.</li>
       <li>If you are not editing the phpBB board styles directly on the web server, then replace the original files on web server with the edited files.</li>
-      <li>To see the effect of the edit, refresh/reload the web page in your web browser.</li>
+      <li>To see the effect of the edit, press <kbd>F5</kbd> or click <kbd>Refresh/Reload</kbd>.</li>
       <li>If the appearance of the web page does not change, purge the phpBB board cache:
        <ol>
-        <li>Point the web browser to the phpBB board. In this example, the phpBB board is http://localhost/quickinstall/boards/phpbb321/.</li>
+        <li>Point the web browser to the phpBB board. In this example, the phpBB board is http://localhost/quickinstall/boards/phpbb331/.</li>
         <li>Login to the Administration Control Panel (ACP) as the phpBB board Administrator:
          <ol>
           <li>Click <kbd>Login</kbd> in the board header. Login using the Administrator username/password entered in <a href='#createQuickInstallProfiles_administratorUsernamePassword'>Administrator username/password (above)</a>. In this example, the <kbd>admin</kbd> username and <kbd>adminPass</kbd> password were entered.</li>
           <li>Click <kbd>ACP</kbd> in the board header or <kbd>Administration Control Panel</kbd> at the bottom of the board. Login again using the Administrator username/password. In this example, the <kbd>admin</kbd> username and <kbd>adminPass</kbd> password were entered.</li>
          </ol>
         </li>
-        <li>Upon logging into the ACP as the phpBB board Administrator, the <b>General</b> tab is selected.</li>
+        <li>The ACP appears and the <b>General</b> tab is selected.</li>
         <li>Go to the Resynchronise or reset statistics fieldset. For Purge the cache, click the <kbd>Run now</kbd> button.</li>
         <li>The <b>Confirm: Are you sure you wish to purge the cache?</b> dialog appears. Click <kbd>Yes</kbd>.</li>
         <li>The <q>Information: Cache successfully purged.</q> report appears. Click <kbd>Close</kbd> (the top right X).</li>
         <li>The phpBB board cache is purged.</li>
        </ol>
       </li>
-      <li>Refresh/reload the web page in your web browser.</li>
-      <li>If the appearance of the web page still does not change, make sure the web page you are viewing displays the phpBB board styles you are editing. One way to do this is to open the web browser DOM inspector and make sure the web page uses the edited phpBB board styles.</li>
+      <li>Press <kbd>F5</kbd> or click <kbd>Refresh/Reload</kbd>.</li>
+      <li>If the appearance of the web page still does not change, make sure the displayed web page is using the phpBB board styles that you are editing. One way to do this is to open the web browser DOM inspector and determine if the edits are present.</li>
      </ol>
     </section>
     <hr />
@@ -539,15 +546,13 @@ return
       <li><a href='https://www.phpbb.com/'>phpBB (phpbb.com)</a></li>
       <li><a href='https://github.com/phpbb/quickinstall/releases'>GitHub phpbb QuickInstall Releases (github.com)</a>
       <li><a href='https://www.phpbb.com/downloads/'>phpBB Downloads (phpbb.com)</a></li>
-      <li><a href='https://www.phpbb.com/mods/'>phpBB Modifications (phpbb.com)</a></li>
       <li><a href='https://www.phpbb.com/styles/'>phpBB Styles (phpbb.com)</a></li>
       <li><a href='https://www.phpbb.com/customise/db/styles/board_styles-12'>phpBB Board Styles (phpbb.com)</a></li>
       <li><a href='https://www.phpbb.com/customise/db/style/prosilver_special_edition/'>phpBB prosilver Special Edition (phpbb.com)</a></li>
-      <li><a href='http://www.ampps.com/'>Softaculous AMPPS Stack (ampps.com)</a></li>
+      <li><a href='https://www.ampps.com/'>Softaculous AMPPS Stack (ampps.com)</a></li>
       <li><a href='https://bitnami.com/stack/phpbb'>Bitnami phpBB Stack (bitnami.com)</a></li>
-      <li><a href='https://bitnami.com/stack/wamp/modules#phpbb'>Bitnami phpBB Module For Bitnami WAMP (bitnami.com)</a></li>
-      <li><a href='https://bitnami.com/stack/xampp#phpbb'>Bitnami phpBB Module For Apache Friends XAMPP (bitnami.com)</a></li>
-      <li><a href='http://php.net/manual/en/book.mysqli.php'>MySQL Improved Extension (php.net)</a></li>
+      <li><a href='https://bitnami.com/stack/xampp#phpbb'>Bitnami phpBB Module For XAMPP (bitnami.com)</a></li>
+      <li><a href='https://php.net/manual/en/book.mysqli.php'>MySQL Improved Extension (php.net)</a></li>
      </ul>
 
     </section>";

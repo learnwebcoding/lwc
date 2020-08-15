@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/misc/whats_new_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/misc/whats_new.php.
- * Last reviewed/updated: 04 Aug 2020.
+ * Last reviewed/updated: 14 Aug 2020.
  * Published: 21 Sep 2016. */
 return
    "<!-- This web page does not have an h2-h6 element in the section element. To avoid W3C Markup Validation Service (http://validator.w3.org/) warning, not error (Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.), comment out the section element. Same for index.php, sitemap.php, glossary.php, and whats_new.php.
@@ -12,6 +12,7 @@ return
 -->
 <!-- Resources are \"Added\". Instructional pages are \"Published\". Always keep when a page is \"Added/Published\". When a page is \"Major update\" remove prior \"Updated/Major update\". When a page is \"Updated\" remove prior \"Updated\". When a page is \"Updated\" keep prior \"Major update\". When a page is \"Updated/Major update\" remove prior \"Renamed\". When a page is \"Renamed\" without being \"Updated\" keep prior \"Updated/Major update\". When a page is \"Renamed\" and \"Updated\" remove prior \"Updated\" and keep prior \"Major update\". When a page is \"Renamed\" rename all refs to the page (including Updated/Major update/Added/Published) to the new name. When a page is \"Deleted\" remove prior \"Published\", remove prior \"Updated\, and mention page \"Deleted.\". When a page is \"Moved to discontinued\" keep prior \"Published\", remove prior \"Updated\", and do not mention page \"Moved to discontinued\". -->
      <ul class='link-list'>
+      <li><a href='/php/install_quickinstall_windows.php'>Install phpBB QuickInstall On Your Local Windows Web Server To Develop phpBB Board Styles (learnwebcoding.com)</a>: Major update: 14 Aug 2020.</li>
       <li><a href='/javascript/web_browser_useragent_values.php'>Web Browser User-Agent String Values (learnwebcoding.com)</a>: Updated: 04 Aug 2020.</li>
       <li><a href='/css/css_font_size_property.php'>Introduction To The CSS <code>font-size</code> Property (learnwebcoding.com)</a>: Updated: 25 Jul 2020.</li>
       <li><a href='/html/template_explained.php'>Learn Web Coding Home Template Explained (learnwebcoding.com)</a>: Updated: 23 Jul 2020.</li>
@@ -27,17 +28,16 @@ return
       <li><a href='/css/css_tutorial.php'>CSS Tutorial (learnwebcoding.com)</a>: Updated 12 Jul 2019.</li>
       <li><a href='/html/index.php'>HTML (learnwebcoding.com)</a> Landing Page: Updated: 01 Jun 2019.</li>
       <li><a href='/css/index.php'>CSS (learnwebcoding.com)</a> Landing Page: Updated: 01 Jun 2019.</li>
-      <li><a href='https://jquery.com/'>jQuery Core (jquery.com)</a> updated from 3.3.1 to 3.4.1: 28 May 2019.</li>
+      <li><a href='https://jquery.com/'>jQuery Core (jquery.com)</a>: Updated from 3.3.1 to 3.4.1: 28 May 2019.</li>
       <li><a href='/html/html_testing_ground/web_browser_retain_remove_content_f5.html'>Does The Web Browser Retain Or Remove Manually And Programmatically Entered/Displayed Web Page Content Upon F5 (Refresh/Reload)? (learnwebcoding.com)</a>: Updated: 28 May 2019.</li>
       <li><a href='/javascript/javascript_techniques/breadcrumbs_navigation.php'>JavaScript Technique: Breadcrumbs Navigation (learnwebcoding.com)</a>: Updated: 22 Apr 2019.</li>
       <li><a href='/javascript/jquery_techniques/fix_content_top_viewport_upon_scrolling.php'>jQuery Technique: Fix Web Page Content To Top Of Viewport Upon Scrolling (learnwebcoding.com)</a>: Updated: 21 Apr 2019.</li>
       <li><a href='/javascript/javascript_reference/index.php'>JavaScript Feature Reference (learnwebcoding.com)</a>: Updated: 05 Apr 2019.</li>
       <li><a href='/javascript/javascript_reference/module.php'>JavaScript Feature Reference: Module Web Browser Support Test (learnwebcoding.com)</a>: Updated: 05 Apr 2019.</li>
       <li><a href='/javascript/angularjs_shopping_cart_spa.php'>AngularJS Shopping Cart Single Page Application (learnwebcoding.com)</a> Updated: 08 Mar 2019.</li>
-      <li><a href='https://getbootstrap.com/'>Bootstrap (getbootstrap.com)</a> updated from 3.4.0 to 3.4.1: 05 Mar 2019.</li>
+      <li><a href='https://getbootstrap.com/'>Bootstrap (getbootstrap.com)</a>: Updated from 3.4.0 to 3.4.1: 05 Mar 2019.</li>
       <li><a href='/css/css_testing_ground/visualize_bootstrap_media_query_viewport_breakpoints.html'>Visualize Bootstrap Media Query Viewport Breakpoints (learnwebcoding.com)</a>: Updated: 04 Mar 2019.</li>
       <li><a href='/misc/install_xampp_windows.php'>Install XAMPP For An Offline Development Environment With Apache And MySQL Running Locally On Windows (learnwebcoding.com)</a>: Updated: 19 Feb 2019.</li>
-      <li><a href='/php/install_quickinstall_windows.php'>Install phpBB QuickInstall On Your Local Windows Web Server To Develop phpBB Board Styles (learnwebcoding.com)</a>: Updated: 19 Feb 2019.</li>
       <li><a href='/php/simple_mysql_admin.php'>Simple MySQL Admin (learnwebcoding.com)</a>: Web page updated: 19 Feb 2019.</li>
       <li><a href='/html/template_download.php'>Learn Web Coding Home Template Download (learnwebcoding.com)</a>: Web page updated: 19 Feb 2019.</li>
 <!-- Next oldest web page updates and web pages that frequently update and/or do not want to delete/retype:
