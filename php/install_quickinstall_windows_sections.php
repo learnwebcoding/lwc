@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/php/install_quickinstall_windows_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/php/install_quickinstall_windows.php
- * Last reviewed/updated: 15 Aug 2020.
+ * Last reviewed/updated: 22 Aug 2020.
  * Published: 21 Sep 2016.
  * NOTE: Blurry images are being shrunken to fit allowed page width. Images located deep in lists are first to appear blurry. */
 
@@ -356,7 +356,7 @@ return
       <li>The phpBB board style is installed.</li>
       <li>Click <kbd>Return to installed styles list</kbd>. Alternatively, in the left sidebar under Style Management, click <kbd>Styles</kbd>.</li>
       <li>The <b>Styles</b> web page appears. Styles lists the installed phpBB board styles. The phpBB board style you just installed is added to the list of installed phpBB board styles. In this example, the prosilver Special Edition child style is added to the list indented and underneath its prosilver parent style:
-       <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed' class='box-shadow' />
+       <img src='/images/install_quickinstall_windows/apc_styles_both_installed_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed' class='box-shadow' />
       </li>
      </ol>
 
@@ -448,17 +448,17 @@ return
           <li>Click the <kbd>Customise</kbd> tab.</li>
           <li>The <b>Customize</b> web page appears. In the left sidebar under Style Management, click <kbd>Styles</kbd>.</li>
           <li>The <b>Styles</b> web page appears. Under the Style Name column, the phpBB board default style for new users is listed in bold. In this example, prosilver is the phpBB board default style for new users:
-           <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_default_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver The phpBB Board Default Style' class='box-shadow' />
+           <img src='/images/install_quickinstall_windows/apc_styles_both_installed_prosilver_default_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver The phpBB Board Default Style' class='box-shadow' />
           </li>
           <li>To select the phpBB board default style for new users, under the Actions column, click <kbd>Details</kbd> corresponding to the phpBB board default style to use for new users. In this example, <kbd>Details</kbd> for prosilver Special Edition was clicked:
-           <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_default_prosilver_se_actions_details_arrow_1024x360.gif' alt='prosilver Special Edition Details' class='box-shadow' />
+           <img src='/images/install_quickinstall_windows/apc_styles_both_installed_prosilver_default_prosilver_se_actions_details_arrow_1024x360.gif' alt='prosilver Special Edition Details' class='box-shadow' />
           </li>
           <li>The phpBB board style details appear. To use the phpBB board style as the phpBB board default style for new users, in the Make default style radio button group, check <kbd>Yes</kbd>:
            <img src='/images/install_quickinstall_windows/apc_styles_prosilver_se_details_arrow_1024x470.gif' alt='prosilver Special Edition Details Make Default Style Yes' class='box-shadow' />
           </li>
           <li>Click <kbd>Submit</kbd>.</li>
           <li>The phpBB board default style for new users is selected and the <b>Styles</b> web page appears. Under the Style Name column, the phpBB board default style for new users is listed in bold. If the phpBB board style you just selected to be the phpBB board default style for new users is not listed in bold, press <kbd>F5</kbd> or click <kbd>Refresh/Reload</kbd>. In this example, prosilver Special Edition is the phpBB board default style for new users:
-           <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_se_default_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver Special Edition The phpBB Board Default Style' class='box-shadow' />
+           <img src='/images/install_quickinstall_windows/apc_styles_both_installed_prosilver_se_default_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver Special Edition The phpBB Board Default Style' class='box-shadow' />
           </li>
          </ol>
         </li>
@@ -490,13 +490,13 @@ return
       <li>Click the <kbd>Customise</kbd> tab.</li>
       <li>The <b>Customise</b> web page appears. In the left sidebar under Style Management, click <kbd>Styles</kbd>.</li>
       <li>The <b>Styles</b> web page appears. Under the Style Name column, the phpBB board default style for new users is listed in bold. In this example, prosilver Special Edition is the phpBB board default style for new users:
-       <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_se_default_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver Special Edition The phpBB Board Default Style' class='box-shadow' />
+       <img src='/images/install_quickinstall_windows/apc_styles_both_installed_prosilver_se_default_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver Special Edition The phpBB Board Default Style' class='box-shadow' />
       </li>
       <li>For all of the phpBB board styles except the phpBB board default style for new users (i.e., for all of the phpBB styles listed with normal, not bold, text), under the Actions column, click <kbd>Deactivate</kbd>. In other words, deactivate all of phpBB board styles except the phpBB board default style for new users (i.e., deactivate all of phpBB board styles except the one listed in bold). In this example, <kbd>Deactivate</kbd> for prosilver was clicked:
-       <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_se_default_prosilver_actions_deactivate_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver Special Edition The phpBB Board Default Style Deactivate prosilver' class='box-shadow' />
+       <img src='/images/install_quickinstall_windows/apc_styles_both_installed_prosilver_se_default_prosilver_actions_deactivate_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver Special Edition The phpBB Board Default Style Deactivate prosilver' class='box-shadow' />
       </li>
       <li>For all of the phpBB board styles just deactivated, under the Actions column, click <kbd>Activate</kbd>. In this example, <kbd>Activate</kbd> for prosilver was clicked:
-       <img src='/images/install_quickinstall_windows/apc_styles_prosilver_prosilver_se_installed_prosilver_se_default_prosilver_actions_activate_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver Special Edition The phpBB Board Default Style Activate prosilver' class='box-shadow' />
+       <img src='/images/install_quickinstall_windows/apc_styles_both_installed_prosilver_se_default_prosilver_actions_activate_arrow_1024x360.gif' alt='prosilver And prosilver Special Edition Styles Installed With prosilver Special Edition The phpBB Board Default Style Activate prosilver' class='box-shadow' />
       </li>
       <li>The phpBB board default style for all users is selected.</li>
      </ol>
