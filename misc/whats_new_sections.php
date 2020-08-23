@@ -12,6 +12,9 @@ return
 -->
 <!-- Resources are \"Added\". Instructional pages are \"Published\". Always keep when a page is \"Added/Published\". When a page is \"Major update\" remove prior \"Updated/Major update\". When a page is \"Updated\" remove prior \"Updated\". When a page is \"Updated\" keep prior \"Major update\". When a page is \"Updated/Major update\" remove prior \"Renamed\". When a page is \"Renamed\" without being \"Updated\" keep prior \"Updated/Major update\". When a page is \"Renamed\" and \"Updated\" remove prior \"Updated\" and keep prior \"Major update\". When a page is \"Renamed\" rename all refs to the page (including Updated/Major update/Added/Published) to the new name. When a page is \"Deleted\" remove prior \"Published\", remove prior \"Updated\, and mention page \"Deleted.\". When a page is \"Moved to discontinued\" keep prior \"Published\", remove prior \"Updated\", and do not mention page \"Moved to discontinued\". -->
      <ul class='link-list'>
+      <li><a href='https://jquery.com/'>jQuery Core (jquery.com)</a>: Updated from 3.4.1 to 3.5.1: 22 Aug 2020.</li>
+      <li><a href='/index.php'>Learn Web Coding Home Page (learnwebcoding.com)</a>: Updated: 22 Aug 2020.</li>
+      <li><a href='/html/html_testing_ground/web_browser_retain_remove_content_f5.html'>Does The Web Browser Retain Or Remove Manually And Programmatically Entered/Displayed Web Page Content Upon F5 (Refresh/Reload)? (learnwebcoding.com)</a>: Updated: 22 Aug 2019.</li>
       <li><a href='/javascript/web_browser_useragent_values.php'>Web Browser User-Agent String Values (learnwebcoding.com)</a>: Updated: 22 Aug 2020.</li>
       <li><a href='/php/install_quickinstall_windows.php'>Install phpBB QuickInstall On Your Local Windows Web Server To Develop phpBB Board Styles (learnwebcoding.com)</a>: Updated: 22 Aug 2020.</li>
       <li><a href='/php/install_quickinstall_windows.php'>Install phpBB QuickInstall On Your Local Windows Web Server To Develop phpBB Board Styles (learnwebcoding.com)</a>: Major update: 14 Aug 2020.</li>
@@ -29,8 +32,6 @@ return
       <li><a href='/css/css_tutorial.php'>CSS Tutorial (learnwebcoding.com)</a>: Updated 12 Jul 2019.</li>
       <li><a href='/html/index.php'>HTML (learnwebcoding.com)</a> Landing Page: Updated: 01 Jun 2019.</li>
       <li><a href='/css/index.php'>CSS (learnwebcoding.com)</a> Landing Page: Updated: 01 Jun 2019.</li>
-      <li><a href='https://jquery.com/'>jQuery Core (jquery.com)</a>: Updated from 3.3.1 to 3.4.1: 28 May 2019.</li>
-      <li><a href='/html/html_testing_ground/web_browser_retain_remove_content_f5.html'>Does The Web Browser Retain Or Remove Manually And Programmatically Entered/Displayed Web Page Content Upon F5 (Refresh/Reload)? (learnwebcoding.com)</a>: Updated: 28 May 2019.</li>
       <li><a href='/javascript/javascript_techniques/breadcrumbs_navigation.php'>JavaScript Technique: Breadcrumbs Navigation (learnwebcoding.com)</a>: Updated: 22 Apr 2019.</li>
       <li><a href='/javascript/jquery_techniques/fix_content_top_viewport_upon_scrolling.php'>jQuery Technique: Fix Web Page Content To Top Of Viewport Upon Scrolling (learnwebcoding.com)</a>: Updated: 21 Apr 2019.</li>
       <li><a href='/javascript/javascript_reference/index.php'>JavaScript Feature Reference (learnwebcoding.com)</a>: Updated: 05 Apr 2019.</li>
@@ -48,7 +49,6 @@ return
       <li><a href='/javascript/javascript_shopping_cart_spa.php'>JavaScript Shopping Cart Single Page Application (learnwebcoding.com)</a> Updated: 13 Nov 2018.</li>
       <li><a href='/html/html_testing_ground/view_form_post_urlencoded_data.php'>View Form <code>method='post' enctype='application/x-www-form-urlencoded'</code> Data (learnwebcoding.com)</a>: Published: 12 Nov 2018.</li>
       <li><a href='/html/template_download.php'>Learn Web Coding Home Template Download (learnwebcoding.com)</a>: Application updated: 21 Oct 2018.</li>
-      <li><a href='/index.php'>Learn Web Coding Home Page (learnwebcoding.com)</a>: Updated: 19 Oct 2018.</li>
       <li><a href='/php/simple_mysql_admin.php'>Simple MySQL Admin (learnwebcoding.com)</a>: Application major update: 08 Apr 2018.</li>
       <li><a href='/css/css_techniques/style_checkboxes_radio_buttons.php'>CSS Technique: Style Checkboxes And Radio Buttons (learnwebcoding.com)</a>: Updated: 22 Mar 2018.</li>
       <li><a href='/html/valid_html5_template.html'>Valid HTML5 Template (learnwebcoding.com)</a>: Updated: 01 Dec 2017.</li>

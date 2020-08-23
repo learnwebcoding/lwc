@@ -81,7 +81,7 @@
    <div class="container-fluid"><!-- container-fluid from Bootstrap. -->
     <h1>404 Not Found</h1>
 
-    <div class="last-reviewed">Last reviewed/updated: 28 May 2019 | Published: 16 Oct 2015 | Status: Active</div>
+    <div class="last-reviewed">Last reviewed/updated: 22 Aug 2020 | Published: 16 Oct 2015 | Status: Active</div>
     <script src="/javascripts/lwc/support_tools_no_toc_html.min.js"></script>
 
     <nav id="tocId" class="toc">
@@ -101,8 +101,8 @@
   </footer>
 -->
 
-<!-- Copy changes below to javascript*.php, 404.shtml, and web_browser_retain_remove_content_f5.html. -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- Copy changes below to /templates/javascript*.php, 404.shtml, and web_browser_retain_remove_content_f5.html. -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="/javascripts/bootstrap/bootstrap.min.js"></script>
   <script src="/javascripts/lwc/library_load_in_body.min.js"></script>
 
