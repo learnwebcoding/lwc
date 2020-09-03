@@ -2252,6 +2252,38 @@ appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 parseFloatAppVersion: 5
 platform: Win32
 
+Edge 85.0.564.41 32-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.83 safari/537.36 edg/85.0.564.41
+appVersion: 5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36 Edg/85.0.564.41
+parseFloatAppVersion: 5
+platform: Win32
+
+Edge 85.0.564.41 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.83 safari/537.36 edg/85.0.564.41
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36 Edg/85.0.564.41
+parseFloatAppVersion: 5
+platform: Win32
+
+Edge 85.0.564.44 32-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.83 safari/537.36 edg/85.0.564.44
+appVersion: 5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36 Edg/85.0.564.44
+parseFloatAppVersion: 5
+platform: Win32
+
+Edge 85.0.564.44 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.83 safari/537.36 edg/85.0.564.44
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36 Edg/85.0.564.44
+parseFloatAppVersion: 5
+platform: Win32
+
 Firebird 0.6
 
 appName: Netscape
@@ -7339,6 +7371,22 @@ parseFloatAppVersion: 5
 platform: Win32
 
 Firefox 80.0 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:80.0) gecko/20100101 firefox/80.0
+appVersion: 5.0 (Windows)
+parseFloatAppVersion: 5
+platform: Win32
+
+Firefox 80.0.1 32-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:80.0) gecko/20100101 firefox/80.0
+appVersion: 5.0 (Windows)
+parseFloatAppVersion: 5
+platform: Win32
+
+Firefox 80.0.1 64-bit
 
 appName: Netscape
 userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:80.0) gecko/20100101 firefox/80.0
@@ -19393,6 +19441,38 @@ Opera 70.0.3728.133 64-bit
 appName: Netscape
 userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/84.0.4147.125 safari/537.36 opr/70.0.3728.133
 appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36 OPR/70.0.3728.133
+parseFloatAppVersion: 5
+platform: Win32
+
+Opera 70.0.3728.144 32-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/84.0.4147.135 safari/537.36 opr/70.0.3728.144
+appVersion: 5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 OPR/70.0.3728.144
+parseFloatAppVersion: 5
+platform: Win32
+
+Opera 70.0.3728.144 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/84.0.4147.135 safari/537.36 opr/70.0.3728.144
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 OPR/70.0.3728.144
+parseFloatAppVersion: 5
+platform: Win32
+
+Opera 70.0.3728.154 32-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/84.0.4147.135 safari/537.36 opr/70.0.3728.154
+appVersion: 5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 OPR/70.0.3728.154
+parseFloatAppVersion: 5
+platform: Win32
+
+Opera 70.0.3728.154 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/84.0.4147.135 safari/537.36 opr/70.0.3728.154
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 OPR/70.0.3728.154
 parseFloatAppVersion: 5
 platform: Win32
 
