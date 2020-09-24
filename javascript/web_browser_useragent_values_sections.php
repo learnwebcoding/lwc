@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 17 Sep 2020.
+ * Last reviewed/updated: 23 Sep 2020.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -2369,6 +2369,12 @@ return
      <p>Firefox 80.0.1 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:80.0) gecko/20100101 firefox/80.0</p>
 
+     <p>Firefox 81.0 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:81.0) gecko/20100101 firefox/81.0</p>
+
+     <p>Firefox 81.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:81.0) gecko/20100101 firefox/81.0</p>
+
     </section>
     <hr />
     <section>
@@ -3924,6 +3930,12 @@ return
 
      <p>Chrome 85.0.4183.102 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.102 safari/537.36</p>
+
+     <p>Chrome 85.0.4183.121 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.121 safari/537.36</p>
+
+     <p>Chrome 85.0.4183.121 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.121 safari/537.36</p>
 
     </section>
     <hr />
@@ -6702,6 +6714,12 @@ return
      <p>Opera 71.0.3770.148 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.102 safari/537.36 opr/71.0.3770.148</p>
 
+     <p>Opera 71.0.3770.171 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.102 safari/537.36 opr/71.0.3770.171</p>
+
+     <p>Opera 71.0.3770.171 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.102 safari/537.36 opr/71.0.3770.171</p>
+
     </section>
     <hr />
     <section>
@@ -7414,6 +7432,12 @@ return
      <p>Vivaldi 3.3.2022.45 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.106 safari/537.36</p>
 
+     <p>Vivaldi 3.3.2022.47 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.123 safari/537.36</p>
+
+     <p>Vivaldi 3.3.2022.47 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.123 safari/537.36</p>
+
     </section>
     <hr />
     <section>
@@ -8060,6 +8084,26 @@ return
 
      <p>Seamonkey 2.53.3 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:60.0) gecko/20100101 firefox/60.0 seamonkey/2.53.3</p>
+
+     <div class='note normal'>SeaMonkey 2.53.4 released when Firefox was at version 81.0.</div>
+
+     <p>SeaMonkey 2.53.4 32-bit (Identify As Firefox)<br />
+     mozilla/5.0 (windows nt 10.0; wow64; rv:60.0) gecko/20100101 firefox/60.0</p>
+
+     <p>SeaMonkey 2.53.4 32-bit (Identify As SeaMonkey)<br />
+     mozilla/5.0 (windows nt 10.0; wow64; rv:60.0) gecko/20100101 seamonkey/2.53.4</p>
+
+     <p>SeaMonkey 2.53.4 32-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
+     mozilla/5.0 (windows nt 10.0; wow64; rv:60.0) gecko/20100101 firefox/60.0 seamonkey/2.53.4</p>
+
+     <p>SeaMonkey 2.53.4 64-bit (Identify As Firefox)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:60.0) gecko/20100101 firefox/60.0</p>
+
+     <p>SeaMonkey 2.53.4 64-bit (Identify As SeaMonkey)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:60.0) gecko/20100101 seamonkey/2.53.4</p>
+
+     <p>SeaMonkey 2.53.4 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:60.0) gecko/20100101 firefox/60.0 seamonkey/2.53.4</p>
 
     </section>
     <hr />
