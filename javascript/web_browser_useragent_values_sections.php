@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 02 Oct 2020.
+ * Last reviewed/updated: 07 Oct 2020.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -947,6 +947,12 @@ return
 
      <p>Edge 85.0.564.68 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.121 safari/537.36 edg/85.0.564.68</p>
+
+     <p>Edge 85.0.564.70 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.121 safari/537.36 edg/85.0.564.70</p>
+
+     <p>Edge 85.0.564.70 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.121 safari/537.36 edg/85.0.564.70</p>
 
     </section>
     <hr />
@@ -3957,6 +3963,12 @@ return
      <p>Chrome 85.0.4183.121 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.121 safari/537.36</p>
 
+     <p>Chrome 86.0.4240.75 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/86.0.4240.75 safari/537.36</p>
+
+     <p>Chrome 86.0.4240.75 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/86.0.4240.75 safari/537.36</p>
+
     </section>
     <hr />
     <section>
@@ -6745,6 +6757,12 @@ return
 
      <p>Opera 71.0.3770.198 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.121 safari/537.36 opr/71.0.3770.198</p>
+
+     <p>Opera 71.0.3770.228 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.121 safari/537.36 opr/71.0.3770.228</p>
+
+     <p>Opera 71.0.3770.228 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.121 safari/537.36 opr/71.0.3770.228</p>
 
     </section>
     <hr />
