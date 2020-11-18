@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/misc/whats_new_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/misc/whats_new.php.
- * Last reviewed/updated: 12 Nov 2020.
+ * Last reviewed/updated: 17 Nov 2020.
  * Published: 21 Sep 2016. */
 return
    "<!-- This web page does not have an h2-h6 element in the section element. To avoid W3C Markup Validation Service (http://validator.w3.org/) warning, not error (Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.), comment out the section element. Same for index.php, sitemap.php, glossary.php, and whats_new.php.
@@ -12,7 +12,7 @@ return
 -->
 <!-- Resources are \"Added\". Instructional pages are \"Published\". Always keep when a page is \"Added/Published\". When a page is \"Major update\" remove prior \"Updated/Major update\". When a page is \"Updated\" remove prior \"Updated\". When a page is \"Updated\" keep prior \"Major update\". When a page is \"Updated/Major update\" remove prior \"Renamed\". When a page is \"Renamed\" without being \"Updated\" keep prior \"Updated/Major update\". When a page is \"Renamed\" and \"Updated\" remove prior \"Updated\" and keep prior \"Major update\". When a page is \"Renamed\" rename all refs to the page (including Updated/Major update/Added/Published) to the new name. When a page is \"Deleted\" remove prior \"Published\", remove prior \"Updated\, and mention page \"Deleted.\". When a page is \"Moved to discontinued\" keep prior \"Published\", remove prior \"Updated\", and do not mention page \"Moved to discontinued\". -->
      <ul class='link-list'>
-      <li><a href='/javascript/web_browser_useragent_values.php'>Web Browser User-Agent String Values (learnwebcoding.com)</a>: Updated: 12 Nov 2020.</li>
+      <li><a href='/javascript/web_browser_useragent_values.php'>Web Browser User-Agent String Values (learnwebcoding.com)</a>: Updated: 17 Nov 2020.</li>
       <li><a href='/css/css_testing_ground/visualize_user_agent_or_bootstrap_styles.html'>Visualize User Agent Or Bootstrap Styles (learnwebcoding.com)</a>: Updated: 19 Sep 2020.</li>
       <li><a href='https://jquery.com/'>jQuery Core (jquery.com)</a>: Updated from 3.4.1 to 3.5.1: 22 Aug 2020.</li>
       <li><a href='/index.php'>Learn Web Coding Home Page (learnwebcoding.com)</a>: Updated: 22 Aug 2020.</li>
