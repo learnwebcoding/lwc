@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 17 Nov 2020.
+ * Last reviewed/updated: 19 Nov 2020.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -642,7 +642,6 @@ return
 
      <div class='note normal'>Edge (Chromium based) was released 15 Jan 2020. Windows 10 Version 2004 was released 27 May 2020. Windows 10 Version 2004 is bundled with Edge Legacy (EdgeHTML based), not Edge (Chromium based).</div>
 
-
 <!-- Windows 10 Version 2004 (10.0.19041.264) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 2004 (updated May 2020) (x86) - DVD (English) en_windows_10_consumer_editions_version_2004_updated_may_2020_x86_dvd_269b4e01.iso. -->
 
      <p>Edge 44 included with Windows 10 Version 2004 32-bit (Edge 44.19041.1.0. EdgeHTML 18.19041.)<br />
@@ -663,6 +662,32 @@ return
      mozilla/5.0 (windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e; rv:11.0) like gecko</p>
 
      <p>Internet Explorer 11.0 included with Windows 10 Version 2004 64-bit (Compatibility View) (IE 11.264.19041.0)<br />
+     mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
+
+     <h3><a id='ediew10v20H2'></a>3.11. Edge and Internet Explorer Included With Windows 10 Version 20H2</h3>
+
+     <div class='note normal'>Windows 10 Version 20H2 is bundled with Edge (Chromium based), not Edge Legacy (EdgeHTML based).</div>
+
+<!-- Windows 10 Version 20H2 (10.0.19042.508) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 20H2 (x86) - DVD (English) en_windows_10_consumer_editions_version_20h2_x86_dvd_ea9a9e3f.iso. -->
+
+     <p>Edge 84 included with Windows 10 Version 20H2 32-bit (Edge 84.0.522.52)<br />
+     mozilla/5.0 (windows nt 10.0) applewebkit/537.36 (khtml, like gecko) chrome/84.0.4147.105 safari/537.36 edg/84.0.522.52</p>
+
+     <p>Internet Explorer 11.0 included with Windows 10 Version 20H2 32-bit (IE 11.508.19041.0)<br />
+     mozilla/5.0 (windows nt 10.0; trident/7.0; .net4.0c; .net4.0e; rv:11.0) like gecko</p>
+
+     <p>Internet Explorer 11.0 included with Windows 10 Version 20H2 32-bit (Compatibility View) (IE 11.508.19041.0)<br />
+     mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; trident/7.0; .net4.0c; .net4.0e)</p>
+
+<!-- Windows 10 Version 20H2 (10.0.19042.508) 64-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 20H2 (x64) - DVD (English) en_windows_10_consumer_editions_version_20h2_x64_dvd_ab0e3e0a.iso. -->
+
+     <p>Edge 84 included with Windows 10 Version 20H2 64-bit (Edge 84.0.522.52)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/84.0.4147.105 safari/537.36 edg/84.0.522.52</p>
+
+     <p>Internet Explorer 11.0 included with Windows 10 Version 20H2 64-bit (IE 11.508.19041.0)<br />
+     mozilla/5.0 (windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e; rv:11.0) like gecko</p>
+
+     <p>Internet Explorer 11.0 included with Windows 10 Version 20H2 64-bit (Compatibility View) (IE 11.508.19041.0)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
 
     </section>
@@ -1007,6 +1032,12 @@ return
 
      <p>Edge 86.0.622.69 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/86.0.4240.198 safari/537.36 edg/86.0.622.69</p>
+
+     <p>Edge 87.0.664.41 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/87.0.4280.66 safari/537.36 edg/87.0.664.41</p>
+
+     <p>Edge 87.0.664.41 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/87.0.4280.66 safari/537.36 edg/87.0.664.41</p>
 
     </section>
     <hr />
@@ -6938,6 +6969,18 @@ return
      <p>Opera 72.0.3815.320 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/86.0.4240.183 safari/537.36 opr/72.0.3815.320</p>
 
+     <p>Opera 72.0.3815.371 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/86.0.4240.198 safari/537.36 opr/72.0.3815.371</p>
+
+     <p>Opera 72.0.3815.371 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/86.0.4240.198 safari/537.36 opr/72.0.3815.371</p>
+
+     <p>Opera 72.0.3815.378 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/86.0.4240.198 safari/537.36 opr/72.0.3815.378</p>
+
+     <p>Opera 72.0.3815.378 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/86.0.4240.198 safari/537.36 opr/72.0.3815.378</p>
+
     </section>
     <hr />
     <section>
@@ -8366,6 +8409,24 @@ return
 
      <p>SeaMonkey 2.53.5 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:60.0) gecko/20100101 firefox/60.0 seamonkey/2.53.5</p>
+
+     <p>SeaMonkey 2.53.5.1 32-bit (Identify As Firefox)<br />
+     mozilla/5.0 (windows nt 10.0; wow64; rv:60.0) gecko/20100101 firefox/60.0</p>
+
+     <p>SeaMonkey 2.53.5.1 32-bit (Identify As SeaMonkey)<br />
+     mozilla/5.0 (windows nt 10.0; wow64; rv:60.0) gecko/20100101 seamonkey/2.53.5.1</p>
+
+     <p>SeaMonkey 2.53.5.1 32-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
+     mozilla/5.0 (windows nt 10.0; wow64; rv:60.0) gecko/20100101 firefox/60.0 seamonkey/2.53.5.1</p>
+
+     <p>SeaMonkey 2.53.5.1 64-bit (Identify As Firefox)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:60.0) gecko/20100101 firefox/60.0</p>
+
+     <p>SeaMonkey 2.53.5.1 64-bit (Identify As SeaMonkey)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:60.0) gecko/20100101 seamonkey/2.53.5.1</p>
+
+     <p>SeaMonkey 2.53.5.1 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:60.0) gecko/20100101 firefox/60.0 seamonkey/2.53.5.1</p>
 
     </section>
     <hr />
