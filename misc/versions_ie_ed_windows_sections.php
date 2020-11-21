@@ -4,14 +4,14 @@
 /* File: /web_server_root_directory/bom/versions_ie_ed_windows_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/versions_ie_ed_windows.php.
- * Last reviewed/updated: 14 Jun 2020.
+ * Last reviewed/updated: 20 Nov 2020.
  * Published: 21 Sep 2016. */
 return
    "<section>
 
      <h2><a id='introduction'></a>1. Introduction</h2>
 
-     <p>Web browsers differ with respect to their web language support. Therefore, before writing any web code, an author needs to determine which web browsers to support. With respect to IE and ED, knowing the version of Windows that the users are running may suffice. For example, if the users are running Windows 7, then they are using IE9 - 11 because Windows 7 supports IE9 - 11.</p>
+     <p>Web browsers differ with respect to their web language support. Therefore, before writing any web code, an author needs to determine which web browsers to support. With respect to IE and ED, knowing the version of Windows that users are running may suffice. For example, if users are running Windows 10 Version 2004, then they are using ED18, IE11, and/or ED79+ because Windows 10 Version 2004 supports ED18, IE11, and ED79+.</p>
 
      <p>Windows 98/ME/2000/XP/Vista/7/8/8.1 include and support IE, not ED. Windows 10 includes and supports IE and ED, with ED being the default web browser.</p>
 
@@ -29,7 +29,12 @@ return
         <th>IE9</th>
         <th>IE10</th>
         <th>IE11</th>
-        <th>ED12+</th>
+        <th>ED12 - 18<br />
+         (Edge Legacy 12 - 18)<br />
+         (EdgeHTML based)</th>
+        <th>ED79+<br />
+         (Edge 79+)<br />
+         (Chromium based)</th>
        </tr>
       </thead>
       <tbody>
@@ -41,6 +46,7 @@ return
         <td>25 Feb 2013</td>
         <td>06 Nov 2013</td>
         <td>-</td>
+        <td>15 Jan 2020</td>
        </tr>
       <tbody>
      </table>
@@ -83,6 +89,7 @@ return
       <li>Windows 10 Version 1903 (10.0.18362.30) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 1903 (x64) - DVD (English) en_windows_10_consumer_editions_version_1903_x64_dvd_b980e68c.iso.</li>
       <li>Windows 10 Version 1909 (10.0.18363.418) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 1909 (x64) - DVD (English) en_windows_10_consumer_editions_version_1909_x64_dvd_be09950e.iso.</li>
       <li>Windows 10 Version 2004 (10.0.19041.264) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 2004 (updated May 2020) (x64) - DVD (English) en_windows_10_consumer_editions_version_2004_updated_may_2020_x64_dvd_36d61c40.iso.</li>
+      <li>Windows 10 Version 20H2 (10.0.19042.508) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 20H2 (x64) - DVD (English) en_windows_10_consumer_editions_version_20h2_x64_dvd_ab0e3e0a.iso.</li>
      </ul>
 -->
 
@@ -90,7 +97,7 @@ return
 
      <ul>
       <li>IE = Internet Explorer.</li>
-      <li>ED = Edge Legacy (EdgeHTML 12 - 18) and Edge 79+ (Chromium).</li>
+      <li>ED = Edge Legacy 12 - 18 (EdgeHTML based) and Edge 79+ (Chromium based).</li>
       <li>SP# = Service Pack #.</li>
       <li>98 = Windows 98 = Windows 98 Second Edition.</li>
       <li>ME = Windows ME = Windows Millennium Edition.</li>
@@ -264,8 +271,8 @@ http://blogs.windows.com/windows/b/bloggingwindows/archive/2011/02/22/windows-7-
         <td>IE8</td>
         <td>IE8</td>
         <td>IE8, IE9</td>
-        <td>IE9</td>
-        <td>IE9, IE10, IE11</td>
+        <td>IE9, ED79+</td>
+        <td>IE9, IE10, IE11, ED79+</td>
        </tr>
       </tbody>
      </table>
@@ -317,9 +324,9 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
        <tr>
         <th>Also Supports</th>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>ED79+</td>
+        <td>ED79+</td>
+        <td>ED79+</td>
        </tr>
       <tbody>
      </table>
@@ -367,28 +374,32 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
         <th>Included With</th>
         <td>
          <ul>
-          <li>ED20.10240.16384.0<br />
+          <li>ED12<br />
+           (Edge 20.10240.16384.0)<br />
            (EdgeHTML 12.10240).</li>
           <li>IE11.0.10240.16384.</li>
          </ul>
         </td>
         <td>
          <ul>
-          <li>ED25.10586.0.0<br />
+          <li>ED13<br />
+           (Edge 25.10586.0.0)<br />
            (EdgeHTML 13.10586).</li>
           <li>IE11.0.10586.0.</li>
          </ul>
         </td>
         <td>
          <ul>
-          <li>ED38.14393.0.0<br />
+          <li>ED14<br />
+           (Edge 38.14393.0.0)<br />
            (EdgeHTML 14.14393).</li>
           <li>IE11.0.14393.0.</li>
          </ul>
         </td>
         <td>
          <ul>
-          <li>ED40.15063.0.0<br />
+          <li>ED15<br />
+           (Edge 40.15063.0.0)<br />
            (EdgeHTML 15.15063).</li>
           <li>IE11.0.15063.0.</li>
          </ul>
@@ -396,10 +407,10 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
        </tr>
        <tr>
         <th>Also Supports</th>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>ED79+</td>
+        <td>ED79+</td>
+        <td>ED79+</td>
+        <td>ED79+</td>
        </tr>
       <tbody>
      </table>
@@ -433,28 +444,32 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
         <th>Included With</th>
         <td>
          <ul>
-          <li>ED41.16299.15.0<br />
+          <li>ED16<br />
+           (Edge 41.16299.15.0)<br />
            (EdgeHTML 16.16299).</li>
           <li>IE11.15.16299.0.</li>
          </ul>
         </td>
         <td>
          <ul>
-          <li>ED42.17134.1.0<br />
+          <li>ED17<br />
+           (Edge 42.17134.1.0)<br />
            (EdgeHTML 17.17134).</li>
           <li>IE11.1.17134.0.</li>
          </ul>
         </td>
         <td>
          <ul>
-          <li>ED44.17763.1.0<br />
+          <li>ED18<br />
+           (Edge 44.17763.1.0)<br />
            (EdgeHTML 18.17763).</li>
           <li>IE11.1.17763.0.</li>
          </ul>
         </td>
         <td>
          <ul>
-          <li>ED44.17763.1.0<br />
+          <li>ED18<br />
+           (Edge 44.17763.1.0)<br />
            (EdgeHTML 18.17763).</li>
           <li>IE11.55.17763.0.</li>
          </ul>
@@ -462,10 +477,10 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
        </tr>
        <tr>
         <th>Also Supports</th>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>ED79+</td>
+        <td>ED79+</td>
+        <td>ED79+</td>
+        <td>ED79+</td>
        </tr>
       <tbody>
      </table>
@@ -482,6 +497,8 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
          (10.0.18363.418)</th><!-- 19H2/November 2019 Update -->
         <th>10 Version 2004 <a id='1_return'></a><a href='#1'>(1)</a><br />
          (10.0.19041.264)</th><!-- 20H1/May 2020 Update -->
+        <th>10 Version 20H2 <a id='2_return'></a><a href='#2'>(2)</a><br />
+         (10.0.19042.508)</th><!-- 20H2/October 2020 Update -->
        </tr>
       </thead>
       <tbody>
@@ -491,42 +508,54 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
         <td>21 May 2019</td>
         <td>12 Nov 2019</td>
         <td>27 May 2020</td>
+        <td>20 Oct 2020</td>
        </tr>
        <tr>
         <th>Included With</th>
         <td>
          <ul>
-          <li>ED44.18362.1.0<br />
+          <li>ED18<br />
+           (Edge 44.18362.1.0)<br />
            (EdgeHTML 18.18362).</li>
           <li>IE11.1.18362.0.</li>
          </ul>
         </td>
         <td>
          <ul>
-          <li>ED44.18362.387.0<br />
+          <li>ED18<br />
+           (Edge 44.18362.387.0)<br />
            (EdgeHTML 18.18363).</li>
           <li>IE11.418.18362.0.</li>
          </ul>
         </td>
         <td>
          <ul>
-          <li>ED44.19041.1.0<br />
+          <li>ED18<br />
+           (Edge 44.19041.1.0)<br />
            (EdgeHTML 18.19041).</li>
           <li>IE11.264.19041.0.</li>
+         </ul>
+        </td>
+        <td>
+         <ul>
+          <li>ED84.0.522.52.</li>
+          <li>IE11.508.19041.0.</li>
          </ul>
         </td>
        </tr>
        <tr>
         <th>Also Supports</th>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>ED79+</td>
+        <td>ED79+</td>
+        <td>ED79+</td>
+        <td>ED79+</td>
        </tr>
       <tbody>
       <tfoot>
        <tr>
-        <td colspan='4'>
-         <a id='1'></a><a href='#1_return'>(1)</a> Edge (Chromium based) was released 15 Jan 2020. Windows 10 Version 2004 was released 27 May 2020. Windows 10 Version 2004 is bundled with Edge Legacy (EdgeHTML based), not Edge (Chromium based).
+        <td colspan='5'>
+         <a id='1'></a><a href='#1_return'>(1)</a> Edge (Chromium based) was released 15 Jan 2020. Windows 10 Version 2004 was released 27 May 2020. Windows 10 Version 2004 is bundled with Edge Legacy (EdgeHTML based), not Edge (Chromium based).<br />
+         <a id='2'></a><a href='#2_return'>(2)</a> Windows 10 Version 20H2 is bundled with Edge (Chromium based), not Edge Legacy (EdgeHTML based).
         </td>
        </tr>
       </tfoot>
@@ -546,6 +575,9 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
       <li><a href='http://www.microsoft.com/en-us/download/details.aspx?id=40902'>Microsoft Download Center: Internet Explorer 11 for Windows 7 (microsoft.com)</a></li>
       <li><a href='https://blogs.windows.com/windowsexperience/2018/10/09/updated-version-of-windows-10-october-2018-update-released-to-windows-insiders/'>Updated Version Of Windows 10 October 2018 Update Released To Windows Insiders (blogs.windows.com)</a></li>
       <li><a href='https://blogs.windows.com/windowsexperience/2018/11/13/resuming-the-rollout-of-the-windows-10-october-2018-update/'>Resuming The Rollout Of The Windows 10 October 2018 Update (blogs.windows.com)</a></li>
+      <li><a href='https://support.microsoft.com/en-us/help/4533505'>What is Microsoft Edge Legacy? (support.microsoft.com)</a></li>
+      <li><a href='https://www.microsoft.com/en-us/edge/business/download'>Microsoft Edge For Business (microsoft.com)</a></li>
+      <li><a href='https://docs.microsoft.com/en-us/deployedge/microsoft-edge-supported-operating-systems'>Microsoft Edge Supported Operating Systems (docs.microsoft.com)</a></li>
      </ul>
 
     </section>";
