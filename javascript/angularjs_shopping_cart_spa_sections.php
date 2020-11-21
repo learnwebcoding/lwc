@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/javascript/angularjs_shopping_cart_sections_spa.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/javascript/angularjs_shopping_cart_spa.php.
- * Last reviewed/updated: 13 Nov 2018.
+ * Last reviewed/updated: 20 Nov 2020.
  * Published: 24 Jan 2017. 
  * NOTE: On 08 Jul 2018, to add AngularJS 1.7.x support, in angularjs_shopping_cart_spa_sections.php (this file); 1.) change ng-click='addDeliveryMethod() to ng-change='addDeliveryMethod(), and 2.) change ng-click='insertBillingAddressFormValues() to ng-change='insertBillingAddressFormValues(). No other changes (including no changes to angularjs_shopping_cart_spa.js) required. For additional info, see https://docs.angularjs.org/guide/migration#migrating-from-1-6-to-1-7. */
 return
@@ -69,7 +69,7 @@ return
 
      <ul>
       <li>IE = Internet Explorer.</li>
-      <li>ED = Edge Legacy (EdgeHTML 12 - 18) and Edge 79+ (Chromium).</li>
+      <li>ED = Edge Legacy 12 - 18 (EdgeHTML based) and Edge 79+ (Chromium based).</li>
       <li>FF = Firefox.</li>
       <li>SF = Safari.</li>
       <li>CH = Chrome.</li>

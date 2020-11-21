@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/javascript/javascript_reference/class_syntax_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/javascript/javascript_reference/class_syntax.php.
- * Last reviewed/updated: 14 Jul 2019.
+ * Last reviewed/updated: 20 Nov 2020.
  * Published: 07 Feb 2018. */
 return
    "<section>
@@ -26,7 +26,7 @@ return
 
      <ul>
       <li>IE = Internet Explorer.</li>
-      <li>ED = Edge Legacy (EdgeHTML 12 - 18) and Edge 79+ (Chromium).</li>
+      <li>ED = Edge Legacy 12 - 18 (EdgeHTML based) and Edge 79+ (Chromium based).</li>
       <li>FF = Firefox.</li>
       <li>SF = Safari.</li>
       <li>CH = Chrome.</li>

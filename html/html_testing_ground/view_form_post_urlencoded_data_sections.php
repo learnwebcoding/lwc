@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/html/view_form_post_urlencoded_data_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/html/view_form_post_urlencoded_data.php.
- * Last reviewed/updated: 12 Jul 2019.
+ * Last reviewed/updated: 20 Nov 2020.
  * Published: 12 Nov 2018. */
 return
    "<section>
@@ -85,7 +85,7 @@ controlOneName=controlOneUserInput<b>&amp;</b>controlTwoName=controlTwoUserInput
 
      <ul>
       <li>IE = Internet Explorer.</li>
-      <li>ED = Edge Legacy (EdgeHTML 12 - 18) and Edge 79+ (Chromium).</li>
+      <li>ED = Edge Legacy 12 - 18 (EdgeHTML based) and Edge 79+ (Chromium based).</li>
       <li>FF = Firefox.</li>
       <li>CH = Chrome.</li>
       <li>OP = Opera.</li>
