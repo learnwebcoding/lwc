@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 19 Nov 2020.
+ * Last reviewed/updated: 20 Nov 2020.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -8920,6 +8920,7 @@ return
       <li><a href='https://blogs.windows.com/windowsexperience/2018/11/13/resuming-the-rollout-of-the-windows-10-october-2018-update/'>Resuming The Rollout Of The Windows 10 October 2018 Update (blogs.windows.com)</a></li>
       <li><a href='https://support.microsoft.com/en-us/help/4533505'>What is Microsoft Edge Legacy? (support.microsoft.com)</a></li>
       <li><a href='https://www.microsoft.com/en-us/edge/business/download'>Microsoft Edge For Business (microsoft.com)</a></li>
+      <li><a href='https://docs.microsoft.com/en-us/deployedge/microsoft-edge-supported-operating-systems'>Microsoft Edge Supported Operating Systems (docs.microsoft.com)</a></li>
       <li><a href='https://vivaldi.com/blog/vivaldi-2-10-no-strings-attached-2/'>Vivaldi 2.10: No strings attached (vivaldi.com)</a></li>
      </ul>
 
