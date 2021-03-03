@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 22 Feb 2021.
+ * Last reviewed/updated: 02 Mar 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1122,6 +1122,12 @@ return
 
      <p>Edge 88.0.705.74 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/88.0.4324.182 safari/537.36 edg/88.0.705.74</p>
+
+     <p>Edge 88.0.705.81 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/88.0.4324.182 safari/537.36 edg/88.0.705.81</p>
+
+     <p>Edge 88.0.705.81 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/88.0.4324.182 safari/537.36 edg/88.0.705.81</p>
 
     </section>
     <hr />
@@ -2647,6 +2653,12 @@ return
 
      <p>Firefox 85.0.2 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:85.0) gecko/20100101 firefox/85.0</p>
+
+     <p>Firefox 86.0 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:86.0) gecko/20100101 firefox/86.0</p>
+
+     <p>Firefox 86.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:86.0) gecko/20100101 firefox/86.0</p>
 
     </section>
     <hr />
@@ -4289,6 +4301,12 @@ return
 
      <p>Chrome 88.0.4324.190 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/88.0.4324.190 safari/537.36</p>
+
+     <p>Chrome 89.0.4389.72 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/89.0.4389.72 safari/537.36</p>
+
+     <p>Chrome 89.0.4389.72 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/89.0.4389.72 safari/537.36</p>
 
     </section>
     <hr />
