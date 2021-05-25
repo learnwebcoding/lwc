@@ -342,7 +342,6 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
       <ul>
        <li>On Windows 10, the default web browser is Edge, not Internet Explorer.</li>
        <li>On Windows 10 64-bit, Edge is 64-bit and Internet Explorer is 32-bit.</li>
-       <li>There are two official releases of Windows 10 Version 1809; 1.) Build 10.0.17763.1 released 02 Oct 2018, and 2.) Build 10.0.17763.107 released 13 Nov 2018. For additional information, see <a href='https://blogs.windows.com/windowsexperience/2018/10/09/updated-version-of-windows-10-october-2018-update-released-to-windows-insiders/'>Updated Version Of Windows 10 October 2018 Update Released To Windows Insiders (blogs.windows.com)</a> and <a href='https://blogs.windows.com/windowsexperience/2018/11/13/resuming-the-rollout-of-the-windows-10-october-2018-update/'>Resuming The Rollout Of The Windows 10 October 2018 Update (blogs.windows.com)</a>.</li>
       </ul>
      </div>
 
@@ -511,7 +510,7 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
       <tfoot>
        <tr>
         <td colspan='6'>
-         <a id='1_1809'></a><a href='#1_1809_return'>(1)</a><a id='2_1809'></a><a href='#2_1809_return'>(2)</a> There are two official releases of Windows 10 Version 1809; 1.) Build 10.0.17763.1 released 02 Oct 2018, and 2.) Build 10.0.17763.107 released 13 Nov 2018. For additional information, see <a href='https://blogs.windows.com/windowsexperience/2018/10/09/updated-version-of-windows-10-october-2018-update-released-to-windows-insiders/'>Updated Version Of Windows 10 October 2018 Update Released To Windows Insiders (blogs.windows.com)</a> and <a href='https://blogs.windows.com/windowsexperience/2018/11/13/resuming-the-rollout-of-the-windows-10-october-2018-update/'>Resuming The Rollout Of The Windows 10 October 2018 Update (blogs.windows.com)</a>.
+         <a id='1_1809'></a><a href='#1_1809_return'>(1)</a><a id='2_1809'></a><a href='#2_1809_return'>(2)</a> There was two official releases of Windows 10 Version 1809; 1.) Build 10.0.17763.1 released 02 Oct 2018, and 2.) Build 10.0.17763.107 released 13 Nov 2018. For additional information, see <a href='https://blogs.windows.com/windowsexperience/2018/10/09/updated-version-of-windows-10-october-2018-update-released-to-windows-insiders/'>Updated Version Of Windows 10 October 2018 Update Released To Windows Insiders (blogs.windows.com)</a> and <a href='https://blogs.windows.com/windowsexperience/2018/11/13/resuming-the-rollout-of-the-windows-10-october-2018-update/'>Resuming The Rollout Of The Windows 10 October 2018 Update (blogs.windows.com)</a>.
         </td>
        </tr>
       </tfoot>

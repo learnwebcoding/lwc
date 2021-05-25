@@ -542,7 +542,7 @@ return
 
      <h3><a id='ediew10v1809'></a>3.7. Edge and Internet Explorer Included With Windows 10 Version 1809</h3>
 
-     <div class='note normal'>There are two official releases of Windows 10 Version 1809; 1.) Build 17763.1 released 02 Oct 2018, and 2.) Build 17763.107 released 13 Nov 2018. For additional information, see <a href='https://blogs.windows.com/windowsexperience/2018/10/09/updated-version-of-windows-10-october-2018-update-released-to-windows-insiders/'>Updated Version Of Windows 10 October 2018 Update Released To Windows Insiders (blogs.windows.com)</a> and <a href='https://blogs.windows.com/windowsexperience/2018/11/13/resuming-the-rollout-of-the-windows-10-october-2018-update/'>Resuming The Rollout Of The Windows 10 October 2018 Update (blogs.windows.com)</a>.</div>
+     <div class='note normal'>There was two official releases of Windows 10 Version 1809; 1.) Build 17763.1 released 02 Oct 2018, and 2.) Build 17763.107 released 13 Nov 2018. For additional information, see <a href='https://blogs.windows.com/windowsexperience/2018/10/09/updated-version-of-windows-10-october-2018-update-released-to-windows-insiders/'>Updated Version Of Windows 10 October 2018 Update Released To Windows Insiders (blogs.windows.com)</a> and <a href='https://blogs.windows.com/windowsexperience/2018/11/13/resuming-the-rollout-of-the-windows-10-october-2018-update/'>Resuming The Rollout Of The Windows 10 October 2018 Update (blogs.windows.com)</a>.</div>
 
 <!-- Windows 10 Version 1809 v1 02Oct18 (10.0.17763.1) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer edition) Version 1809 (Updated Sept 2018) (x86) - DVD (English) en_windows_10_consumer_edition_version_1809_updated_sept_2018_x86_dvd_0addd9ef.iso. -->
 
