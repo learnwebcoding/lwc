@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/versions_ie_ed_windows_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/versions_ie_ed_windows.php.
- * Last reviewed/updated: 20 Nov 2020.
+ * Last reviewed/updated: 24 May 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -90,6 +90,7 @@ return
       <li>Windows 10 Version 1909 (10.0.18363.418) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 1909 (x64) - DVD (English) en_windows_10_consumer_editions_version_1909_x64_dvd_be09950e.iso.</li>
       <li>Windows 10 Version 2004 (10.0.19041.264) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 2004 (updated May 2020) (x64) - DVD (English) en_windows_10_consumer_editions_version_2004_updated_may_2020_x64_dvd_36d61c40.iso.</li>
       <li>Windows 10 Version 20H2 (10.0.19042.508) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 20H2 (x64) - DVD (English) en_windows_10_consumer_editions_version_20h2_x64_dvd_ab0e3e0a.iso.</li>
+      <li>Windows 10 Version 21H1 (10.0.19043.928) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 21H1 (x64) - DVD (English) en_windows_10_consumer_editions_version_21h1_x64_dvd_540c0dd4.iso.</li>
      </ul>
 -->
 
@@ -359,6 +360,8 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
          (10.0.14393.0)</th><!-- Redstone 1/Anniversary Update -->
         <th>10 Version 1703<br />
          (10.0.15063.0)</th><!-- Redstone 2/Creators Update -->
+        <th>10 Version 1709<br />
+         (10.0.16299.15)</th><!-- Redstone 3/Fall Creators Update -->
        </tr>
       </thead>
       <tbody>
@@ -369,6 +372,7 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
         <td>12 Nov 2015</td>
         <td>02 Aug 2016</td>
         <td>11 Apr 2017</td>
+        <td>17 Oct 2017</td>
        </tr>
        <tr>
         <th>Included With</th>
@@ -404,9 +408,18 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
           <li>IE11.0.15063.0.</li>
          </ul>
         </td>
+        <td>
+         <ul>
+          <li>ED16<br />
+           (Edge 41.16299.15.0)<br />
+           (EdgeHTML 16.16299).</li>
+          <li>IE11.15.16299.0.</li>
+         </ul>
+        </td>
        </tr>
        <tr>
         <th>Also Supports</th>
+        <td>ED79+</td>
         <td>ED79+</td>
         <td>ED79+</td>
         <td>ED79+</td>
@@ -421,35 +434,30 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
        <tr>
         <th>Windows<br />
          (Build)</th>
-        <th>10 Version 1709<br />
-         (10.0.16299.15)</th><!-- Redstone 3/Fall Creators Update -->
         <th>10 Version 1803<br />
          (10.0.17134.1)</th><!-- Redstone 4/April 2018 Update -->
-        <th>10 Version 1809<br />
+        <th>10 Version 1809 <a id='1_1809_return'></a><a href='#1_1809'>(1)</a><br />
          (10.0.17763.1)</th><!-- Redstone 5/October 2018 Update -->
-        <th>10 Version 1809<br />
+        <th>10 Version 1809 <a id='2_1809_return'></a><a href='#2_1809'>(2)</a><br />
          (10.0.17763.107)</th><!-- Redstone 5/October 2018 Update -->
+        <th>10 Version 1903<br />
+         (10.0.18362.30)</th><!-- 19H1/May 2019 Update -->
+        <th>10 Version 1909<br />
+         (10.0.18363.418)</th><!-- 19H2/November 2019 Update -->
        </tr>
       </thead>
       <tbody>
        <tr>
         <th>General<br />
          Availability</th>
-        <td>17 Oct 2017</td>
         <td>30 Apr 2018</td>
         <td>02 Oct 2018</td>
         <td>13 Nov 2018</td>
+        <td>21 May 2019</td>
+        <td>12 Nov 2019</td>
        </tr>
        <tr>
         <th>Included With</th>
-        <td>
-         <ul>
-          <li>ED16<br />
-           (Edge 41.16299.15.0)<br />
-           (EdgeHTML 16.16299).</li>
-          <li>IE11.15.16299.0.</li>
-         </ul>
-        </td>
         <td>
          <ul>
           <li>ED17<br />
@@ -474,44 +482,6 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
           <li>IE11.55.17763.0.</li>
          </ul>
         </td>
-       </tr>
-       <tr>
-        <th>Also Supports</th>
-        <td>ED79+</td>
-        <td>ED79+</td>
-        <td>ED79+</td>
-        <td>ED79+</td>
-       </tr>
-      <tbody>
-     </table>
-
-     <table>
-      <caption>Versions Of ED And IE Included With And Supported By Windows 10</caption>
-      <thead>
-       <tr>
-        <th>Windows<br />
-         (Build)</th>
-        <th>10 Version 1903<br />
-         (10.0.18362.30)</th><!-- 19H1/May 2019 Update -->
-        <th>10 Version 1909<br />
-         (10.0.18363.418)</th><!-- 19H2/November 2019 Update -->
-        <th>10 Version 2004 <a id='1_return'></a><a href='#1'>(1)</a><br />
-         (10.0.19041.264)</th><!-- 20H1/May 2020 Update -->
-        <th>10 Version 20H2 <a id='2_return'></a><a href='#2'>(2)</a><br />
-         (10.0.19042.508)</th><!-- 20H2/October 2020 Update -->
-       </tr>
-      </thead>
-      <tbody>
-       <tr>
-        <th>General<br />
-         Availability</th>
-        <td>21 May 2019</td>
-        <td>12 Nov 2019</td>
-        <td>27 May 2020</td>
-        <td>20 Oct 2020</td>
-       </tr>
-       <tr>
-        <th>Included With</th>
         <td>
          <ul>
           <li>ED18<br />
@@ -528,6 +498,49 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
           <li>IE11.418.18362.0.</li>
          </ul>
         </td>
+       </tr>
+       <tr>
+        <th>Also Supports</th>
+        <td>ED79+</td>
+        <td>ED79+</td>
+        <td>ED79+</td>
+        <td>ED79+</td>
+        <td>ED79+</td>
+       </tr>
+      <tbody>
+      <tfoot>
+       <tr>
+        <td colspan='6'>
+         <a id='1_1809'></a><a href='#1_1809_return'>(1)</a><a id='2_1809'></a><a href='#2_1809_return'>(2)</a> There are two official releases of Windows 10 Version 1809; 1.) Build 10.0.17763.1 released 02 Oct 2018, and 2.) Build 10.0.17763.107 released 13 Nov 2018. For additional information, see <a href='https://blogs.windows.com/windowsexperience/2018/10/09/updated-version-of-windows-10-october-2018-update-released-to-windows-insiders/'>Updated Version Of Windows 10 October 2018 Update Released To Windows Insiders (blogs.windows.com)</a> and <a href='https://blogs.windows.com/windowsexperience/2018/11/13/resuming-the-rollout-of-the-windows-10-october-2018-update/'>Resuming The Rollout Of The Windows 10 October 2018 Update (blogs.windows.com)</a>.
+        </td>
+       </tr>
+      </tfoot>
+     </table>
+
+     <table>
+      <caption>Versions Of ED And IE Included With And Supported By Windows 10</caption>
+      <thead>
+       <tr>
+        <th>Windows<br />
+         (Build)</th>
+        <th>10 Version 2004 <a id='1_2004_return'></a><a href='#1_2004'>(1)</a><br />
+         (10.0.19041.264)</th><!-- 20H1/May 2020 Update -->
+        <th>10 Version 20H2 <a id='2_20H2_return'></a><a href='#2_20H2'>(2)</a><br />
+         (10.0.19042.508)</th><!-- 20H2/October 2020 Update -->
+        <th>10 Version 21H1<br />
+         (10.0.19043.928)</th><!-- 21H1/May 2021 Update -->
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <th>General<br />
+         Availability</th>
+        <td>27 May 2020</td>
+        <td>20 Oct 2020</td>
+        <td>18 May 2021</td>
+       </tr>
+       <tr>
+        <th>Included With</th>
         <td>
          <ul>
           <li>ED18<br />
@@ -542,10 +555,15 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
           <li>IE11.508.19041.0.</li>
          </ul>
         </td>
+        <td>
+         <ul>
+          <li>ED89.0.774.68.</li>
+          <li>IE11.???.?????.?. <a id='3_21H1_return'></a><a href='#3_21H1'>(3)</a></li>
+         </ul>
+        </td>
        </tr>
        <tr>
         <th>Also Supports</th>
-        <td>ED79+</td>
         <td>ED79+</td>
         <td>ED79+</td>
         <td>ED79+</td>
@@ -553,9 +571,10 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
       <tbody>
       <tfoot>
        <tr>
-        <td colspan='5'>
-         <a id='1'></a><a href='#1_return'>(1)</a> Edge (Chromium based) was released 15 Jan 2020. Windows 10 Version 2004 was released 27 May 2020. Windows 10 Version 2004 is bundled with Edge Legacy (EdgeHTML based), not Edge (Chromium based).<br />
-         <a id='2'></a><a href='#2_return'>(2)</a> Windows 10 Version 20H2 is bundled with Edge (Chromium based), not Edge Legacy (EdgeHTML based).
+        <td colspan='4'>
+         <a id='1_2004'></a><a href='#1_2004_return'>(1)</a> Edge (Chromium based) was released 15 Jan 2020. Windows 10 Version 2004 was released 27 May 2020. Windows 10 Version 2004 is bundled with Edge Legacy (EdgeHTML based), not Edge (Chromium based).<br />
+         <a id='2_20H2'></a><a href='#2_20H2_return'>(2)</a> Windows 10 Version 20H2 is bundled with Edge (Chromium based), not Edge Legacy (EdgeHTML based).<br />
+         <a id='3_21H1'></a><a href='#3_21H1_return'>(3)</a> The Internet Explorer full version number (including version major, minor, and dot values) is obtained via <kbd>Tools | About Internet Explorer</kbd>. However, on Windows 10 Version 21H1, <kbd>Tools | About Internet Explorer</kbd> reports <span class='filename'>winver.exe</span> information, not the typical Internet Explorer information including the Internet Explorer full version number. Therefore, the Internet Explorer full version number is reported as <q>IE11.???.?????.?</q>.
         </td>
        </tr>
       </tfoot>

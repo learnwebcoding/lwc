@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 22 May 2021.
+ * Last reviewed/updated: 24 May 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -688,6 +688,34 @@ return
      mozilla/5.0 (windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e; rv:11.0) like gecko</p>
 
      <p>Internet Explorer 11.0 included with Windows 10 Version 20H2 64-bit (Compatibility View) (IE 11.508.19041.0)<br />
+     mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
+
+     <h3><a id='ediew10v21H1'></a>3.12. Edge and Internet Explorer Included With Windows 10 Version 21H1</h3>
+
+<!-- Windows 10 Version 21H1 (10.0.19043.928) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 21H1 (x86) - DVD (English) en_windows_10_consumer_editions_version_21h1_x86_dvd_68cee121.iso. -->
+
+     <p>Edge 89 included with Windows 10 Version 21H1 32-bit (Edge 89.0.774.68)<br />
+     mozilla/5.0 (windows nt 10.0) applewebkit/537.36 (khtml, like gecko) chrome/89.0.4389.114 safari/537.36 edg/89.0.774.68</p>
+
+     <div class='note normal'>The Internet Explorer full version number (including version major, minor, and dot values) is obtained via <kbd>Tools | About Internet Explorer</kbd>. However, on Windows 10 Version 21H1, <kbd>Tools | About Internet Explorer</kbd> reports <span class='filename'>winver.exe</span> information, not the typical Internet Explorer information including the Internet Explorer full version number. Therefore, the Internet Explorer full version number is reported below as <q>(IE 11.???.?????.?)</q>.</div>
+
+     <p>Internet Explorer 11.0 included with Windows 10 Version 21H1 32-bit (IE 11.???.?????.?)<br />
+     mozilla/5.0 (windows nt 10.0; trident/7.0; .net4.0c; .net4.0e; rv:11.0) like gecko</p>
+
+     <p>Internet Explorer 11.0 included with Windows 10 Version 21H1 32-bit (Compatibility View) (IE 11.???.?????.?)<br />
+     mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; trident/7.0; .net4.0c; .net4.0e)</p>
+
+<!-- Windows 10 Version 21H1 (10.0.19043.928) 64-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 21H1 (x64) - DVD (English) en_windows_10_consumer_editions_version_21h1_x64_dvd_540c0dd4.iso. -->
+
+     <p>Edge 89 included with Windows 10 Version 21H1 64-bit (Edge 89.0.774.68)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/89.0.4389.114 safari/537.36 edg/89.0.774.68</p>
+
+     <div class='note normal'>The Internet Explorer full version number (including version major, minor, and dot values) is obtained via <kbd>Tools | About Internet Explorer</kbd>. However, on Windows 10 Version 21H1, <kbd>Tools | About Internet Explorer</kbd> reports <span class='filename'>winver.exe</span> information, not the typical Internet Explorer information including the Internet Explorer full version number. Therefore, the Internet Explorer full version number is reported below as <q>(IE 11.???.?????.?)</q>.</div>
+
+     <p>Internet Explorer 11.0 included with Windows 10 Version 21H1 64-bit (IE 11.???.?????.?)<br />
+     mozilla/5.0 (windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e; rv:11.0) like gecko</p>
+
+     <p>Internet Explorer 11.0 included with Windows 10 Version 21H1 64-bit (Compatibility View) (IE 11.???.?????.?)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
 
     </section>
