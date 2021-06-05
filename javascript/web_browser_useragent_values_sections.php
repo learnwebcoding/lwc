@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 25 May 2021.
+ * Last reviewed/updated: 04 Jun 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1270,6 +1270,18 @@ return
 
      <p>Edge 90.0.818.66 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/90.0.4430.212 safari/537.36 edg/90.0.818.66</p>
+
+     <p>Edge 91.0.864.37 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.77 safari/537.36 edg/91.0.864.37</p>
+
+     <p>Edge 91.0.864.37 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.77 safari/537.36 edg/91.0.864.37</p>
+
+     <p>Edge 91.0.864.41 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.77 safari/537.36 edg/91.0.864.41</p>
+
+     <p>Edge 91.0.864.41 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.77 safari/537.36 edg/91.0.864.41</p>
 
     </section>
     <hr />
@@ -2829,6 +2841,12 @@ return
 
      <p>Firefox 88.0.1 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:88.0) gecko/20100101 firefox/88.0</p>
+
+     <p>Firefox 89.0 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:89.0) gecko/20100101 firefox/89.0</p>
+
+     <p>Firefox 89.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:89.0) gecko/20100101 firefox/89.0</p>
 
     </section>
     <hr />
@@ -7532,6 +7550,24 @@ return
 
      <p>Opera 76.0.4017.123 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/90.0.4430.93 safari/537.36 opr/76.0.4017.123</p>
+
+     <p>Opera 76.0.4017.154 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/90.0.4430.212 safari/537.36 opr/76.0.4017.154</p>
+
+     <p>Opera 76.0.4017.154 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/90.0.4430.212 safari/537.36 opr/76.0.4017.154</p>
+
+     <p>Opera 76.0.4017.175 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/90.0.4430.212 safari/537.36 opr/76.0.4017.175</p>
+
+     <p>Opera 76.0.4017.175 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/90.0.4430.212 safari/537.36 opr/76.0.4017.175</p>
+
+     <p>Opera 76.0.4017.177 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/90.0.4430.212 safari/537.36 opr/76.0.4017.177</p>
+
+     <p>Opera 76.0.4017.177 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/90.0.4430.212 safari/537.36 opr/76.0.4017.177</p>
 
     </section>
     <hr />
