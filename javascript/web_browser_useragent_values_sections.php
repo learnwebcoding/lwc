@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 18 Jun 2021.
+ * Last reviewed/updated: 25 Jun 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1300,6 +1300,12 @@ return
 
      <p>Edge 91.0.864.54 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.114 safari/537.36 edg/91.0.864.54</p>
+
+     <p>Edge 91.0.864.59 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.114 safari/537.36 edg/91.0.864.59</p>
+
+     <p>Edge 91.0.864.59 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.114 safari/537.36 edg/91.0.864.59</p>
 
     </section>
     <hr />
@@ -2866,12 +2872,18 @@ return
      <p>Firefox 89.0 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:89.0) gecko/20100101 firefox/89.0</p>
 
-     <div class='note normal'>The Firefox 89.0.1 user-agent string value is identical to the Firefox 89.0 user-agent string value.</div>
+     <div class='note normal'>The Firefox 89.0.1 and 89.0.2 user-agent string values are identical to the Firefox 89.0 user-agent string value.</div>
 
      <p>Firefox 89.0.1 32-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:89.0) gecko/20100101 firefox/89.0</p>
 
      <p>Firefox 89.0.1 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:89.0) gecko/20100101 firefox/89.0</p>
+
+     <p>Firefox 89.0.2 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:89.0) gecko/20100101 firefox/89.0</p>
+
+     <p>Firefox 89.0.2 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:89.0) gecko/20100101 firefox/89.0</p>
 
     </section>
@@ -4593,6 +4605,12 @@ return
 
      <p>Chrome 91.0.4472.114 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.114 safari/537.36</p>
+
+     <p>Chrome 91.0.4472.124 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.124 safari/537.36</p>
+
+     <p>Chrome 91.0.4472.124 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.124 safari/537.36</p>
 
     </section>
     <hr />
@@ -7636,6 +7654,12 @@ return
 
      <p>Opera 77.0.4054.90 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.101 safari/537.36 opr/77.0.4054.90</p>
+
+     <p>Opera 77.0.4054.146 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.114 safari/537.36 opr/77.0.4054.146</p>
+
+     <p>Opera 77.0.4054.146 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.114 safari/537.36 opr/77.0.4054.146</p>
 
     </section>
     <hr />
