@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 15 Jul 2021.
+ * Last reviewed/updated: 18 Jul 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -8576,6 +8576,12 @@ return
 
      <p>Vivaldi 4.0.2312.38 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.114 safari/537.36</p>
+
+     <p>Vivaldi 4.0.2312.41 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.166 safari/537.36</p>
+
+     <p>Vivaldi 4.0.2312.41 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.166 safari/537.36</p>
 
     </section>
     <hr />
