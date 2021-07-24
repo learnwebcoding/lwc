@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 21 Jul 2021.
+ * Last reviewed/updated: 23 Jul 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1330,6 +1330,12 @@ return
 
      <p>Edge 91.0.864.71 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.164 safari/537.36 edg/91.0.864.71</p>
+
+     <p>Edge 92.0.902.55 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.107 safari/537.36 edg/92.0.902.55</p>
+
+     <p>Edge 92.0.902.55 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.107 safari/537.36 edg/92.0.902.55</p>
 
     </section>
     <hr />
@@ -2916,12 +2922,18 @@ return
      <p>Firefox 90.0 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:90.0) gecko/20100101 firefox/90.0</p>
 
-     <div class='note normal'>The Firefox 90.0.1 user-agent string value is identical to the Firefox 90.0 user-agent string value.</div>
+     <div class='note normal'>The Firefox 90.0.1 and 90.0.2 user-agent string values are identical to the Firefox 90.0 user-agent string value.</div>
 
      <p>Firefox 90.0.1 32-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:90.0) gecko/20100101 firefox/90.0</p>
 
      <p>Firefox 90.0.1 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:90.0) gecko/20100101 firefox/90.0</p>
+
+     <p>Firefox 90.0.2 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:90.0) gecko/20100101 firefox/90.0</p>
+
+     <p>Firefox 90.0.2 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:90.0) gecko/20100101 firefox/90.0</p>
 
     </section>
@@ -9393,6 +9405,26 @@ return
 
      <p>SeaMonkey 2.53.8 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:60.0) gecko/20100101 firefox/60.0 seamonkey/2.53.8</p>
+
+     <div class='note normal'>SeaMonkey 2.53.8.1 released when Firefox was at version 90.0.2.</div>
+
+     <p>SeaMonkey 2.53.8.1 32-bit (Identify As Firefox)<br />
+     mozilla/5.0 (windows nt 10.0; wow64; rv:60.0) gecko/20100101 firefox/60.0</p>
+
+     <p>SeaMonkey 2.53.8.1 32-bit (Identify As SeaMonkey)<br />
+     mozilla/5.0 (windows nt 10.0; wow64; rv:60.0) gecko/20100101 seamonkey/2.53.8.1</p>
+
+     <p>SeaMonkey 2.53.8.1 32-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
+     mozilla/5.0 (windows nt 10.0; wow64; rv:60.0) gecko/20100101 firefox/60.0 seamonkey/2.53.8.1</p>
+
+     <p>SeaMonkey 2.53.8.1 64-bit (Identify As Firefox)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:60.0) gecko/20100101 firefox/60.0</p>
+
+     <p>SeaMonkey 2.53.8.1 64-bit (Identify As SeaMonkey)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:60.0) gecko/20100101 seamonkey/2.53.8.1</p>
+
+     <p>SeaMonkey 2.53.8.1 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:60.0) gecko/20100101 firefox/60.0 seamonkey/2.53.8.1</p>
 
     </section>
     <hr />
