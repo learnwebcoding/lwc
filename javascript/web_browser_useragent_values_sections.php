@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 23 Jul 2021.
+ * Last reviewed/updated: 02 Aug 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1336,6 +1336,12 @@ return
 
      <p>Edge 92.0.902.55 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.107 safari/537.36 edg/92.0.902.55</p>
+
+     <p>Edge 92.0.902.62 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.107 safari/537.36 edg/92.0.902.62</p>
+
+     <p>Edge 92.0.902.62 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.107 safari/537.36 edg/92.0.902.62</p>
 
     </section>
     <hr />
@@ -4673,6 +4679,12 @@ return
 
      <p>Chrome 92.0.4515.107 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.107 safari/537.36</p>
+
+     <p>Chrome 92.0.4515.131 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.131 safari/537.36</p>
+
+     <p>Chrome 92.0.4515.131 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.131 safari/537.36</p>
 
     </section>
     <hr />
@@ -8620,6 +8632,12 @@ return
 
      <p>Vivaldi 4.0.2312.41 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/91.0.4472.166 safari/537.36</p>
+
+     <p>Vivaldi 4.1.2369.11 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.126 safari/537.36</p>
+
+     <p>Vivaldi 4.1.2369.11 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.126 safari/537.36</p>
 
     </section>
     <hr />
