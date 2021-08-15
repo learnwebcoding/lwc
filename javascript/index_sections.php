@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/javascript/index_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/javascript/index.php.
- * Last reviewed/updated: 04 Jan 2020.
+ * Last reviewed/updated: 09 Aug 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -181,11 +181,12 @@ return
 
      <h4><a id='w3cIdlApi'></a>3.1.2. W3C Web Platform Working Group And WHATWG Web IDL/API Recommendations/Etc.</h4>
 <!-- W3C Web Platform Working Group: https://www.w3.org/WebPlatform/WG/. -->
-<!-- Web Platform Working Group specifications: https://www.w3.org/WebPlatform/WG/PubStatus and https://www.w3.org/2016/11/webplatform-charter.html. -->
+<!-- Web Platform Working Group specifications: https://www.w3.org/WebPlatform/WG/PubStatus and https://www.w3.org/2017/08/webplatform-charter.html. -->
 <!-- For Web IDL defined and list of specs that have a normative reference for Web IDL: http://www.w3.org/wiki/Web_IDL. -->
 <!-- List from top to bottom by date newest on top to oldest on bottom. -->
 
      <ul class='link-list'>
+      <li><a href='https://www.w3.org/TR/pointerevents3/'>Pointer Events Level 3: W3C Working Draft 08 August 2021 (w3.org)</a></li>
       <li><a href='https://www.w3.org/TR/pointerevents2/'>Pointer Events Level 2: W3C Recommendation 4 April 2019 (w3.org)</a></li>
       <li><a href='https://www.w3.org/TR/IndexedDB-2/'>Indexed Database API 2.0: W3C Recommendation, 30 January 2018 (w3.org)</a></li>
       <li><a href='http://www.w3.org/TR/intersection-observer/'>Intersection Observer: W3C First Public Working Draft, 14 September 2017 (w3.org)</a></li>
@@ -240,7 +241,7 @@ return
      <h4><a id='w3cDomLevel3'></a>3.3.4. W3C DOM Level 3 Recommendations/Etc.</h4>
 <!-- W3C DOM Related Working Group: Web Platform Working Group: https://www.w3.org/WebPlatform/WG/. -->
 <!-- Web Platform Working Group specifications: https://www.w3.org/WebPlatform/WG/PubStatus and https://www.w3.org/2016/11/webplatform-charter.html. -->
-<!-- List from top to bottom; 1.) Recommendations, 2.) Proposed Recommendations, 3.) Candidate Recommendations, 4.) Working Group Notes, 5.) all Working Drafts incl Last Call and First Public, and Editor's Drafts, and 6.) within each list by date newest on top to oldest on bottom. -->
+<!-- List from top to bottom; 1.) Recommendations, 2.) Proposed Recommendations, 3.) Candidate Recommendations, 4.) Working Group Notes, 5.) all Working Drafts incl Last Call, First Public, and Editor's Drafts, and 6.) within each list by date newest on top to oldest on bottom. -->
 
      <h5><a id='w3cDomLevel3r'></a>3.3.4.1. W3C DOM Level 3 Recommendations</h5>
 
