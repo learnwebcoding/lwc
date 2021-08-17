@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/javascript/index_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/javascript/index.php.
- * Last reviewed/updated: 09 Aug 2021.
+ * Last reviewed/updated: 15 Aug 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -165,55 +165,65 @@ return
      <div class='note normal'>The edition of ECMAScript skipped from 3rd to 5th.</div>
 
      <ul class='link-list'>
-      <li><a href='http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%201st%20edition,%20June%201997.pdf'>Standard ECMA-262 June 1997: ECMAScript: A General Purpose, Cross-Platform Programming Language (.pdf) (ecma-international.org)</a> (ECMA-262 1st edition)</li>
-      <li><a href='http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%202nd%20edition,%20August%201998.pdf'>Standard ECMA-262 2nd Edition - August 1998: ECMAScript Language Specification (.pdf) (ecma-international.org)</a></li>
-      <li><a href='http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf'>Standard ECMA-262 3rd Edition - December 1999: ECMAScript Language Specification (.pdf) (ecma-international.org)</a></li>
-      <li><a href='http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262%205th%20edition%20December%202009.pdf'>Standard ECMA-262 5th Edition / December 2009: ECMAScript Language Specification (.pdf) (ecma-international.org)</a></li>
-      <li><a href='http://www.ecma-international.org/ecma-262/5.1/index.html'>Standard ECMA-262 5.1 Edition / June 2011: ECMAScript Language Specification (ecma-international.org)</a></li>
-      <li><a href='http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262%205.1%20edition%20June%202011.pdf'>Standard ECMA-262 5.1 Edition / June 2011: ECMAScript Language Specification (.pdf) (ecma-international.org)</a></li>
-      <li><a href='http://www.ecma-international.org/ecma-262/6.0/index.html'>Standard ECMA-262 6th Edition / June 2015: ECMAScript 2015 Language Specification (ecma-international.org)</a></li>
-      <li><a href='http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262%206th%20edition%20June%202015.pdf'>Standard ECMA-262 6th Edition / June 2015: ECMAScript 2015 Language Specification (.pdf) (ecma-international.org)</a></li>
-      <li><a href='http://www.ecma-international.org/ecma-262/7.0/index.html'>Standard ECMA-262 7th Edition / June 2016: ECMAScript 2016 Language Specification (ecma-international.org)</a></li>
-      <li><a href='http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262%207th%20edition%20June%202016.pdf'>Standard ECMA-262 7th Edition / June 2016: ECMAScript 2016 Language Specification (.pdf) (ecma-international.org)</a></li>
-      <li><a href='http://www.ecma-international.org/ecma-262/8.0/index.html'>Standard ECMA-262 8th Edition / June 2017: ECMAScript 2017 Language Specification (ecma-international.org)</a></li>
-      <li><a href='http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf'>Standard ECMA-262 8th Edition / June 2017: ECMAScript 2017 Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_1st_edition_june_1997.pdf'>Standard ECMA-262 June 1997: ECMAScript: A General Purpose, Cross-Platform Programming Language (.pdf) (ecma-international.org)</a> (ECMA-262 1st edition)</li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_2nd_edition_august_1998.pdf'>Standard ECMA-262 2nd Edition / August 1998: ECMAScript Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_3rd_edition_december_1999.pdf'>Standard ECMA-262 3rd Edition / December 1999: ECMAScript Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_5th_edition_december_2009.pdf'>Standard ECMA-262 5th Edition / December 2009: ECMAScript Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://262.ecma-international.org/5.1/'>Standard ECMA-262 5.1 Edition / June 2011: ECMAScript Language Specification (262.ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_5.1_edition_june_2011.pdf'>Standard ECMA-262 5.1 Edition / June 2011: ECMAScript Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://262.ecma-international.org/6.0/'>Standard ECMA-262 6th Edition / June 2015: ECMAScript 2015 Language Specification (262.ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_6th_edition_june_2015.pdf'>Standard ECMA-262 6th Edition / June 2015: ECMAScript 2015 Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://262.ecma-international.org/7.0/'>ECMA-262 7th Edition / June 2016: ECMAScript 2016 Language Specification (262.ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_7th_edition_june_2016.pdf'>ECMA-262 7th Edition / June 2016: ECMAScript 2016 Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://262.ecma-international.org/8.0/'>ECMA-262 8th Edition / June 2017: ECMAScript 2017 Language Specification (262.ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_8th_edition_june_2017.pdf'>ECMA-262 8th Edition / June 2017: ECMAScript 2017 Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://262.ecma-international.org/9.0/'>ECMA-262 9th Edition / June 2018: ECMAScript 2018 Language Specification (262.ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_9th_edition_june_2018.pdf'>ECMA-262 9th Edition / June 2018: ECMAScript 2018 Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://262.ecma-international.org/10.0/'>ECMA-262 10th Edition / June 2019: ECMAScript 2019 Language Specification (262.ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262-10th-edition-June-2019.pdf'>ECMA-262 10th Edition / June 2019: ECMAScript 2019 Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://262.ecma-international.org/11.0/'>ECMA-262 11th Edition / June 2020: ECMAScript 2020 Language Specification (262.ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_11th_edition_june_2020.pdf'>ECMA-262 11th Edition / June 2020: ECMAScript 2020 Language Specification (.pdf) (ecma-international.org)</a></li>
      </ul>
 
-     <h4><a id='w3cIdlApi'></a>3.1.2. W3C Web Platform Working Group And WHATWG Web IDL/API Recommendations/Etc.</h4>
-<!-- W3C Web Platform Working Group: https://www.w3.org/WebPlatform/WG/. -->
-<!-- Web Platform Working Group specifications: https://www.w3.org/WebPlatform/WG/PubStatus and https://www.w3.org/2017/08/webplatform-charter.html. -->
+     <h4><a id='webIdlApi'></a>3.1.2. W3C And WHATWG Web IDL/API Recommendations/Etc.</h4>
+<!-- W3C JavaScript Related Working Groups: 1.) Web Applications Working Group: https://www.w3.org/2019/webapps/. Apparently the Web Applications Working Group replaced the Web Platform Working Group. 2.) Pointer Events Working Group: https://www.w3.org/groups/wg/pointer-events. -->
 <!-- For Web IDL defined and list of specs that have a normative reference for Web IDL: http://www.w3.org/wiki/Web_IDL. -->
 <!-- List from top to bottom by date newest on top to oldest on bottom. -->
 
      <ul class='link-list'>
       <li><a href='https://www.w3.org/TR/pointerevents3/'>Pointer Events Level 3: W3C Working Draft 08 August 2021 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/clipboard-apis/'>Clipboard API And Events: W3C Working Draft, 6 August 2021 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/intersection-observer/'>Intersection Observer: W3C Working Draft, 24 June 2021 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/IndexedDB/'>Indexed Database API 3.0: W3C Working Draft, 18 June 2021 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/screen-orientation/'>The Screen Orientation API: W3C Working Draft 17 June 2021 (w3.org)</a></li>
       <li><a href='https://www.w3.org/TR/pointerevents2/'>Pointer Events Level 2: W3C Recommendation 4 April 2019 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/pointerevents1/'>Pointer Events: W3C Recommendation 24 February 2019 Superseded 4 April 2019 (w3.org)</a></li>
       <li><a href='https://www.w3.org/TR/IndexedDB-2/'>Indexed Database API 2.0: W3C Recommendation, 30 January 2018 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/intersection-observer/'>Intersection Observer: W3C First Public Working Draft, 14 September 2017 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/WebIDL-1/'>WebIDL Level 1: W3C Recommendation 15 December 2016 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/clipboard-apis/'>Clipboard API And Events: W3C Working Draft 13 December 2016 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/screen-orientation/'>The Screen Orientation API: W3C Working Draft 31 October 2016 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/webstorage/'>Web Storage (Second Edition): W3C Recommendation 19 April 2016 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/pointerevents/'>Pointer Events: W3C Recommendation 24 February 2015 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/IndexedDB/'>Indexed Database API: W3C Recommendation 08 January 2015 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/progress-events/'>Progress Events: W3C Recommendation 11 February 2014 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/touch-events/'>Touch Events: W3C Recommendation 10 October 2013 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/2013/REC-webstorage-20130730/'>Web Storage: W3C Recommendation 30 July 2013 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/selectors-api/'>Selectors API Level 1: W3C Recommendation 21 February 2013 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/WebIDL-1/'>WebIDL Level 1: W3C Recommendation 15 December 2016 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/webstorage/'>Web Storage (Second Edition): W3C Recommendation 19 April 2016 Superseded 28 January 2021 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/touch-events/'>Touch Events: W3C Recommendation 10 October 2013 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/selectors-api/'>Selectors API Level 1: W3C Recommendation 21 February 2013 Superseded 3 November 2020 (w3.org)</a></li>
       <li><a href='https://xhr.spec.whatwg.org/'>XMLHttpRequest: Living Standard (xhr.spec.whatwg.org)</a></li>
      </ul>
 
      <h3><a id='bomStandards'></a>3.2. BOM Standards</h3>
 
+     <div class='note normal'>
+      <ul>
+       <li>There is no dedicated BOM standard. Instead, the major aspects of the BOM are described in HTML5 under Web Application APIs.</li>
+       <li>On 28 May 2019 the W3C and WHATWG reached an agreement, whereby: 1.) <q>HTML and DOM shall be developed principally in the WHATWG, following WHATWG Living Standard (LS) specification process</q>; and 2.) <q>W3C agrees to discontinue its release plans for W3C versions of HTML 5.3 and DOM 4.1.</q> In other words, starting 28 May 2019, the WHATWG HTML Living Standard is the official HTML standard. For additional information, see <a href='https://www.w3.org/2019/04/WHATWG-W3C-MOU.html'>Memorandum Of Understanding Between W3C And WHATWG (w3.org)</a>.</li>
+      </ul>
+     </div>
+
      <ul class='link-list'>
-      <li><a href='http://www.w3.org/TR/html5/webappapis.html'>HTML5: A Vocabulary And Associated APIs For HTML And XHTML: 6 Web Application APIs (w3.org)</a></li>
+      <li><a href='https://html.spec.whatwg.org/multipage/webappapis.html'>HTML Living Standard | 8 Web Application APIs (html.spec.whatwg.org)</a></li>
      </ul>
 
      <h3><a id='domStandards'></a>3.3. DOM Standards</h3>
 
 <!-- Similar note below in /html/index_sections.php (twice) and /javascript/index_sections.php (twice). -->
 
-     <div class='note normal'>Per the 28 May 2019 <a href='https://www.w3.org/2019/04/WHATWG-W3C-MOU.html'>Memorandum Of Understanding Between W3C And WHATWG (w3.org)</a>, <q>HTML and DOM shall be developed principally in the WHATWG, following WHATWG Living Standard (LS) specification process.</q> Also, <q>W3C agrees to discontinue its release plans for W3C versions of HTML 5.3 and DOM 4.1.</q> In other words, the W3C and WHATWG have agreed to recognize the WHATWG DOM Living Standard as the official DOM standard moving forward. For additional information, see <a href='https://www.w3.org/2019/04/WHATWG-W3C-MOU.html'>Memorandum Of Understanding Between W3C And WHATWG (w3.org)</a>.</div>
+     <div class='note normal'>On 28 May 2019 the W3C and WHATWG reached an agreement, whereby: 1.) <q>HTML and DOM shall be developed principally in the WHATWG, following WHATWG Living Standard (LS) specification process</q>; and 2.) <q>W3C agrees to discontinue its release plans for W3C versions of HTML 5.3 and DOM 4.1.</q> In other words, starting 28 May 2019, the WHATWG DOM Living Standard is the official DOM standard. For additional information, see <a href='https://www.w3.org/2019/04/WHATWG-W3C-MOU.html'>Memorandum Of Understanding Between W3C And WHATWG (w3.org)</a>.</div>
 
      <h4><a id='whatwgDom'></a>3.3.1. WHATWG DOM Specification</h4>
 
@@ -239,8 +249,8 @@ return
      </ul>
 
      <h4><a id='w3cDomLevel3'></a>3.3.4. W3C DOM Level 3 Recommendations/Etc.</h4>
-<!-- W3C DOM Related Working Group: Web Platform Working Group: https://www.w3.org/WebPlatform/WG/. -->
-<!-- Web Platform Working Group specifications: https://www.w3.org/WebPlatform/WG/PubStatus and https://www.w3.org/2016/11/webplatform-charter.html. -->
+<!-- W3C JavaScript Related Working Groups: Web Applications Working Group: https://www.w3.org/2019/webapps/. Apparently the Web Applications Working Group replaced the Web Platform Working Group. -->
+<!-- For Web IDL defined and list of specs that have a normative reference for Web IDL: http://www.w3.org/wiki/Web_IDL. -->
 <!-- List from top to bottom; 1.) Recommendations, 2.) Proposed Recommendations, 3.) Candidate Recommendations, 4.) Working Group Notes, 5.) all Working Drafts incl Last Call, First Public, and Editor's Drafts, and 6.) within each list by date newest on top to oldest on bottom. -->
 
      <h5><a id='w3cDomLevel3r'></a>3.3.4.1. W3C DOM Level 3 Recommendations</h5>
@@ -272,7 +282,7 @@ return
 
 <!-- Similar note below in /html/index_sections.php (twice) and /javascript/index_sections.php (twice). -->
 
-     <div class='note normal'>Per the 28 May 2019 <a href='https://www.w3.org/2019/04/WHATWG-W3C-MOU.html'>Memorandum Of Understanding Between W3C And WHATWG (w3.org)</a>, <q>HTML and DOM shall be developed principally in the WHATWG, following WHATWG Living Standard (LS) specification process.</q> Also, <q>W3C agrees to discontinue its release plans for W3C versions of HTML 5.3 and DOM 4.1.</q> In other words, the W3C and WHATWG have agreed to recognize the WHATWG DOM Living Standard as the official DOM standard moving forward. For additional information, see <a href='https://www.w3.org/2019/04/WHATWG-W3C-MOU.html'>Memorandum Of Understanding Between W3C And WHATWG (w3.org)</a>.</div>
+     <div class='note normal'>On 28 May 2019 the W3C and WHATWG reached an agreement, whereby: 1.) <q>HTML and DOM shall be developed principally in the WHATWG, following WHATWG Living Standard (LS) specification process</q>; and 2.) <q>W3C agrees to discontinue its release plans for W3C versions of HTML 5.3 and DOM 4.1.</q> In other words, starting 28 May 2019, the WHATWG DOM Living Standard is the official DOM standard. For additional information, see <a href='https://www.w3.org/2019/04/WHATWG-W3C-MOU.html'>Memorandum Of Understanding Between W3C And WHATWG (w3.org)</a>.</div>
 
      <ul class='link-list'>
       <li><a href='http://www.w3.org/TR/dom/'>W3C DOM4: W3C Recommendation 19 November 2015 (w3.org)</a></li>
@@ -286,9 +296,8 @@ return
 
      <ul class='link-list'>
       <li><a href='https://developer.mozilla.org/'>MDN Web Docs (developer.mozilla.org)</a></li>
-      <li><a href='http://www.w3schools.com/'>W3Schools.com</a></li>
-      <li><a href='http://caniuse.com/'>Can I Use (caniuse.com)</a></li>
-      <li><a href='http://www.htmlgoodies.com/'>HTML Goodies (htmlgoodies.com)</a></li>
+      <li><a href='https://www.w3schools.com/'>W3Schools.com</a></li>
+      <li><a href='https://caniuse.com/'>Can I Use (caniuse.com)</a></li>
      </ul>
 
      <h3><a id='jsResources'></a>4.1. JavaScript Resources</h3>

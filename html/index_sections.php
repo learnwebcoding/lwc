@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/html/index_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/html/index.php.
- * Last reviewed/updated: 11 Aug 2021.
+ * Last reviewed/updated: 15 Aug 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -85,11 +85,11 @@ return
 <!-- For Web IDL defined and list of specs that have a normative reference for Web IDL: http://www.w3.org/wiki/Web_IDL. -->
 <!-- List from top to bottom; 1.) Recommendations, 2.) Proposed Recommendations, 3.) Candidate Recommendations, 4.) Working Group Notes, 5.) all Working Drafts incl Last Call, First Public, and Editor's Drafts, and 6.) within each list by date newest on top to oldest on bottom. -->
 
-     <h4><a id='w3cHtml5r'></a>3.4.1. W3C HTML5 Recommendations</h4>
-
 <!-- Similar note below in /html/index_sections.php (twice) and /javascript/index_sections.php (twice). -->
 
      <div class='note normal'>On 28 May 2019 the W3C and WHATWG reached an agreement, whereby: 1.) <q>HTML and DOM shall be developed principally in the WHATWG, following WHATWG Living Standard (LS) specification process</q>; and 2.) <q>W3C agrees to discontinue its release plans for W3C versions of HTML 5.3 and DOM 4.1.</q> In other words, starting 28 May 2019, the WHATWG HTML Living Standard is the official HTML standard. For additional information, see <a href='https://www.w3.org/2019/04/WHATWG-W3C-MOU.html'>Memorandum Of Understanding Between W3C And WHATWG (w3.org)</a>.</div>
+
+     <h4><a id='w3cHtml5r'></a>3.4.1. W3C HTML5 Recommendations</h4>
 
      <ul class='link-list'>
       <li><a href='https://www.w3.org/TR/html52/'>HTML 5.2: W3C Recommendation, 14 December 2017 Superseded 28 January 2021 (w3.org)</a></li>

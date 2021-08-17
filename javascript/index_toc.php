@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/javascript/index_toc.php.
  * Purpose: Web page table of contents.
  * Used in: /web_server_root_directory/javascript/index.php.
- * Last reviewed/updated: 16 Oct 2017.
+ * Last reviewed/updated: 15 Aug 2021.
  * Published: 21 Sep 2016. */
 return
     "<div class='toc-sec'><div class='toc-num'>1.</div><div class='toc-sec-title'><a href='#introduction'>Introduction</a></div></div>
@@ -17,7 +17,7 @@ return
      <div class='toc-sec'><div class='toc-num'>3.</div><div class='toc-sec-title'><a href='#standards'>Standards</a></div></div>
      <div class='toc-sub1sec'><div class='toc-num'>3.1.</div><div class='toc-sub1sec-title'><a href='#jsStandards'>JavaScript Standards</a></div></div>
      <div class='toc-sub2sec'><div class='toc-num'>3.1.1.</div><div class='toc-sub2sec-title'><a href='#ecmascript'>ECMAScript Standards</a></div></div>
-     <div class='toc-sub2sec'><div class='toc-num'>3.1.2.</div><div class='toc-sub2sec-title'><a href='#w3cIdlApi'>W3C Web Platform Working Group And WHATWG Web IDL/API Recommendations/Etc.</a></div></div>
+     <div class='toc-sub2sec'><div class='toc-num'>3.1.2.</div><div class='toc-sub2sec-title'><a href='#webIdlApi'>W3C And WHATWG Web IDL/API Recommendations/Etc.</a></div></div>
      <div class='toc-sub1sec'><div class='toc-num'>3.2.</div><div class='toc-sub1sec-title'><a href='#bomStandards'>BOM Standards</a></div></div>
      <div class='toc-sub1sec'><div class='toc-num'>3.3.</div><div class='toc-sub1sec-title'><a href='#domStandards'>DOM Standards</a></div></div>
      <div class='toc-sub2sec'><div class='toc-num'>3.3.1.</div><div class='toc-sub2sec-title'><a href='#whatwgDom'>WHATWG DOM Specification</a></div></div>

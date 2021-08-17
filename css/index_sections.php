@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/css/index_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/css/index.php.
- * Last reviewed/updated: 14 Aug 2021.
+ * Last reviewed/updated: 15 Aug 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -61,7 +61,7 @@ return
 
      <h2><a id='standards'></a>3. Standards</h2>
 
-     <div class='note normal'>The W3C describes CSS in terms of levels, not versions. For example, the W3C CSS1 Recommendation describes CSS level 1, not CSS version 1. For more on this see, <a href='https://www.w3.org/TR/css-2015/#css-levels'>CSS Snapshot 2015: W3C Working Group Note, 13 October 2015 (w3.org)</a>.</div>
+     <div class='note normal'>The W3C describes CSS in terms of levels, not versions. For example, the W3C CSS1 Specification describes CSS Level 1, not CSS Version 1. For additional information, see <a href='https://www.w3.org/TR/css-2020/#css-levels'>CSS Snapshot 2020: W3C Working Group Note, 22 December 2020 | 2.4. CSS Levels (w3.org)</a>.</div>
 
      <h3><a id='w3cCss1'></a>3.1. W3C CSS Level 1 Recommendations</h3>
 
@@ -92,6 +92,8 @@ return
 
      <h4><a id='w3cCss3r'></a>3.3.1. W3C CSS Level 3 Recommendations</h4>
 
+     <div class='note normal'>W3C CSS Level 3 builds on the W3C CSS 2.1 Specification. Seeing an greatly expanded future role for CSS, instead of developing a single monolithic CSS 3 Specification, the W3C decided to split CSS Level 3 into modules. Modules with a CSS 2.1 correlation are named starting at Level 3. Modules without a CSS 2.1 correlation are named starting at Level 1. For additional information, see <a href='https://www.w3.org/TR/css-2020/#css-levels'>CSS Snapshot 2020: W3C Working Group Note, 22 December 2020 | 2.4. CSS Levels (w3.org)</a>.</div>
+
      <ul class='link-list'>
       <li><a href='https://www.w3.org/TR/css-color-3/'>CSS Color Module Level 3: W3C Recommendation 05 August 2021 (w3.org)</a></li>
       <li><a href='https://www.w3.org/TR/css-cascade-3/'>CSS Cascading And Inheritance Level 3: W3C Recommendation, 11 February 2021 (w3.org)</a></li>
@@ -105,7 +107,6 @@ return
       <li><a href='https://www.w3.org/TR/css3-mediaqueries/'>Media Queries: W3C Recommendation 19 June 2012 (w3.org)</a></li>
      </ul>
 
-
 <!--
      <h4><a id='w3cCss3pr'></a>3.3.2. W3C CSS Level 3 Proposed Recommendations</h4>
 
@@ -113,7 +114,6 @@ return
       <li><a href=''> (w3.org)</a></li>
      </ul>
 -->
-
      <h4><a id='w3cCss3cr'></a>3.3.2. W3C CSS Level 3 Candidate Recommendations</h4>
 
      <ul class='link-list'>
@@ -148,11 +148,13 @@ return
 
      <h4><a id='w3cCss3wgn'></a>3.3.3. W3C CSS Level 3 Working Group Notes</h4>
 
+     <div class='note normal'>The following CSS Snapshots list the W3C specifications that constitute CSS as of the year specified.</div>
+
      <ul class='link-list'>
-      <li><a href='https://www.w3.org/TR/css-2020/'>CSS Snapshot 2020: W3C Working Group Note, 22 December 2020 (w3.org)</a> (<q><i>This document collects together into one definition all the specs that together form the current state of Cascading Style Sheets (CSS) as of 2020.</i></q> - CSS Snapshot 2020: W3C Working Group Note, 22 December 2020.)</li>
-      <li><a href='https://www.w3.org/TR/css-2018/'>CSS Snapshot 2018: W3C Working Group Note, 22 January 2019 (w3.org)</a> (<q><i>This document collects together into one definition all the specs that together form the current state of Cascading Style Sheets (CSS) as of 2018.</i></q> - CSS Snapshot 2018: W3C Working Group Note, 22 January 2019.)</li>
-      <li><a href='https://www.w3.org/TR/css-2017/'>CSS Snapshot 2017: W3C Working Group Note, 31 January 2017 (w3.org)</a> (<q><i>This document collects together into one definition all the specs that together form the current state of Cascading Style Sheets (CSS) as of 2017.</i></q> - CSS Snapshot 2017: W3C Working Group Note, 31 January 2017.)</li>
-      <li><a href='https://www.w3.org/TR/css-2015/'>CSS Snapshot 2015: W3C Working Group Note, 13 October 2015 (w3.org)</a> (<q><i>This document collects together into one definition all the specs that together form the current state of Cascading Style Sheets (CSS) as of 2015.</i></q> - CSS Snapshot 2015: W3C Working Group Note, 13 October 2015.)</li>
+      <li><a href='https://www.w3.org/TR/css-2020/'>CSS Snapshot 2020: W3C Working Group Note, 22 December 2020 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/css-2018/'>CSS Snapshot 2018: W3C Working Group Note, 22 January 2019 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/css-2017/'>CSS Snapshot 2017: W3C Working Group Note, 31 January 2017 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/css-2015/'>CSS Snapshot 2015: W3C Working Group Note, 13 October 2015 (w3.org)</a></li>
       <li><a href='https://www.w3.org/TR/css-template-3/'>CSS Template Layout Module: W3C Working Group Note 26 March 2015 (w3.org)</a></li>
      </ul>
 
