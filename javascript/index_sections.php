@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/javascript/index_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/javascript/index.php.
- * Last reviewed/updated: 15 Aug 2021.
+ * Last reviewed/updated: 17 Aug 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -196,6 +196,8 @@ return
       <li><a href='https://www.w3.org/TR/intersection-observer/'>Intersection Observer: W3C Working Draft, 24 June 2021 (w3.org)</a></li>
       <li><a href='https://www.w3.org/TR/IndexedDB/'>Indexed Database API 3.0: W3C Working Draft, 18 June 2021 (w3.org)</a></li>
       <li><a href='https://www.w3.org/TR/screen-orientation/'>The Screen Orientation API: W3C Working Draft 17 June 2021 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/input-events-2/'>Input Events Level 2: W3C Working Draft 30 May 2019 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/input-events-1/'>Input Events Level 1: W3C Working Draft 30 May 2019 (w3.org)</a></li>
       <li><a href='https://www.w3.org/TR/pointerevents2/'>Pointer Events Level 2: W3C Recommendation 4 April 2019 (w3.org)</a></li>
       <li><a href='https://www.w3.org/TR/pointerevents1/'>Pointer Events: W3C Recommendation 24 February 2019 Superseded 4 April 2019 (w3.org)</a></li>
       <li><a href='https://www.w3.org/TR/IndexedDB-2/'>Indexed Database API 2.0: W3C Recommendation, 30 January 2018 (w3.org)</a></li>
@@ -228,54 +230,44 @@ return
      <h4><a id='whatwgDom'></a>3.3.1. WHATWG DOM Specification</h4>
 
      <ul class='link-list'>
-      <li><a href='http://dom.spec.whatwg.org/'>DOM Living Standard (dom.spec.whatwg.org)</a></li>
+      <li><a href='https://dom.spec.whatwg.org/'>DOM Living Standard (dom.spec.whatwg.org)</a></li>
      </ul>
 
      <h4><a id='w3cDomLevel1'></a>3.3.2. W3C DOM Level 1 Recommendation</h4>
 
      <ul class='link-list'>
-      <li><a href='http://www.w3.org/TR/REC-DOM-Level-1/'>Document Object Model (DOM) Level 1 Specification: Version 1.0: W3C Recommendation 1 October, 1998 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/REC-DOM-Level-1/'>Document Object Model (DOM) Level 1 Specification Version 1.0: W3C Recommendation 1 October, 1998 (w3.org)</a></li>
      </ul>
 
      <h4><a id='w3cDomLevel2'></a>3.3.3. W3C DOM Level 2 Recommendations</h4>
 
      <ul class='link-list'>
-      <li><a href='http://www.w3.org/TR/DOM-Level-2-HTML/'>Document Object Model (DOM) Level 2 HTML Specification: Version 1.0: W3C Recommendation 09 January 2003 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/DOM-Level-2-Core/'>Document Object Model (DOM) Level 2 Core Specification: Version 1.0: W3C Recommendation 13 November, 2000 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/DOM-Level-2-Events/'>Document Object Model (DOM) Level 2 Events Specification: Version 1.0: W3C Recommendation 13 November, 2000 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/DOM-Level-2-Style/'>Document Object Model (DOM) Level 2 Style Specification: Version 1.0: W3C Recommendation 13 November, 2000 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/DOM-Level-2-Traversal-Range/'>Document Object Model (DOM) Level 2 Traversal And Range Specification: Version 1.0: W3C Recommendation 13 November, 2000 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/DOM-Level-2-Views/'>Document Object Model (DOM) Level 2 Views Specification: Version 1.0: W3C Recommendation 13 November, 2000 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/DOM-Level-2-HTML/'>Document Object Model (DOM) Level 2 HTML Specification Version 1.0: W3C Recommendation 09 January 2003 Superseded 3 November 2020 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/DOM-Level-2-Core/'>Document Object Model (DOM) Level 2 Core Specification Version 1.0: W3C Recommendation 13 November, 2000 Superseded 3 November 2020 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/DOM-Level-2-Events/'>Document Object Model (DOM) Level 2 Events Specification Version 1.0: W3C Recommendation 13 November, 2000 Superseded 3 November 2020 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/DOM-Level-2-Style/'>Document Object Model (DOM) Level 2 Style Specification Version 1.0: W3C Recommendation 13 November, 2000 Superseded 3 November 2020 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/DOM-Level-2-Traversal-Range/'>Document Object Model (DOM) Level 2 Traversal And Range Specification Version 1.0: W3C Recommendation 13 November, 2000 Superseded 3 November 2020 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/DOM-Level-2-Views/'>Document Object Model (DOM) Level 2 Views Specification Version 1.0: W3C Recommendation 13 November, 2000 Superseded 3 November 2020 (w3.org)</a></li>
      </ul>
 
      <h4><a id='w3cDomLevel3'></a>3.3.4. W3C DOM Level 3 Recommendations/Etc.</h4>
-<!-- W3C JavaScript Related Working Groups: Web Applications Working Group: https://www.w3.org/2019/webapps/. Apparently the Web Applications Working Group replaced the Web Platform Working Group. -->
-<!-- For Web IDL defined and list of specs that have a normative reference for Web IDL: http://www.w3.org/wiki/Web_IDL. -->
+<!-- W3C DOM Related Working Group: Document Object Model Working Group: https://www.w3.org/DOM/Activity.html. -->
 <!-- List from top to bottom; 1.) Recommendations, 2.) Proposed Recommendations, 3.) Candidate Recommendations, 4.) Working Group Notes, 5.) all Working Drafts incl Last Call, First Public, and Editor's Drafts, and 6.) within each list by date newest on top to oldest on bottom. -->
 
      <h5><a id='w3cDomLevel3r'></a>3.3.4.1. W3C DOM Level 3 Recommendations</h5>
 
      <ul class='link-list'>
-      <li><a href='http://www.w3.org/TR/ElementTraversal/'>Element Traversal Specification: W3C Recommendation 22 December 2008 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/DOM-Level-3-LS/'>Document Object Model (DOM) Level 3 Load and Save Specification: Version 1.0: W3C Recommendation 07 April 2004 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/DOM-Level-3-Core/'>Document Object Model (DOM) Level 3 Core Specification: Version 1.0: W3C Recommendation 07 April 2004 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/DOM-Level-3-Val/'>Document Object Model (DOM) Level 3 Validation Specification: Version 1.0: W3C Recommendation 27 January 2004 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/ElementTraversal/'>Element Traversal Specification: W3C Recommendation 22 December 2008 Superseded 3 November 2020 (w3.org)</a> (This is a supplementary specification to DOM Level 3 Core.)</li>
+      <li><a href='https://www.w3.org/TR/DOM-Level-3-Core/'>Document Object Model (DOM) Level 3 Core Specification Version 1.0: W3C Recommendation 07 April 2004 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/DOM-Level-3-LS/'>Document Object Model (DOM) Level 3 Load and Save Specification Version 1.0: W3C Recommendation 07 April 2004 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/DOM-Level-3-Val/'>Document Object Model (DOM) Level 3 Validation Specification Version 1.0: W3C Recommendation 27 January 2004 (w3.org)</a></li>
      </ul>
 
-     <h5><a id='w3cDomLevel3cr'></a>3.3.4.2. W3C DOM Level 3 Candidate Recommendations</h5>
+     <h5><a id='w3cDomLevel3wd'></a>3.3.4.2. W3C DOM Level 3 Working Drafts</h5>
 
      <ul class='link-list'>
-      <li><a href='http://www.w3.org/TR/uievents-code/'>UI Events KeyboardEvent Code Values: W3C Candidate Recommendation, 01 June 2017 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/uievents-key/'>UI Events KeyboardEvent Key Values: W3C Candidate Recommendation, 01 June 2017 (w3.org)</a></li>
-     </ul>
-
-     <h5><a id='w3cDomLevel3wd'></a>3.3.4.3. W3C DOM Level 3 Working Drafts</h5>
-
-     <ul class='link-list'>
-      <li><a href='http://www.w3.org/TR/DOM-Parsing/'>DOM Parsing And Serialization: <code>DOMParser</code>, <code>XMLSerializer</code>, <code>innerHTML</code>, And Similar APIs: W3C Working Draft 17 May 2016 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/input-events/'>Input Events: W3C First Public Working Draft 30 August 2016 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/uievents/'>UI Events (Formerly DOM Level 3 Events): W3C Working Draft 28 April 2015 (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/mediacapture-fromelement/'>Media Capture From DOM Elements: W3C First Public Working Draft 19 February 2015 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/uievents/'>UI Events: W3C Working Draft, 30 May 2019 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/DOM-Parsing/'>DOM Parsing And Serialization <code>DOMParser</code>, <code>XMLSerializer</code>, <code>innerHTML</code>, And Similar APIs: W3C Working Draft 17 May 2016 (w3.org)</a></li>
      </ul>
 
      <h4><a id='w3cDomLevel4'></a>3.3.5. W3C DOM Level 4 Recommendation</h4>
@@ -285,7 +277,7 @@ return
      <div class='note normal'>On 28 May 2019 the W3C and WHATWG reached an agreement, whereby: 1.) <q>HTML and DOM shall be developed principally in the WHATWG, following WHATWG Living Standard (LS) specification process</q>; and 2.) <q>W3C agrees to discontinue its release plans for W3C versions of HTML 5.3 and DOM 4.1.</q> In other words, starting 28 May 2019, the WHATWG DOM Living Standard is the official DOM standard. For additional information, see <a href='https://www.w3.org/2019/04/WHATWG-W3C-MOU.html'>Memorandum Of Understanding Between W3C And WHATWG (w3.org)</a>.</div>
 
      <ul class='link-list'>
-      <li><a href='http://www.w3.org/TR/dom/'>W3C DOM4: W3C Recommendation 19 November 2015 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/2015/REC-dom-20151119/'>W3C DOM4: W3C Recommendation 19 November 2015 (w3.org)</a></li>
      </ul>
 
     </section>
@@ -300,38 +292,18 @@ return
       <li><a href='https://caniuse.com/'>Can I Use (caniuse.com)</a></li>
      </ul>
 
-     <h3><a id='jsResources'></a>4.1. JavaScript Resources</h3>
-
-     <ul class='link-list'>
-      <li><a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>MDN Web Docs | JavaScript (developer.mozilla.org)</a></li>
-      <li><a href='https://msdn.microsoft.com/en-us/library/aa902517.aspx'>MSDN Library | Web Development | JavaScript (msdn.microsoft.com)</a></li>
-      <li><a href='https://msdn.microsoft.com/en-us/library/hbxc2t98.aspx'>MSDN Library | JScript (ECMAScript3) (msdn.microsoft.com)</a></li>
-     </ul>
-
-     <h3><a id='domResources'></a>4.2. DOM Resources</h3>
-
-     <ul class='link-list'>
-      <li><a href='http://domenlightenment.com/'>DOM Enlightenment: Exploring The Relationship Between JavaScript And The Modern HTML DOM (domenlightenment.com)</a> (Cody Lindley) (Free, online, pre-edited/draft version of the O'Reilly book, DOM Enlightenment.) (Published: 2013)</li>
-     </ul>
-
     </section>
     <hr />
     <section>
 
      <h2><a id='miscellaneous'></a>5. Miscellaneous</h2>
 
-     <h3><a id='jsMiscellaneous'></a>5.1. JavaScript Miscellaneous</h3>
-
-     <ul class='link-list'>
-      <li><a href='https://www.w3.org/WebPlatform/WG/'>W3C: Web Platform Working Group (w3.org)</a></li>
-      <li><a href='https://jquery.com/'>jQuery (jquery.com)</a></li>
-     </ul>
-
-     <h3><a id='domMiscellaneous'></a>5.2. DOM Miscellaneous</h3>
-
      <ul class='link-list'>
       <li><a href='https://www.w3.org/2019/04/WHATWG-W3C-MOU.html'>Memorandum Of Understanding Between W3C And WHATWG (w3.org)</a></li>
-      <li><a href='https://www.w3.org/WebPlatform/WG/'>W3C: Web Platform Working Group (w3.org)</a></li>
+      <li><a href='https://www.w3.org/2019/webapps/'>W3C Web Applications Working Group (w3.org)</a></li>
+      <li><a href='https://docs.microsoft.com/en-us/previous-versions//hbxc2t98(v=vs.85)'>Microsoft | Docs | JScript (ECMAScript3) (docs.microsoft.com)</a></li>
+      <li><a href='http://domenlightenment.com/'>DOM Enlightenment: Exploring The Relationship Between JavaScript And The Modern HTML DOM (domenlightenment.com)</a> (Cody Lindley) (Free, online, pre-edited/draft version of the O'Reilly book, DOM Enlightenment.) (Published: 2013)</li>
+      <li><a href='https://jquery.com/'>jQuery (jquery.com)</a></li>
      </ul>
 
     </section>";

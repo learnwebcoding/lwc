@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/html/index_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/html/index.php.
- * Last reviewed/updated: 15 Aug 2021.
+ * Last reviewed/updated: 17 Aug 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -98,31 +98,11 @@ return
       <li><a href='https://www.w3.org/TR/html50/'>HTML5: A Vocabulary And Associated APIs For HTML And XHTML: W3C Recommendation 28 October 2014 Superseded 27 March 2018 (w3.org)</a></li>
      </ul>
 
-<!--
-     <h4><a id='w3cHtml5pr'></a>3.4.2. W3C HTML5 Proposed Recommendations</h4>
-
-     <ul class='link-list'>
-      <li><a href=''> (w3.org)</a></li>
-     </ul>
-
-     <h4><a id='w3cHtml5cr'></a>3.4.3. W3C HTML5 Candidate Recommendations</h4>
-
-     <ul class='link-list'>
-      <li><a href=''> (w3.org)</a></li>
-     </ul>
--->
      <h4><a id='w3cHtml5wgn'></a>3.4.2. W3C HTML5 Working Group Notes</h4>
 
      <ul class='link-list'>
       <li><a href='https://www.w3.org/TR/html5-diff/'>HTML5 Differences From HTML4: W3C Working Group Note 9 December 2014 (w3.org)</a></li>
      </ul>
-<!--
-     <h4><a id='w3cHtml5wd'></a>3.4.5. W3C HTML5 Working Drafts</h4>
-
-     <ul class='link-list'>
-      <li><a href=''> (w3.org)</a></li>
-     </ul>
--->
 
     </section>
     <hr />
