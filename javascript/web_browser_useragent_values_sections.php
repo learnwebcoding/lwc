@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 16 Aug 2021.
+ * Last reviewed/updated: 20 Aug 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1354,6 +1354,12 @@ return
 
      <p>Edge 92.0.902.73 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.131 safari/537.36 edg/92.0.902.73</p>
+
+     <p>Edge 92.0.902.78 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.159 safari/537.36 edg/92.0.902.78</p>
+
+     <p>Edge 92.0.902.78 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.159 safari/537.36 edg/92.0.902.78</p>
 
     </section>
     <hr />
@@ -8688,6 +8694,12 @@ return
 
      <p>Vivaldi 4.1.2369.16 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.134 safari/537.36</p>
+
+     <p>Vivaldi 4.1.2369.21 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.159 safari/537.36</p>
+
+     <p>Vivaldi 4.1.2369.21 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/92.0.4515.159 safari/537.36</p>
 
     </section>
     <hr />
