@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 22 Sep 2021.
+ * Last reviewed/updated: 27 Sep 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1390,6 +1390,12 @@ return
 
      <p>Edge 93.0.961.52 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/93.0.4577.82 safari/537.36 edg/93.0.961.52</p>
+
+     <p>Edge 94.0.992.31 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/94.0.4606.61 safari/537.36 edg/94.0.992.31</p>
+
+     <p>Edge 94.0.992.31 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/94.0.4606.61 safari/537.36 edg/94.0.992.31</p>
 
     </section>
     <hr />
@@ -4792,6 +4798,12 @@ return
      <p>Chrome 94.0.4606.54 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/94.0.4606.54 safari/537.36</p>
 
+     <p>Chrome 94.0.4606.61 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/94.0.4606.61 safari/537.36</p>
+
+     <p>Chrome 94.0.4606.61 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/94.0.4606.61 safari/537.36</p>
+
     </section>
     <hr />
     <section>
@@ -7900,6 +7912,18 @@ return
 
      <p>Opera 79.0.4143.50 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/93.0.4577.82 safari/537.36 opr/79.0.4143.50</p>
+
+     <p>Opera 79.0.4143.56 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/93.0.4577.82 safari/537.36 opr/79.0.4143.56</p>
+
+     <p>Opera 79.0.4143.56 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/93.0.4577.82 safari/537.36 opr/79.0.4143.56</p>
+
+     <p>Opera 79.0.4143.66 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/93.0.4577.82 safari/537.36 opr/79.0.4143.66</p>
+
+     <p>Opera 79.0.4143.66 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/93.0.4577.82 safari/537.36 opr/79.0.4143.66</p>
 
     </section>
     <hr />
