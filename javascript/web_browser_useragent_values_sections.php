@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 29 Oct 2021.
+ * Last reviewed/updated: 05 Nov 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -3077,6 +3077,20 @@ return
 
      <p>Firefox 93.0 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:93.0) gecko/20100101 firefox/93.0</p>
+
+     <p>Firefox 94.0 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:94.0) gecko/20100101 firefox/94.0</p>
+
+     <p>Firefox 94.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:94.0) gecko/20100101 firefox/94.0</p>
+
+     <div class='note normal'>The Firefox 94.0.1 user-agent string value is identical to the Firefox 94.0 user-agent string value.</div>
+
+     <p>Firefox 94.0.1 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:94.0) gecko/20100101 firefox/94.0</p>
+
+     <p>Firefox 94.0.1 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:94.0) gecko/20100101 firefox/94.0</p>
 
     </section>
     <hr />
@@ -8026,6 +8040,12 @@ return
 
      <p>Opera 80.0.4170.72 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/94.0.4606.81 safari/537.36 opr/80.0.4170.72</p>
+
+     <p>Opera 81.0.4196.31 32-bit<br />
+     mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/95.0.4638.54 safari/537.36 opr/81.0.4196.31</p>
+
+     <p>Opera 81.0.4196.31 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/95.0.4638.54 safari/537.36 opr/81.0.4196.31</p>
 
     </section>
     <hr />
