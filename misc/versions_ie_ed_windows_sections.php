@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/versions_ie_ed_windows_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/versions_ie_ed_windows.php.
- * Last reviewed/updated: 24 May 2021.
+ * Last reviewed/updated: 07 Dec 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -91,6 +91,7 @@ return
       <li>Windows 10 Version 2004 (10.0.19041.264) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 2004 (updated May 2020) (x64) - DVD (English) en_windows_10_consumer_editions_version_2004_updated_may_2020_x64_dvd_36d61c40.iso.</li>
       <li>Windows 10 Version 20H2 (10.0.19042.508) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 20H2 (x64) - DVD (English) en_windows_10_consumer_editions_version_20h2_x64_dvd_ab0e3e0a.iso.</li>
       <li>Windows 10 Version 21H1 (10.0.19043.928) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 21H1 (x64) - DVD (English) en_windows_10_consumer_editions_version_21h1_x64_dvd_540c0dd4.iso.</li>
+      <li>Windows 10 Version 21H2 (10.0.19044.1288) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 21H2 (x64) - DVD (English) en-us_windows_10_consumer_editions_version_21h2_x64_dvd_6cfdb144.iso.</li>
      </ul>
 -->
 
@@ -524,10 +525,12 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
          (Build)</th>
         <th>10 Version 2004 <a id='1_2004_return'></a><a href='#1_2004'>(1)</a><br />
          (10.0.19041.264)</th><!-- 20H1/May 2020 Update -->
-        <th>10 Version 20H2 <a id='2_20H2_return'></a><a href='#2_20H2'>(2)</a><br />
+        <th>10 Version 20H2 <a id='2_2004_return'></a><a href='#2_2004'>(2)</a><br />
          (10.0.19042.508)</th><!-- 20H2/October 2020 Update -->
         <th>10 Version 21H1<br />
          (10.0.19043.928)</th><!-- 21H1/May 2021 Update -->
+        <th>10 Version 21H2<br />
+         (10.0.19044.1288)</th><!-- 21H2/November 2021 Update -->
        </tr>
       </thead>
       <tbody>
@@ -537,6 +540,7 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
         <td>27 May 2020</td>
         <td>20 Oct 2020</td>
         <td>18 May 2021</td>
+        <td>16 Nov 2021</td>
        </tr>
        <tr>
         <th>Included With</th>
@@ -557,23 +561,30 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
         <td>
          <ul>
           <li>ED89.0.774.68.</li>
-          <li>IE11.???.?????.?. <a id='3_21H1_return'></a><a href='#3_21H1'>(3)</a></li>
+          <li>IE11.?. <a id='3_2004_return'></a><a href='#3_2004'>(3)</a></li>
+         </ul>
+        </td>
+        <td>
+         <ul>
+          <li>ED92.0.902.67.</li>
+          <li>IE11.?. <a id='4_2004_return'></a><a href='#4_2004'>(4)</a></li>
          </ul>
         </td>
        </tr>
        <tr>
         <th>Also Supports</th>
         <td>ED79+</td>
-        <td>ED79+</td>
-        <td>ED79+</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
        </tr>
       <tbody>
       <tfoot>
        <tr>
-        <td colspan='4'>
+        <td colspan='5'>
          <a id='1_2004'></a><a href='#1_2004_return'>(1)</a> Edge (Chromium based) was released 15 Jan 2020. Windows 10 Version 2004 was released 27 May 2020. Windows 10 Version 2004 is bundled with Edge Legacy (EdgeHTML based), not Edge (Chromium based).<br />
-         <a id='2_20H2'></a><a href='#2_20H2_return'>(2)</a> Windows 10 Version 20H2 is bundled with Edge (Chromium based), not Edge Legacy (EdgeHTML based).<br />
-         <a id='3_21H1'></a><a href='#3_21H1_return'>(3)</a> The Internet Explorer full version number (including version major, minor, and dot values) is obtained via <kbd>Tools | About Internet Explorer</kbd>. However, on Windows 10 Version 21H1, <kbd>Tools | About Internet Explorer</kbd> reports <span class='filename'>winver.exe</span> information, not the typical Internet Explorer information including the Internet Explorer full version number. Therefore, the Internet Explorer full version number is reported as <q>IE11.???.?????.?</q>.
+         <a id='2_2004'></a><a href='#2_2004_return'>(2)</a> Windows 10 Version 20H2 is bundled with Edge (Chromium based), not Edge Legacy (EdgeHTML based).<br />
+         <a id='3_2004'></a><a href='#3_2004_return'>(3)</a><a id='4_2004'></a><a href='#4_2004_return'>(4)</a> The Internet Explorer full version number (including version major, minor, and dot values) is obtained via <kbd>Tools | About Internet Explorer</kbd>. However, on Windows 10 Version 21H1 and 21H2, <kbd>Tools | About Internet Explorer</kbd> reports <span class='filename'>winver.exe</span> information, not the typical Internet Explorer information including the Internet Explorer full version number. Therefore, the Internet Explorer full version number is reported as <q>IE11.?</q>.
         </td>
        </tr>
       </tfoot>
