@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 14 Feb 2022.
+ * Last reviewed/updated: 22 Feb 2022.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1558,6 +1558,12 @@ return
 
      <p>Edge 98.0.1108.50 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/98.0.4758.80 safari/537.36 edg/98.0.1108.50</p>
+
+     <p>Edge 98.0.1108.55 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/98.0.4758.102 safari/537.36 edg/98.0.1108.55</p>
+
+     <p>Edge 98.0.1108.56 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/98.0.4758.102 safari/537.36 edg/98.0.1108.56</p>
 
     </section>
     <hr />
@@ -3267,6 +3273,11 @@ return
      <div class='note normal'>Starting with Firefox 97, only the 64-bit user-agent string value is reported.</div>
 
      <p>Firefox 97.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:97.0) gecko/20100101 firefox/97.0</p>
+
+     <div class='note normal'>The Firefox 97.0.1 user-agent string value is identical to the Firefox 97.0 user-agent string value.</div>
+
+     <p>Firefox 97.0.1 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:97.0) gecko/20100101 firefox/97.0</p>
 
     </section>
@@ -8315,6 +8326,12 @@ return
      <p>Opera 83.0.4254.54 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/97.0.4692.99 safari/537.36 opr/83.0.4254.54</p>
 
+     <p>Opera 83.0.4254.62 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/97.0.4692.99 safari/537.36 opr/83.0.4254.62</p>
+
+     <p>Opera 84.0.4316.14 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/98.0.4758.82 safari/537.36 opr/84.0.4316.14</p>
+
     </section>
     <hr />
     <section>
@@ -9319,6 +9336,9 @@ return
 
      <p>Vivaldi 5.1.2567.39 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/98.0.4758.88 safari/537.36</p>
+
+     <p>Vivaldi 5.1.2567.49 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/98.0.4758.105 safari/537.36</p>
 
     </section>
     <hr />
