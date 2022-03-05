@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 02 Mar 2022.
+ * Last reviewed/updated: 04 Mar 2022.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -382,7 +382,6 @@ return
      <p>Internet Explorer 11.0 64-bit (Metro) included with Windows 8.1 Update Nov 2014 KB3000850 64-bit (Compatibility View) (IE 11.0.9600.17416)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 6.3; win64; x64; trident/7.0; .net4.0e; .net4.0c)</p>
 
-
      <h2><a id='ediew10'></a>3. Edge and Internet Explorer Included With Windows 10</h2>
 
      <div class='note normal'>
@@ -750,7 +749,22 @@ return
     <hr />
     <section>
 
-     <h2><a id='ed'></a>4. Edge (Chromium Based) For Windows</h2>
+     <h2><a id='ediew11'></a>4. Edge Included With Windows 11</h2>
+
+     <div class='note normal'>Windows 11 is 64-bit only and Edge 64-bit is the only web browser.</div>
+
+     <h3><a id='ediew11v21H2'></a>4.1. Edge Included With Windows 11 Version 21H2</h3>
+
+<!-- Windows 11 Version 21H2 (10.0.22000.194) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) (x64) - DVD (English) en-us_windows_11_consumer_editions_x64_dvd_bd3cf8df.iso. -->
+
+     <p>Edge 90.0.818.66 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/90.0.4430.212 safari/537.36 edg/90.0.818.66</p>
+
+    </section>
+    <hr />
+    <section>
+
+     <h2><a id='ed'></a>5. Edge (Chromium Based) For Windows</h2>
 
      <div class='note normal'>
       <ul>
@@ -1572,7 +1586,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='ff'></a>5. Firefox For Windows</h2>
+     <h2><a id='ff'></a>6. Firefox For Windows</h2>
 
      <div class='note normal'>Firebird 0.7 renamed to Firefox 0.8.</div>
 
@@ -3287,7 +3301,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='ch'></a>6. Chrome For Windows</h2>
+     <h2><a id='ch'></a>7. Chrome For Windows</h2>
 
      <p>Chrome 2.0.172.28<br />
      mozilla/5.0 (windows; u; windows nt 5.1; en-us) applewebkit/530.5 (khtml, like gecko) chrome/2.0.172.28 safari/530.5</p>
@@ -5126,7 +5140,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='op'></a>7. Opera For Windows</h2>
+     <h2><a id='op'></a>8. Opera For Windows</h2>
 
      <p>Opera 5.01 (Identify as MSIE 5.0)<br />
      mozilla/4.0 (compatible; msie 5.0; windows 98) opera 5.01 [en]</p>
@@ -8345,7 +8359,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='vi'></a>8. Vivaldi For Windows</h2>
+     <h2><a id='vi'></a>9. Vivaldi For Windows</h2>
 
      <p>Vivaldi 1.0.344.37 Beta 2 32-bit<br />
      mozilla/5.0 (windows nt 6.1; wow64) applewebkit/537.36 (khtml, like gecko) chrome/47.0.2526.80 safari/537.36 vivaldi/1.0.344.37</p>
@@ -9356,7 +9370,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='sm'></a>9. SeaMonkey For Windows</h2>
+     <h2><a id='sm'></a>10. SeaMonkey For Windows</h2>
 
      <div class='note normal'>SeaMonkey 1.0 replaced Mozilla 1.7.13.</div>
 
@@ -10277,7 +10291,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='sf'></a>10. Safari For Windows</h2>
+     <h2><a id='sf'></a>11. Safari For Windows</h2>
 
      <p>Safari 3.1<br />
      mozilla/5.0 (windows; u; windows nt 5.1; en-us) applewebkit/525.13 (khtml, like gecko) version/3.1 safari/525.13</p>
@@ -10365,7 +10379,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='fl'></a>11. Flock For Windows</h2>
+     <h2><a id='fl'></a>12. Flock For Windows</h2>
 
      <p>Flock 1.0<br />
      mozilla/5.0 (windows; u; windows nt 5.1; en-us; rv:1.8.1.8) gecko/20071101 firefox/2.0.0.8 flock/1.0</p>
@@ -10503,7 +10517,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='nt'></a>12. Netscape For Windows</h2>
+     <h2><a id='nt'></a>13. Netscape For Windows</h2>
 
      <div class='note normal'>Netscape 6.0, not Mozilla, officially replaced Netscape Navigator 4.8.</div>
 
@@ -10599,7 +10613,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='mz'></a>13. Mozilla For Windows</h2>
+     <h2><a id='mz'></a>14. Mozilla For Windows</h2>
 
      <div class='note normal'>Mozilla was never intended as an <q>official</q> product, but simply as vehicle for distributing and testing the Mozilla Project's new rendering engine, Gecko, as well as other features to be incorporated into the official product, Netscape, which, for various reasons, never gained much popularity.</div>
 
@@ -10715,7 +10729,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='nn'></a>14. Netscape Navigator For Windows</h2>
+     <h2><a id='nn'></a>15. Netscape Navigator For Windows</h2>
 
      <p>Netscape Navigator 4.03<br />
      mozilla/4.03 [en] (win95; u ;nav)</p>
@@ -10738,7 +10752,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='arch'></a>15. Web Browser Archives And Offline Installers</h2>
+     <h2><a id='arch'></a>16. Web Browser Archives And Offline Installers</h2>
 
      <ul class='link-list'>
       <li><a href='https://www.microsoft.com/en-us/edge/business/download'>Microsoft Edge For Business (microsoft.com)</a> (Offline installer for Windows 7/8/8.1/10 and macOS.)</li>
@@ -10758,7 +10772,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='resources'></a>16. Resources And Additional Information</h2>
+     <h2><a id='resources'></a>17. Resources And Additional Information</h2>
 
      <ul class='link-list'>
       <li><a href='https://blogs.windows.com/windowsexperience/2018/10/09/updated-version-of-windows-10-october-2018-update-released-to-windows-insiders/'>Updated Version Of Windows 10 October 2018 Update Released To Windows Insiders (blogs.windows.com)</a></li>

@@ -1792,6 +1792,24 @@ appVersion: 4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET
 parseFloatAppVersion: 4
 platform: Win32
 
+-----------------------------
+Microsoft Edge For Windows 11
+-----------------------------
+
+<!-- Windows 11 Version 21H2 (10.0.22000.194) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) (x64) - DVD (English) en-us_windows_11_consumer_editions_x64_dvd_bd3cf8df.iso. -->
+
+Edge 90.0.818.66 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/90.0.4430.212 safari/537.36 edg/90.0.818.66
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66
+parseFloatAppVersion: 5
+platform: Win32
+
+-------------------------------------------
+Microsoft Edge (Chromium Based) For Windows
+-------------------------------------------
+
 Edge 79.0.309.65 32-bit
 
 appName: Netscape
