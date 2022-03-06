@@ -24,9 +24,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='iew98w81'></a>2. Internet Explorer For Windows 98/2000/XP/Vista/7/8/8.1</h2>
-
-     <h3><a id='iew98'></a>2.1. Internet Explorer For Windows 98</h3>
+     <h2><a id='iew98'></a>2. Internet Explorer For Windows 98</h2><!-- Missing IE included on Windows 98. -->
 
      <p>Internet Explorer 5.0 For Windows 98<br />
      mozilla/4.0 (compatible; msie 5.0; windows 98; digext)</p>
@@ -37,15 +35,17 @@ return
      <p>Internet Explorer 6.0 For Windows 98<br />
      mozilla/4.0 (compatible; msie 6.0; windows 98)</p>
 
-     <h3><a id='iew2k'></a>2.2. Internet Explorer For Windows 2000 Pro</h3>
+<!-- Missing IE included on Windows ME. Missing IE on Windows ME. -->
 
-     <p>Internet Explorer 5.0 For Windows 2000 Pro<br />
+     <h2><a id='iew2k'></a>3. Internet Explorer For Windows 2000</h2><!-- Missing IE included on Windows 2000. Missing IE6.0 on Windows 2000. -->
+
+     <p>Internet Explorer 5.0 For Windows 2000<br />
      mozilla/4.0 (compatible; msie 5.01; windows nt 5.0)</p>
 
-     <p>Internet Explorer 5.5 For Windows 2000 Pro<br />
+     <p>Internet Explorer 5.5 For Windows 2000<br />
      mozilla/4.0 (compatible; msie 5.5; windows nt 5.0)</p>
 
-     <h3><a id='iewxp'></a>2.3. Internet Explorer For Windows XP</h3>
+     <h2><a id='iewxp'></a>4. Internet Explorer For Windows XP</h2>
 
 <!-- Windows XP 32-bit = Installed: 1.) MSDN subscriptions Windows XP Home Edition (English) - ISO CD Image en_winxp_home_x86_build2600.iso, and 2.) MSDN subscriptions Windows XP Professional (English) en_winxp_pro_x86_build2600_iso.img. -->
 
@@ -85,7 +85,7 @@ return
      <p>Internet Explorer 8.0 on Windows XP 32-bit plus install Windows XP Service Pack 2 and 3 (Compatibility View) (IE 8.0.6001.18702)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 5.1; trident/4.0)</p>
 
-     <h3><a id='iewvista'></a>2.4. Internet Explorer For Windows Vista</h3>
+     <h2><a id='iewvista'></a>5. Internet Explorer For Windows Vista</h2>
 
      <div class='note normal'>On Windows Vista 64-bit, the default version of Internet Explorer is Internet Explorer 32-bit, not Internet Explorer 64-bit.</div>
 
@@ -144,7 +144,7 @@ return
      <p>Internet Explorer 9.0 on Windows Vista 32-bit plus install Windows Vista Service Pack 1 and 2 (Compatibility View) (IE 9.0.8112.16421)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 6.0; trident/5.0; slcc1; .net clr 2.0.50727; .net clr 3.0.30729)</p>
 
-     <h3><a id='iew7'></a>2.5. Internet Explorer For Windows 7</h3>
+     <h2><a id='iew7'></a>6. Internet Explorer For Windows 7</h2>
 
      <div class='note normal'>
       <ul>
@@ -251,7 +251,8 @@ return
      <p>Internet Explorer 11.0 on Windows 7 64-bit plus install Windows 7 Service Pack 1 (Compatibility View) (IE 11.0.9600.16428)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 6.1; wow64; trident/7.0; slcc2; .net clr 2.0.50727; .net clr 3.5.30729; .net clr 3.0.30729; media center pc 6.0)</p>
 
-     <h3><a id='iew8'></a>2.6. Internet Explorer For Windows 8</h3>
+
+     <h2><a id='iew8'></a>7. Internet Explorer Included With Windows 8</h2>
 
      <div class='note normal'>
       <ul>
@@ -289,7 +290,7 @@ return
      <p>Internet Explorer 10.0 64-bit (Metro) included with Windows 8 64-bit (Compatibility View) (IE 10.0.9200.16384)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 6.2; win64; x64; trident/6.0; .net4.0e; .net4.0c)</p>
 
-     <h3><a id='iew81'></a>2.7. Internet Explorer For Windows 8.1</h3>
+     <h2><a id='iew81'></a>8. Internet Explorer Included With Windows 8.1</h2>
 
      <div class='note normal'>
       <ul>
@@ -297,6 +298,8 @@ return
        <li>On Windows 8.1 64-bit, Internet Explorer Desktop is 32-bit and Internet Explorer Metro is 64-bit.</li>
       </ul>
      </div>
+
+     <h3><a id='ediew81orig'></a>8.1. Internet Explorer Included With Windows 8.1</h3>
 
 <!-- Windows 8.1 32-bit = Installed Windows 8.1 Professional from MSDN subscriptions: Windows 8.1 (multiple editions) (x86) - DVD (English) en_windows_8_1_x86_dvd_2707392.iso. -->
 
@@ -326,6 +329,8 @@ return
      <p>Internet Explorer 11.0 64-bit (Metro) included with Windows 8.1 64-bit (Compatibility View) (IE 11.0.9600.16384)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 6.3; win64; x64; trident/7.0; .net4.0e; .net4.0c)</p>
 
+     <h3><a id='ediew81updateApr'></a>8.2. Internet Explorer Included With Windows 8.1 Update Apr 2014 KB2919355</h3>
+
 <!-- Windows 8.1 Update Apr 2014 KB2919355 32-bit = Installed Windows 8.1 Professional from MSDN subscriptions: Windows 8.1 With Update (multiple editions) (x86) - DVD (English) en_windows_8_1_with_update_x86_dvd_4065105.iso. -->
 
      <p>Internet Explorer 11.0 Desktop included with Windows 8.1 Update Apr 2014 KB2919355 32-bit (IE 11.0.9600.17031)<br />
@@ -353,6 +358,8 @@ return
 
      <p>Internet Explorer 11.0 64-bit (Metro) included with Windows 8.1 Update Apr 2014 KB2919355 64-bit (Compatibility View) (IE 11.0.9600.17031)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 6.3; win64; x64; trident/7.0; .net4.0e; .net4.0c)</p>
+
+     <h3><a id='ediew81updateNov'></a>8.3. Internet Explorer Included With Windows 8.1 Update Nov 2014 KB3000850</h3>
 
 <!-- Windows 8.1 Update Nov 2014 KB3000850 32-bit = Installed Windows 8.1 Professional from MSDN subscriptions: Windows 8.1 With Update (multiple editions) (x86) - DVD (English) en_windows_8_1_with_update_x86_dvd_6051550.iso. -->
 
@@ -382,7 +389,7 @@ return
      <p>Internet Explorer 11.0 64-bit (Metro) included with Windows 8.1 Update Nov 2014 KB3000850 64-bit (Compatibility View) (IE 11.0.9600.17416)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 6.3; win64; x64; trident/7.0; .net4.0e; .net4.0c)</p>
 
-     <h2><a id='ediew10'></a>3. Edge and Internet Explorer Included With Windows 10</h2>
+     <h2><a id='ediew10'></a>9. Edge and Internet Explorer Included With Windows 10</h2>
 
      <div class='note normal'>
       <ul>
@@ -391,7 +398,7 @@ return
       </ul>
      </div>
 
-     <h3><a id='ediew10v1507'></a>3.1. Edge and Internet Explorer Included With Windows 10 Version 1507</h3>
+     <h3><a id='ediew10v1507'></a>9.1. Edge and Internet Explorer Included With Windows 10 Version 1507</h3>
 
 <!-- Windows 10 Version 1507 (10.0.10240) 32-bit = Installed Windows 10 Home and Windows 10 Professional from MSDN subscriptions: Windows 10 (Multiple Editions) (x86) - DVD (English) en_windows_10_multiple_editions_x86_dvd_6848465.iso. -->
 
@@ -419,7 +426,7 @@ return
      <p>Internet Explorer 11.0 included with Windows 10 Version 1507 64-bit (Compatibility View) (IE 11.0.10240.16384)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/8.0; .net4.0c; .net4.0e)</p>
 
-     <h3><a id='ediew10v1511'></a>3.2. Edge and Internet Explorer Included With Windows 10 Version 1511</h3>
+     <h3><a id='ediew10v1511'></a>9.2. Edge and Internet Explorer Included With Windows 10 Version 1511</h3>
 
 <!-- Windows 10 Version 1511 (10.0.10586.0) 32-bit = Installed Windows 10 Home and Windows 10 Professional from MSDN subscriptions: Windows 10 (Multiple Editions) Version 1511 (x86) - DVD (English) en_windows_10_multiple_editions_version_1511_x86_dvd_7223716.iso. -->
 
@@ -443,7 +450,7 @@ return
      <p>Internet Explorer 11.0 included with Windows 10 Version 1511 64-bit (Compatibility View) (IE 11.0.10586.0)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
 
-     <h3><a id='ediew10v1607'></a>3.3. Edge and Internet Explorer Included With Windows 10 Version 1607</h3>
+     <h3><a id='ediew10v1607'></a>9.3. Edge and Internet Explorer Included With Windows 10 Version 1607</h3>
 
 <!-- Windows 10 Version 1607 (10.0.14393.0) 32-bit = Installed Windows 10 Home and Windows 10 Professional from MSDN subscriptions: Windows 10 (Multiple Editions) Version 1607 (Updated Jul 2016) (x86) - DVD (English) en_windows_10_multiple_editions_version_1607_updated_jul_2016_x86_dvd_9053863.iso. -->
 
@@ -467,7 +474,7 @@ return
      <p>Internet Explorer 11.0 included with Windows 10 Version 1607 64-bit (Compatibility View) (IE 11.0.14393.0)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
 
-     <h3><a id='ediew10v1703'></a>3.4. Edge and Internet Explorer Included With Windows 10 Version 1703</h3>
+     <h3><a id='ediew10v1703'></a>9.4. Edge and Internet Explorer Included With Windows 10 Version 1703</h3>
 
 <!-- Windows 10 Version 1703 (10.0.15063.0) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (Multiple Editions) Version 1703 (Updated March 2017) (x86) - DVD (English) en_windows_10_multiple_editions_version_1703_updated_march_2017_x86_dvd_10188977.iso. -->
 
@@ -491,7 +498,7 @@ return
      <p>Internet Explorer 11.0 included with Windows 10 Version 1703 64-bit (Compatibility View) (IE 11.0.15063.0)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
 
-     <h3><a id='ediew10v1709'></a>3.5. Edge and Internet Explorer Included With Windows 10 Version 1709</h3>
+     <h3><a id='ediew10v1709'></a>9.5. Edge and Internet Explorer Included With Windows 10 Version 1709</h3>
 
 <!-- Windows 10 Version 1709 (10.0.16299.15) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (multi-edition) Version 1709 (Updated Sept 2017) (x86) - DVD (English) en_windows_10_multi-edition_version_1709_updated_sept_2017_x86_dvd_100090818.iso. -->
 
@@ -515,7 +522,7 @@ return
      <p>Internet Explorer 11.0 included with Windows 10 Version 1709 64-bit (Compatibility View) (IE 11.15.16299.0)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
 
-     <h3><a id='ediew10v1803'></a>3.6. Edge and Internet Explorer Included With Windows 10 Version 1803</h3>
+     <h3><a id='ediew10v1803'></a>9.6. Edge and Internet Explorer Included With Windows 10 Version 1803</h3>
 
 <!-- Windows 10 Version 1803 (10.0.17134.1) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 1803 (Updated March 2018) (x86) - DVD (English) en_windows_10_consumer_editions_version_1803_updated_march_2018_x86_dvd_12063380.iso. -->
 
@@ -539,7 +546,7 @@ return
      <p>Internet Explorer 11.0 included with Windows 10 Version 1803 64-bit (Compatibility View) (IE 11.1.17134.0)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
 
-     <h3><a id='ediew10v1809'></a>3.7. Edge and Internet Explorer Included With Windows 10 Version 1809</h3>
+     <h3><a id='ediew10v1809'></a>9.7. Edge and Internet Explorer Included With Windows 10 Version 1809</h3>
 
      <div class='note normal'>There was two official releases of Windows 10 Version 1809; 1.) Build 17763.1 released 02 Oct 2018, and 2.) Build 17763.107 released 13 Nov 2018. For additional information, see <a href='https://blogs.windows.com/windowsexperience/2018/10/09/updated-version-of-windows-10-october-2018-update-released-to-windows-insiders/'>Updated Version Of Windows 10 October 2018 Update Released To Windows Insiders (blogs.windows.com)</a> and <a href='https://blogs.windows.com/windowsexperience/2018/11/13/resuming-the-rollout-of-the-windows-10-october-2018-update/'>Resuming The Rollout Of The Windows 10 October 2018 Update (blogs.windows.com)</a>.</div>
 
@@ -589,7 +596,7 @@ return
      <p>Internet Explorer 11.0 included with Windows 10 Version 1809 64-bit (Compatibility View) (IE 11.55.17763.0)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
 
-     <h3><a id='ediew10v1903'></a>3.8. Edge and Internet Explorer Included With Windows 10 Version 1903</h3>
+     <h3><a id='ediew10v1903'></a>9.8. Edge and Internet Explorer Included With Windows 10 Version 1903</h3>
 
 <!-- Windows 10 Version 1903 (10.0.18362.30) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 1903 (x86) - DVD (English) en_windows_10_consumer_editions_version_1903_x86_dvd_b40c5211.iso. -->
 
@@ -613,7 +620,7 @@ return
      <p>Internet Explorer 11.0 included with Windows 10 Version 1903 64-bit (Compatibility View) (IE 11.1.18362.0)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
 
-     <h3><a id='ediew10v1909'></a>3.9. Edge and Internet Explorer Included With Windows 10 Version 1909</h3>
+     <h3><a id='ediew10v1909'></a>9.9. Edge and Internet Explorer Included With Windows 10 Version 1909</h3>
 
 <!-- Windows 10 Version 1909 (10.0.18363.418) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 1909 (x86) - DVD (English) en_windows_10_consumer_editions_version_1909_x86_dvd_10bde8bb.iso. -->
 
@@ -637,7 +644,7 @@ return
      <p>Internet Explorer 11.0 included with Windows 10 Version 1909 64-bit (Compatibility View) (IE 11.418.18362.0)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
 
-     <h3><a id='ediew10v2004'></a>3.10. Edge and Internet Explorer Included With Windows 10 Version 2004</h3>
+     <h3><a id='ediew10v2004'></a>9.10. Edge and Internet Explorer Included With Windows 10 Version 2004</h3>
 
      <div class='note normal'>Edge (Chromium based) was released 15 Jan 2020. Windows 10 Version 2004 was released 27 May 2020. Windows 10 Version 2004 is bundled with Edge Legacy (EdgeHTML based), not Edge (Chromium based).</div>
 
@@ -663,7 +670,7 @@ return
      <p>Internet Explorer 11.0 included with Windows 10 Version 2004 64-bit (Compatibility View) (IE 11.264.19041.0)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
 
-     <h3><a id='ediew10v20H2'></a>3.11. Edge and Internet Explorer Included With Windows 10 Version 20H2</h3>
+     <h3><a id='ediew10v20H2'></a>9.11. Edge and Internet Explorer Included With Windows 10 Version 20H2</h3>
 
      <div class='note normal'>Windows 10 Version 20H2 is bundled with Edge (Chromium based), not Edge Legacy (EdgeHTML based).</div>
 
@@ -689,7 +696,7 @@ return
      <p>Internet Explorer 11.0 included with Windows 10 Version 20H2 64-bit (Compatibility View) (IE 11.508.19041.0)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
 
-     <h3><a id='ediew10v21H1'></a>3.12. Edge and Internet Explorer Included With Windows 10 Version 21H1</h3>
+     <h3><a id='ediew10v21H1'></a>9.12. Edge and Internet Explorer Included With Windows 10 Version 21H1</h3>
 
 <!-- Windows 10 Version 21H1 (10.0.19043.928) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 21H1 (x86) - DVD (English) en_windows_10_consumer_editions_version_21h1_x86_dvd_68cee121.iso. -->
 
@@ -717,7 +724,7 @@ return
      <p>Internet Explorer 11.0 included with Windows 10 Version 21H1 64-bit (Compatibility View) (IE 11.?)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
 
-     <h3><a id='ediew10v21H2'></a>3.13. Edge and Internet Explorer Included With Windows 10 Version 21H2</h3>
+     <h3><a id='ediew10v21H2'></a>9.13. Edge and Internet Explorer Included With Windows 10 Version 21H2</h3>
 
 <!-- Windows 10 Version 21H2 (10.0.19044.1288) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 21H2 (x86) - DVD (English) en-us_windows_10_consumer_editions_version_21h2_x86_dvd_31755f1b.iso. -->
 
@@ -749,11 +756,11 @@ return
     <hr />
     <section>
 
-     <h2><a id='ediew11'></a>4. Edge Included With Windows 11</h2>
+     <h2><a id='ediew11'></a>10. Edge Included With Windows 11</h2>
 
      <div class='note normal'>Windows 11 is 64-bit only and Edge 64-bit is the only web browser.</div>
 
-     <h3><a id='ediew11v21H2'></a>4.1. Edge Included With Windows 11 Version 21H2</h3>
+     <h3><a id='ediew11v21H2'></a>10.1. Edge Included With Windows 11 Version 21H2</h3>
 
 <!-- Windows 11 Version 21H2 (10.0.22000.194) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) (x64) - DVD (English) en-us_windows_11_consumer_editions_x64_dvd_bd3cf8df.iso. -->
 
@@ -764,7 +771,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='ed'></a>5. Edge (Chromium Based) For Windows</h2>
+     <h2><a id='ed'></a>11. Edge (Chromium Based) For Windows</h2>
 
      <div class='note normal'>
       <ul>
@@ -1586,7 +1593,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='ff'></a>6. Firefox For Windows</h2>
+     <h2><a id='ff'></a>12. Firefox For Windows</h2>
 
      <div class='note normal'>Firebird 0.7 renamed to Firefox 0.8.</div>
 
@@ -3301,7 +3308,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='ch'></a>7. Chrome For Windows</h2>
+     <h2><a id='ch'></a>13. Chrome For Windows</h2>
 
      <p>Chrome 2.0.172.28<br />
      mozilla/5.0 (windows; u; windows nt 5.1; en-us) applewebkit/530.5 (khtml, like gecko) chrome/2.0.172.28 safari/530.5</p>
@@ -5140,7 +5147,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='op'></a>8. Opera For Windows</h2>
+     <h2><a id='op'></a>14. Opera For Windows</h2>
 
      <p>Opera 5.01 (Identify as MSIE 5.0)<br />
      mozilla/4.0 (compatible; msie 5.0; windows 98) opera 5.01 [en]</p>
@@ -8359,7 +8366,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='vi'></a>9. Vivaldi For Windows</h2>
+     <h2><a id='vi'></a>15. Vivaldi For Windows</h2>
 
      <p>Vivaldi 1.0.344.37 Beta 2 32-bit<br />
      mozilla/5.0 (windows nt 6.1; wow64) applewebkit/537.36 (khtml, like gecko) chrome/47.0.2526.80 safari/537.36 vivaldi/1.0.344.37</p>
@@ -9370,7 +9377,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='sm'></a>10. SeaMonkey For Windows</h2>
+     <h2><a id='sm'></a>16. SeaMonkey For Windows</h2>
 
      <div class='note normal'>SeaMonkey 1.0 replaced Mozilla 1.7.13.</div>
 
@@ -10291,7 +10298,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='sf'></a>11. Safari For Windows</h2>
+     <h2><a id='sf'></a>17. Safari For Windows</h2>
 
      <p>Safari 3.1<br />
      mozilla/5.0 (windows; u; windows nt 5.1; en-us) applewebkit/525.13 (khtml, like gecko) version/3.1 safari/525.13</p>
@@ -10379,7 +10386,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='fl'></a>12. Flock For Windows</h2>
+     <h2><a id='fl'></a>18. Flock For Windows</h2>
 
      <p>Flock 1.0<br />
      mozilla/5.0 (windows; u; windows nt 5.1; en-us; rv:1.8.1.8) gecko/20071101 firefox/2.0.0.8 flock/1.0</p>
@@ -10517,7 +10524,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='nt'></a>13. Netscape For Windows</h2>
+     <h2><a id='nt'></a>19. Netscape For Windows</h2>
 
      <div class='note normal'>Netscape 6.0, not Mozilla, officially replaced Netscape Navigator 4.8.</div>
 
@@ -10613,7 +10620,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='mz'></a>14. Mozilla For Windows</h2>
+     <h2><a id='mz'></a>20. Mozilla For Windows</h2>
 
      <div class='note normal'>Mozilla was never intended as an <q>official</q> product, but simply as vehicle for distributing and testing the Mozilla Project's new rendering engine, Gecko, as well as other features to be incorporated into the official product, Netscape, which, for various reasons, never gained much popularity.</div>
 
@@ -10729,7 +10736,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='nn'></a>15. Netscape Navigator For Windows</h2>
+     <h2><a id='nn'></a>21. Netscape Navigator For Windows</h2>
 
      <p>Netscape Navigator 4.03<br />
      mozilla/4.03 [en] (win95; u ;nav)</p>
@@ -10752,7 +10759,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='arch'></a>16. Web Browser Archives And Offline Installers</h2>
+     <h2><a id='arch'></a>22. Web Browser Archives And Offline Installers</h2>
 
      <ul class='link-list'>
       <li><a href='https://www.microsoft.com/en-us/edge/business/download'>Microsoft Edge For Business (microsoft.com)</a> (Offline installer for Windows 7/8/8.1/10 and macOS.)</li>
@@ -10772,7 +10779,7 @@ return
     <hr />
     <section>
 
-     <h2><a id='resources'></a>17. Resources And Additional Information</h2>
+     <h2><a id='resources'></a>23. Resources And Additional Information</h2>
 
      <ul class='link-list'>
       <li><a href='https://blogs.windows.com/windowsexperience/2018/10/09/updated-version-of-windows-10-october-2018-update-released-to-windows-insiders/'>Updated Version Of Windows 10 October 2018 Update Released To Windows Insiders (blogs.windows.com)</a></li>

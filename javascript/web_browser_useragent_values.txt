@@ -712,9 +712,9 @@ platform: Win32
 
 <!-- Apparently a 64-bit version of Internet Explorer 11.0 does not exist. -->
 
--------------------------------
-Internet Explorer For Windows 8
--------------------------------
+-----------------------------------------
+Internet Explorer Included With Windows 8
+-----------------------------------------
 
 <!-- Windows 8 32-bit = Installed Windows 8 Professional from MSDN subscriptions: Windows 8 (multiple editions) (x86) - DVD (English) en_windows_8_x86_dvd_915417.iso. -->
 
@@ -782,9 +782,9 @@ appVersion: 4.0 (compatible; MSIE 7.0; Windows NT 6.2; Win64; x64; Trident/6.0; 
 parseFloatAppVersion: 4
 platform: Win64
 
----------------------------------
-Internet Explorer For Windows 8.1
----------------------------------
+-------------------------------------------
+Internet Explorer Included With Windows 8.1
+-------------------------------------------
 
 <!-- Windows 8.1 32-bit = Installed Windows 8.1 Professional from MSDN subscriptions: Windows 8.1 (multiple editions) (x86) - DVD (English) en_windows_8_1_x86_dvd_2707392.iso. -->
 
@@ -854,6 +854,8 @@ appVersion: 4.0 (compatible; MSIE 7.0; Windows NT 6.3; Win64; x64; Trident/7.0; 
 parseFloatAppVersion: 4
 platform: Win64
 
+---
+
 <!-- Windows 8.1 Update Apr 2014 KB2919355 32-bit = Installed Windows 8.1 Professional from MSDN subscriptions: Windows 8.1 With Update (multiple editions) (x86) - DVD (English) en_windows_8_1_with_update_x86_dvd_4065105.iso. -->
 
 Internet Explorer 11.0 Desktop included with Windows 8.1 Update Apr 2014 KB2919355 32-bit (IE 11.0.9600.17031)
@@ -921,6 +923,8 @@ userAgent: mozilla/4.0 (compatible; msie 7.0; windows nt 6.3; win64; x64; triden
 appVersion: 4.0 (compatible; MSIE 7.0; Windows NT 6.3; Win64; x64; Trident/7.0; .NET4.0E; .NET4.0C)
 parseFloatAppVersion: 4
 platform: Win64
+
+---
 
 <!-- Windows 8.1 Update Nov 2014 KB3000850 32-bit = Installed Windows 8.1 Professional from MSDN subscriptions: Windows 8.1 With Update (multiple editions) (x86) - DVD (English) en_windows_8_1_with_update_x86_dvd_6051550.iso. -->)
 
@@ -991,7 +995,7 @@ parseFloatAppVersion: 4
 platform: Win64
 
 ---------------------------------------------------
-Microsoft Edge And Internet Explorer For Windows 10
+Edge And Internet Explorer Included With Windows 10
 ---------------------------------------------------
 
 <!-- Windows 10 Version 1507 (10.0.10240) 32-bit = Installed Windows 10 Home and Windows 10 Professional from MSDN subscriptions: Windows 10 (Multiple Editions) (x86) - DVD (English) en_windows_10_multiple_editions_x86_dvd_6848465.iso. -->
@@ -1572,6 +1576,8 @@ appVersion: 4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET
 parseFloatAppVersion: 4
 platform: Win32
 
+---
+
 <!-- Windows 10 Version 2004 (10.0.19041.264) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 2004 (updated May 2020) (x86) - DVD (English) en_windows_10_consumer_editions_version_2004_updated_may_2020_x86_dvd_269b4e01.iso. -->
 
 Microsoft Edge 44 included with Windows 10 Version 2004 32-bit (Microsoft Edge 44.19041.1.0. Microsoft EdgeHTML 18.19041.)
@@ -1628,6 +1634,8 @@ appVersion: 4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET
 parseFloatAppVersion: 4
 platform: Win32
 
+---
+
 <!-- Windows 10 Version 20H2 (10.0.19042.508) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 20H2 (x86) - DVD (English) en_windows_10_consumer_editions_version_20h2_x86_dvd_ea9a9e3f.iso. -->
 
 Microsoft Edge 84 included with Windows 10 Version 20H2 32-bit (Microsoft Edge 84.0.522.52)
@@ -1679,6 +1687,8 @@ userAgent: mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.
 appVersion: 4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E)
 parseFloatAppVersion: 4
 platform: Win32
+
+---
 
 <!-- Windows 10 Version 21H1 (10.0.19043.928) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 21H1 (x86) - DVD (English) en_windows_10_consumer_editions_version_21h1_x86_dvd_68cee121.iso. -->
 
@@ -1735,6 +1745,8 @@ userAgent: mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.
 appVersion: 4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E)
 parseFloatAppVersion: 4
 platform: Win32
+
+---
 
 <!-- Windows 10 Version 21H2 (10.0.19044.1288) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 21H2 (x86) - DVD (English) en-us_windows_10_consumer_editions_version_21h2_x86_dvd_31755f1b.iso. -->
 
@@ -1806,9 +1818,9 @@ appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 parseFloatAppVersion: 5
 platform: Win32
 
--------------------------------------------
-Microsoft Edge (Chromium Based) For Windows
--------------------------------------------
+---------------------------------
+Edge (Chromium Based) For Windows
+---------------------------------
 
 Edge 79.0.309.65 32-bit
 
@@ -3945,6 +3957,10 @@ userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, 
 appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62
 parseFloatAppVersion: 5
 platform: Win32
+
+-------------------
+Firefox For Windows
+-------------------
 
 Firebird 0.6
 
@@ -9728,6 +9744,10 @@ appVersion: 5.0 (Windows)
 parseFloatAppVersion: 5
 platform: Win32
 
+------------------
+Chrome For Windows
+------------------
+
 Chrome 1.0.154.53
 
 appName: Netscape
@@ -14631,6 +14651,10 @@ userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, 
 appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
 parseFloatAppVersion: 5
 platform: Win32
+
+-----------------
+Opera For Windows
+-----------------
 
 Opera 5.01 (Identify as MSIE 5.0)
 
@@ -23786,6 +23810,10 @@ appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 parseFloatAppVersion: 5
 platform: Win32
 
+-------------------
+Vivaldi For Windows
+-------------------
+
 Vivaldi 1.0.344.37 Beta 2 32-bit
 
 appName: Netscape
@@ -26401,6 +26429,10 @@ userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, 
 appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.121 Safari/537.36
 parseFloatAppVersion: 5
 platform: Win32
+
+---------------------
+SeaMonkey For Windows
+---------------------
 
 SeaMonkey 1.0
 
@@ -30360,6 +30392,10 @@ appVersion: 5.0 (Windows)
 parseFloatAppVersion: 5
 platform: Win64
 
+------------------
+Safari For Windows
+------------------
+
 Safari 3.1
 
 appName: Netscape
@@ -30567,6 +30603,10 @@ userAgent: mozilla/5.0 (windows nt 6.1; wow64) applewebkit/534.57.2 (khtml, like
 appVersion: 5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
 parseFloatAppVersion: 5
 platform: Win32
+
+-----------------
+Flock For Windows
+-----------------
 
 Flock 1.0
 
@@ -30912,6 +30952,10 @@ appVersion: 5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, li
 parseFloatAppVersion: 5
 platform: Win32
 
+--------------------
+Netscape For Windows
+--------------------
+
 Netscape 6.01
 
 appName: Netscape
@@ -31166,6 +31210,10 @@ userAgent: mozilla/5.0 (windows; u; windows nt 5.1; en-us; rv:1.8.1.12) gecko/20
 appVersion: 5.0 (Windows; en-US)
 parseFloatAppVersion: 5
 platform: Win32
+
+-------------------
+Mozilla For Windows
+-------------------
 
 Mozilla 0.6
 
@@ -31483,6 +31531,10 @@ userAgent: mozilla/5.0 (windows; u; windows nt 5.1; en-us; rv:1.7.13) gecko/2006
 appVersion: 5.0 (Windows; en-US)
 parseFloatAppVersion: 5
 platform: Win32
+
+------------------------------
+Netscape Navigator For Windows
+------------------------------
 
 Netscape Navigator 4.03
 

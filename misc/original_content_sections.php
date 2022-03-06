@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/misc/original_content_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/misc/original_content.php.
- * Last reviewed/updated: 04 Jan 2020.
+ * Last reviewed/updated: 05 Mar 2022.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -187,7 +187,7 @@ return
      <ul class='link-list'>
       <li><a href='/misc/glossary.php'>Glossary (learnwebcoding.com)</a></li>
       <li><a href='/misc/install_xampp_windows.php'>Install XAMPP For An Offline Development Environment With Apache And MySQL Running Locally On Windows (learnwebcoding.com)</a></li>
-      <li><a href='/misc/versions_ie_ed_windows.php'>Versions Of Internet Explorer And Edge Included With And Supported By Windows 98/ME/2000/XP/Vista/7/8/8.1/10 (learnwebcoding.com)</a></li>
+      <li><a href='/misc/versions_ie_ed_windows.php'>Versions Of Internet Explorer And Edge Included With And Supported By Windows 98/ME/2000/XP/Vista/7/8/8.1/10/11 (learnwebcoding.com)</a></li>
      </ul>
 
     </section>";

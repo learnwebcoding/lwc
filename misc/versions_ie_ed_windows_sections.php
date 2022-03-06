@@ -4,23 +4,23 @@
 /* File: /web_server_root_directory/bom/versions_ie_ed_windows_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/versions_ie_ed_windows.php.
- * Last reviewed/updated: 07 Dec 2021.
+ * Last reviewed/updated: 05 Mar 2022.
  * Published: 21 Sep 2016. */
 return
    "<section>
 
      <h2><a id='introduction'></a>1. Introduction</h2>
 
-     <p>Web browsers differ with respect to their web language support. Therefore, before writing any web code, an author needs to determine which web browsers to support. With respect to IE and ED, knowing the version of Windows that users are running may suffice. For example, if users are running Windows 10 Version 2004, then they are using ED18, IE11, and/or ED79+ because Windows 10 Version 2004 supports ED18, IE11, and ED79+.</p>
+     <p>Web browsers differ with respect to their web language support. Therefore, before writing any code, an author needs to determine which web browsers need to be supported. With respect to Internet Explorer and Edge, simply knowing the version of Windows the users are running may suffice. For example, if users are running Windows 10 Version 2004, then they are using Edge Legacy 18, Internet Explorer 11, and/or Edge 79+ because Windows 10 Version 2004 supports Edge Legacy 18, Internet Explorer 11, and Edge 79+.</p>
 
-     <p>Windows 98/ME/2000/XP/Vista/7/8/8.1 include and support IE, not ED. Windows 10 includes and supports IE and ED, with ED being the default web browser.</p>
+     <p>Windows 98/ME/2000/XP/Vista/7/8/8.1/10, not Windows 11, include Internet Explorer. Windows 7/8.1, not Windows 8, support Edge. Windows 10 Versions 1507 - 2004 include Edge Legacy and Internet Explorer, with Edge Legacy being the default web browser, and support Edge 79+. Windows 10 Versions 20H2 and newer include Edge and Internet Explorer, with Edge being the default web browser. Windows 11 includes Edge, not Internet Explorer.</p>
 
-     <h3><a id='releaseDate'></a>1.1. Release Date Of The IE7+ And ED Standalone Installers</h3>
+     <h3><a id='releaseDate'></a>1.1. Release Date Of Internet Explorer 7+ And Edge Standalone Installers</h3>
 
-     <p>The following table lists the release date of the IE7+ and ED standalone installers, not the release date of IE7+ and ED as included with the release of Windows:</p>
+     <p>The following table lists the release date of Internet Explorer 7+ and Edge standalone installers, not the release date of Internet Explorer 7+ and Edge as included with the release of Windows:</p>
 
      <table>
-      <caption>Release Date Of The IE7+ And ED Standalone Installers</caption>
+      <caption>Release Date Of Internet Explorer 7+ And Edge Standalone Installers</caption>
       <thead>
        <tr>
         <th>Version</th>
@@ -51,7 +51,7 @@ return
       <tbody>
      </table>
 
-<!-- Operating system version via msinfo32.exe. DirectX version via dxdiag.exe. Windows 8/81 IE Metro version via mouse to top right corner | Settings | About. All operating system installations fresh/clean/custom (not upgrade) using default/recommended settings. -->
+<!-- All operating system installations fresh/clean/custom (not upgrade) using default/recommended settings. -->
 
 <!--
      <p class='subsectionTitle'><a id='toc1_2'></a>1.2.&nbsp;&nbsp;Windows 98/ME/2000/XP/Vista/7/8/8.1/10 Installations</p>
@@ -80,7 +80,7 @@ return
       <li>Windows 10 Version 1607 (10.0.14393.0) = Installed Windows 10 Home and Windows 10 Professional from MSDN subscriptions: 1.) Windows 10 (Multiple Editions) Version 1607 (Updated Jul 2016) (x86) - DVD (English) en_windows_10_multiple_editions_version_1607_updated_jul_2016_x86_dvd_9053863.iso, and 2.) Windows 10 (Multiple Editions) Version 1607 (Updated Jul 2016) (x64) - DVD (English) en_windows_10_multiple_editions_version_1607_updated_jul_2016_x64_dvd_9058187.iso.</li>
       <li>Windows 10 Version 1703 (10.0.15063.0) = Installed Windows 10 Professional from MSDN subscriptions: 1.) Windows 10 (Multiple Editions) Version 1703 (Updated March 2017) (x86) - DVD (English) en_windows_10_multiple_editions_version_1703_updated_march_2017_x86_dvd_10188977.iso, and 2.) Windows 10 (Multiple Editions) Version 1703 (Updated March 2017) (x64) - DVD (English) en_windows_10_multiple_editions_version_1703_updated_march_2017_x64_dvd_10189288.iso.</li>
 
-      Since the version of software bundled with Windows has been the same for Windows 32-bit and 64-bit, for now on check 64-bit, not 32-bit and 64-bit.
+      Since the version of software included with Windows has been the same for Windows 32-bit and 64-bit, for now on check 64-bit, not 32-bit and 64-bit.
 
       <li>Windows 10 Version 1709 (10.0.16299.15) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (multi-edition) Version 1709 (Updated Sept 2017) (x64) - DVD (English) en_windows_10_multi-edition_version_1709_updated_sept_2017_x64_dvd_100090817.iso.</li>
       <li>Windows 10 Version 1803 (10.0.17134.1) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 1803 (Updated March 2018) (x64) - DVD (English) en_windows_10_consumer_editions_version_1803_updated_march_2018_x64_dvd_12063379.iso.</li>
@@ -92,6 +92,7 @@ return
       <li>Windows 10 Version 20H2 (10.0.19042.508) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 20H2 (x64) - DVD (English) en_windows_10_consumer_editions_version_20h2_x64_dvd_ab0e3e0a.iso.</li>
       <li>Windows 10 Version 21H1 (10.0.19043.928) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 21H1 (x64) - DVD (English) en_windows_10_consumer_editions_version_21h1_x64_dvd_540c0dd4.iso.</li>
       <li>Windows 10 Version 21H2 (10.0.19044.1288) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 21H2 (x64) - DVD (English) en-us_windows_10_consumer_editions_version_21h2_x64_dvd_6cfdb144.iso.</li>
+      <li>Windows 11 Version 21H2 (10.0.22000.194) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) (x64) - DVD (English) en-us_windows_11_consumer_editions_x64_dvd_bd3cf8df.iso.</li>
      </ul>
 -->
 
@@ -110,12 +111,10 @@ return
     <hr />
     <section>
 
-     <h2><a id='versions'></a>2. Versions Of IE And ED Included With And Supported By Windows 98/ME/2000/XP/Vista/7/8/8.1/10</h2>
-
-     <h3><a id='w98wme'></a>2.1. Versions Of IE Included With And Supported By Windows 98/ME</h3>
+     <h2><a id='w98wme'></a>2. Versions Of Internet Explorer Included With And Supported By Windows 98/ME</h2>
 
      <table>
-      <caption>Versions Of IE Included With And Supported By Windows 98 / ME</caption>
+      <caption>Versions Of Internet Explorer Included With And Supported By Windows 98/ME</caption>
       <thead>
        <tr>
         <th>Windows<br />
@@ -149,10 +148,10 @@ return
       </tbody>
      </table>
 
-     <h3><a id='w2kwxp'></a>2.2. Versions Of IE Included With And Supported By Windows 2000/XP</h3>
+     <h2><a id='w2kwxp'></a>3. Versions Of Internet Explorer Included With And Supported By Windows 2000/XP</h2>
 
      <table>
-      <caption>Versions Of IE Included With And Supported By Windows 2000 / XP</caption>
+      <caption>Versions Of Internet Explorer Included With And Supported By Windows 2000/XP</caption>
       <thead>
        <tr>
         <th>Windows<br />
@@ -215,7 +214,7 @@ return
       </tbody>
      </table>
 
-     <h3><a id='wvistaw7'></a>2.3. Versions Of IE Included With And Supported By Windows Vista/7</h3>
+     <h2><a id='wvistaw7'></a>4. Versions Of Internet Explorer Included With And Supported By Windows Vista/7</h2>
 
      <div class='note normal'>
       <ul>
@@ -226,7 +225,7 @@ return
      </div>
 
      <table>
-      <caption>Versions Of IE Included With And Supported By Windows Vista / 7</caption>
+      <caption>Versions Of Internet Explorer Included With And Supported By Windows Vista/7</caption>
       <thead>
        <tr>
         <th>Windows<br />
@@ -279,17 +278,18 @@ http://blogs.windows.com/windows/b/bloggingwindows/archive/2011/02/22/windows-7-
       </tbody>
      </table>
 
-     <h3><a id='w8w81'></a>2.4. Versions Of IE Included With And Supported By Windows 8/8.1</h3>
+     <h2><a id='w8w81'></a>5. Versions Of Internet Explorer Included With And Supported By Windows 8/8.1</h2>
 
      <div class='note normal'>
       <ul>
        <li>On Windows 8/8.1, the default version of Internet Explorer is Internet Explorer Desktop, not Internet Explorer Metro.</li>
        <li>On Windows 8/8.1 64-bit, Internet Explorer Desktop is 32-bit and Internet Explorer Metro is 64-bit.</li>
+       <li>Internet Explorer 11.0 was released for Windows 7, not Windows 8.</li>
       </ul>
      </div>
 
      <table>
-      <caption>Versions Of IE Included With And Supported By Windows 8 / 8.1</caption>
+      <caption>Versions Of Internet Explorer Included With And Supported By Windows 8/8.1</caption>
       <thead>
        <tr>
         <th>Windows<br />
@@ -337,7 +337,7 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
     <hr />
     <section>
 
-     <h3><a id='w10'></a>2.5. Versions Of ED And IE Included With And Supported By Windows 10</h3>
+     <h2><a id='w10'></a>6. Versions Of Edge And Internet Explorer Included With And Supported By Windows 10</h2>
 
      <div class='note normal'>
       <ul>
@@ -347,7 +347,7 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
      </div>
 
      <table>
-      <caption>Versions Of ED And IE Included With And Supported By Windows 10</caption>
+      <caption>Versions Of Edge And Internet Explorer Included With And Supported By Windows 10</caption>
       <thead>
        <tr>
         <th>Windows<br />
@@ -582,8 +582,8 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
       <tfoot>
        <tr>
         <td colspan='5'>
-         <a id='1_2004'></a><a href='#1_2004_return'>(1)</a> Edge (Chromium based) was released 15 Jan 2020. Windows 10 Version 2004 was released 27 May 2020. Windows 10 Version 2004 is bundled with Edge Legacy (EdgeHTML based), not Edge (Chromium based).<br />
-         <a id='2_2004'></a><a href='#2_2004_return'>(2)</a> Windows 10 Version 20H2 is bundled with Edge (Chromium based), not Edge Legacy (EdgeHTML based).<br />
+         <a id='1_2004'></a><a href='#1_2004_return'>(1)</a> Edge (Chromium based) was released 15 Jan 2020. Windows 10 Version 2004 was released 27 May 2020. Windows 10 Version 2004 includes Edge Legacy (EdgeHTML based), not Edge (Chromium based).<br />
+         <a id='2_2004'></a><a href='#2_2004_return'>(2)</a> Windows 10 Version 20H2 includes Edge (Chromium based), not Edge Legacy (EdgeHTML based).<br />
          <a id='3_2004'></a><a href='#3_2004_return'>(3)</a><a id='4_2004'></a><a href='#4_2004_return'>(4)</a> The Internet Explorer full version number (including version major, minor, and dot values) is obtained via <kbd>Tools | About Internet Explorer</kbd>. However, on Windows 10 Version 21H1 and 21H2, <kbd>Tools | About Internet Explorer</kbd> reports <span class='filename'>winver.exe</span> information, not the typical Internet Explorer information including the Internet Explorer full version number. Therefore, the Internet Explorer full version number is reported as <q>IE11.?</q>.
         </td>
        </tr>
@@ -594,7 +594,40 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
     <hr />
     <section>
 
-     <h2><a id='resources'></a>3. Resources And Additional Information</h2>
+     <h2><a id='w11'></a>7. Versions Of Edge Included With And Supported By Windows 11</h2>
+
+     <table>
+      <caption>Versions Of Edge Included With And Supported By Windows 11</caption>
+      <thead>
+       <tr>
+        <th>Windows<br />
+         (Build)</th>
+        <th>11 Version 21H2<br />
+         (10.0.22000.194)</th><!-- 21H2/Original Release -->
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <th>General<br />
+         Availability</th>
+        <td>04 Oct 2021</td>
+       </tr>
+       <tr>
+        <th>Included With</th>
+        <td>ED90.0.818.66</td>
+       </tr>
+       <tr>
+        <th>Also Supports</th>
+        <td>-</td>
+       </tr>
+      <tbody>
+     </table>
+
+    </section>
+    <hr />
+    <section>
+
+     <h2><a id='resources'></a>8. Resources And Additional Information</h2>
 
      <ul class='link-list'>
       <li><a href='http://www.microsoft.com/en-us/download/internet-explorer-7-details.aspx'>Microsoft Download Center: Internet Explorer 7 (microsoft.com)</a></li>
