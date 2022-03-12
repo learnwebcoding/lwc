@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 04 Mar 2022.
+ * Last reviewed/updated: 11 Mar 2022.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1588,6 +1588,15 @@ return
 
      <p>Edge 98.0.1108.62 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/98.0.4758.102 safari/537.36 edg/98.0.1108.62</p>
+
+     <p>Edge 99.0.1150.30 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/99.0.4844.51 safari/537.36 edg/99.0.1150.30</p>
+
+     <p>Edge 99.0.1150.36 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/99.0.4844.51 safari/537.36 edg/99.0.1150.36</p>
+
+     <p>Edge 99.0.1150.39 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/99.0.4844.51 safari/537.36 edg/99.0.1150.39</p>
 
     </section>
     <hr />
@@ -3299,10 +3308,16 @@ return
      <p>Firefox 97.0 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:97.0) gecko/20100101 firefox/97.0</p>
 
-     <div class='note normal'>The Firefox 97.0.1 user-agent string value is identical to the Firefox 97.0 user-agent string value.</div>
+     <div class='note normal'>The Firefox 97.0.1 and 97.0.2 user-agent string values are identical to the Firefox 97.0 user-agent string value.</div>
 
      <p>Firefox 97.0.1 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:97.0) gecko/20100101 firefox/97.0</p>
+
+     <p>Firefox 97.0.2 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:97.0) gecko/20100101 firefox/97.0</p>
+
+     <p>Firefox 98.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:98.0) gecko/20100101 firefox/98.0</p>
 
     </section>
     <hr />
@@ -8361,6 +8376,9 @@ return
 
      <p>Opera 84.0.4316.21 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/98.0.4758.102 safari/537.36 opr/84.0.4316.21</p>
+
+     <p>Opera 84.0.4316.31 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/98.0.4758.109 safari/537.36 opr/84.0.4316.31</p>
 
     </section>
     <hr />
