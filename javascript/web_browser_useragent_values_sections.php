@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 11 Mar 2022.
+ * Last reviewed/updated: 15 Mar 2022.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -3319,6 +3319,11 @@ return
      <p>Firefox 98.0 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:98.0) gecko/20100101 firefox/98.0</p>
 
+     <div class='note normal'>The Firefox 98.0.1 user-agent string value is identical to the Firefox 98.0 user-agent string value.</div>
+
+     <p>Firefox 98.0.1 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:98.0) gecko/20100101 firefox/98.0</p>
+
     </section>
     <hr />
     <section>
@@ -5157,6 +5162,9 @@ return
 
      <p>Chrome 99.0.4844.51 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/99.0.4844.51 safari/537.36</p>
+
+     <p>Chrome 99.0.4844.74 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/99.0.4844.74 safari/537.36</p>
 
     </section>
     <hr />
