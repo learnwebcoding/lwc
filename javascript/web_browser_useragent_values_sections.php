@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 18 Apr 2022.
+ * Last reviewed/updated: 22 Apr 2022.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1618,6 +1618,9 @@ return
 
      <p>Edge 100.0.1185.44 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/100.0.4896.127 safari/537.36 edg/100.0.1185.44</p>
+
+     <p>Edge 100.0.1185.50 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/100.0.4896.127 safari/537.36 edg/100.0.1185.50</p>
 
     </section>
     <hr />
@@ -8455,6 +8458,12 @@ return
 
      <p>Opera 85.0.4341.60 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/99.0.4844.84 safari/537.36 opr/85.0.4341.60</p>
+
+     <p>Opera 85.0.4341.75 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/99.0.4844.84 safari/537.36 opr/85.0.4341.75</p>
+
+     <p>Opera 86.0.4363.23 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/100.0.4896.127 safari/537.36 opr/86.0.4363.23</p>
 
     </section>
     <hr />
