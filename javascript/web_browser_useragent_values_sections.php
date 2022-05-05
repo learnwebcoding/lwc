@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 02 May 2022.
+ * Last reviewed/updated: 05 May 2022.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -3361,6 +3361,9 @@ return
 
      <p>Firefox 99.0.1 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:99.0) gecko/20100101 firefox/99.0</p>
+
+     <p>Firefox 100.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:100.0) gecko/20100101 firefox/100.0</p>
 
     </section>
     <hr />
@@ -8477,6 +8480,9 @@ return
      <p>Opera 86.0.4363.32 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/100.0.4896.127 safari/537.36 opr/86.0.4363.32</p>
 
+     <p>Opera 86.0.4363.50 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/100.0.4896.127 safari/537.36 opr/86.0.4363.50</p>
+
     </section>
     <hr />
     <section>
@@ -10440,6 +10446,17 @@ return
 
      <p>SeaMonkey 2.53.11.1 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:68.0) gecko/20100101 firefox/68.0 seamonkey/2.53.11.1</p>
+
+     <div class='note normal'>SeaMonkey 2.53.12 released when Firefox was at version 100.0.</div>
+
+     <p>SeaMonkey 2.53.12 64-bit (Identify As Firefox)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:68.0) gecko/20100101 firefox/68.0</p>
+
+     <p>SeaMonkey 2.53.12 64-bit (Identify As SeaMonkey)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:68.0) gecko/20100101 seamonkey/2.53.12</p>
+
+     <p>SeaMonkey 2.53.12 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:68.0) gecko/20100101 firefox/68.0 seamonkey/2.53.12</p>
 
     </section>
     <hr />
