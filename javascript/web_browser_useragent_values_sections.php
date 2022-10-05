@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 29 Sep 2022.
+ * Last reviewed/updated: 04 Oct 2022.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1703,6 +1703,9 @@ return
      <p>Edge 105.0.1343.53 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/105.0.0.0 safari/537.36 edg/105.0.1343.53</p>
 
+     <p>Edge 106.0.1370.34 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/106.0.0.0 safari/537.36 edg/106.0.1370.34</p>
+
     </section>
     <hr />
     <section>
@@ -3328,6 +3331,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:105.0) gecko/20100101 firefox/105.0</p>
 
      <p>Firefox 105.0.1 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:105.0) gecko/20100101 firefox/105.0</p>
+
+     <p>Firefox 105.0.2 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:105.0) gecko/20100101 firefox/105.0</p>
 
     </section>
@@ -5238,6 +5244,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/105.0.0.0 safari/537.36</p>
 
      <p>Chrome 106.0.5249.62 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/106.0.0.0 safari/537.36</p>
+
+     <p>Chrome 106.0.5249.91 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/106.0.0.0 safari/537.36</p>
 
     </section>
