@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 18 Oct 2022.
+ * Last reviewed/updated: 26 Oct 2022.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1715,6 +1715,9 @@ return
      <p>Edge 106.0.1370.47 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/106.0.0.0 safari/537.36 edg/106.0.1370.47</p>
 
+     <p>Edge 106.0.1370.52 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/106.0.0.0 safari/537.36 edg/106.0.1370.52</p>
+
     </section>
     <hr />
     <section>
@@ -3349,6 +3352,12 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:105.0) gecko/20100101 firefox/105.0</p>
 
      <p>Firefox 106.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:106.0) gecko/20100101 firefox/106.0</p>
+
+     <p>Firefox 106.0.1 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:106.0) gecko/20100101 firefox/106.0</p>
+
+     <p>Firefox 106.0.2 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:106.0) gecko/20100101 firefox/106.0</p>
 
     </section>
@@ -5269,6 +5278,9 @@ return
 
      <p>Chrome 106.0.5249.119 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/106.0.0.0 safari/537.36</p>
+
+     <p>Chrome 107.0.5304.63 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/107.0.0.0 safari/537.36</p>
 
     </section>
     <hr />
@@ -8585,11 +8597,16 @@ return
      <p>Opera 91.0.4516.65 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/105.0.0.0 safari/537.36 opr/91.0.4516.65</p>
 
-     <p>Opera 91.0.4516.70 64-bit<br />
-     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/105.0.0.0 safari/537.36 opr/91.0.4516.70</p>
-
      <p>Opera 91.0.4516.77 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/105.0.0.0 safari/537.36 opr/91.0.4516.77</p>
+
+     <div class='note normal'>With Opera 92, the Opera user-agent string value no longer reports point releases.</div>
+
+     <p>Opera 92.0.4561.21 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/106.0.0.0 safari/537.36 opr/92.0.0.0</p>
+
+     <p>Opera 92.0.4561.30 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/106.0.0.0 safari/537.36 opr/92.0.0.0</p>
 
     </section>
     <hr />
