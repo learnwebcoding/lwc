@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/versions_ie_ed_windows_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/versions_ie_ed_windows.php.
- * Last reviewed/updated: 05 Mar 2022.
+ * Last reviewed/updated: 07 Jan 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -92,7 +92,9 @@ return
       <li>Windows 10 Version 20H2 (10.0.19042.508) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 20H2 (x64) - DVD (English) en_windows_10_consumer_editions_version_20h2_x64_dvd_ab0e3e0a.iso.</li>
       <li>Windows 10 Version 21H1 (10.0.19043.928) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 21H1 (x64) - DVD (English) en_windows_10_consumer_editions_version_21h1_x64_dvd_540c0dd4.iso.</li>
       <li>Windows 10 Version 21H2 (10.0.19044.1288) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 21H2 (x64) - DVD (English) en-us_windows_10_consumer_editions_version_21h2_x64_dvd_6cfdb144.iso.</li>
+      <li>Windows 10 Version 22H2 (10.0.19045.2006) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 22H2 (x64) - DVD (English) en-us_windows_10_consumer_editions_version_22h2_x64_dvd_8da72ab3.iso.</li>
       <li>Windows 11 Version 21H2 (10.0.22000.194) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) (x64) - DVD (English) en-us_windows_11_consumer_editions_x64_dvd_bd3cf8df.iso.</li>
+      <li>Windows 11 Version 22H2 (10.0.22621.525) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 22H2 (Updated Sep 2022) (x64) - DVD (English) en-us_windows_11_consumer_editions_version_22h2_updated_sep_2022_x64_dvd_f408dad5.iso. NOTE: This is Windows 11 Version 22H2 28Sep22 build 10.0.22621.525, not Windows 11 Version 22H2 20Sep22 build 10.0.22621.521, the latter of which, apparently, was not released through official channels as a general availability ISO.)</li>
      </ul>
 -->
 
@@ -523,14 +525,16 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
        <tr>
         <th>Windows<br />
          (Build)</th>
-        <th>10 Version 2004 <a id='1_2004_return'></a><a href='#1_2004'>(1)</a><br />
+        <th>10 Version 2004 <a id='1_W10_2004_return'></a><a href='#1_W10_2004'>(1)</a><br />
          (10.0.19041.264)</th><!-- 20H1/May 2020 Update -->
-        <th>10 Version 20H2 <a id='2_2004_return'></a><a href='#2_2004'>(2)</a><br />
+        <th>10 Version 20H2 <a id='2_W10_2004_return'></a><a href='#2_W10_2004'>(2)</a><br />
          (10.0.19042.508)</th><!-- 20H2/October 2020 Update -->
         <th>10 Version 21H1<br />
          (10.0.19043.928)</th><!-- 21H1/May 2021 Update -->
         <th>10 Version 21H2<br />
          (10.0.19044.1288)</th><!-- 21H2/November 2021 Update -->
+        <th>10 Version 22H2<br />
+         (10.0.19045.2006)</th><!-- 22H2/2022 Update -->
        </tr>
       </thead>
       <tbody>
@@ -541,6 +545,7 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
         <td>20 Oct 2020</td>
         <td>18 May 2021</td>
         <td>16 Nov 2021</td>
+        <td>18 Oct 2022</td>
        </tr>
        <tr>
         <th>Included With</th>
@@ -561,13 +566,19 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
         <td>
          <ul>
           <li>ED89.0.774.68.</li>
-          <li>IE11.?. <a id='3_2004_return'></a><a href='#3_2004'>(3)</a></li>
+          <li>IE11.?. <a id='3_W10_2004_return'></a><a href='#3_W10_2004'>(3)</a></li>
          </ul>
         </td>
         <td>
          <ul>
           <li>ED92.0.902.67.</li>
-          <li>IE11.?. <a id='4_2004_return'></a><a href='#4_2004'>(4)</a></li>
+          <li>IE11.?. <a id='4_W10_2004_return'></a><a href='#4_W10_2004'>(4)</a></li>
+         </ul>
+        </td>
+        <td>
+         <ul>
+          <li>ED92.0.902.67.</li>
+          <li>IE11.?. <a id='5_W10_2004_return'></a><a href='#5_W10_2004'>(5)</a></li>
          </ul>
         </td>
        </tr>
@@ -577,14 +588,15 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
         <td>-</td>
         <td>-</td>
         <td>-</td>
+        <td>-</td>
        </tr>
       <tbody>
       <tfoot>
        <tr>
-        <td colspan='5'>
-         <a id='1_2004'></a><a href='#1_2004_return'>(1)</a> Edge (Chromium based) was released 15 Jan 2020. Windows 10 Version 2004 was released 27 May 2020. Windows 10 Version 2004 includes Edge Legacy (EdgeHTML based), not Edge (Chromium based).<br />
-         <a id='2_2004'></a><a href='#2_2004_return'>(2)</a> Windows 10 Version 20H2 includes Edge (Chromium based), not Edge Legacy (EdgeHTML based).<br />
-         <a id='3_2004'></a><a href='#3_2004_return'>(3)</a><a id='4_2004'></a><a href='#4_2004_return'>(4)</a> The Internet Explorer full version number (including version major, minor, and dot values) is obtained via <kbd>Tools | About Internet Explorer</kbd>. However, on Windows 10 Version 21H1 and 21H2, <kbd>Tools | About Internet Explorer</kbd> reports <span class='filename'>winver.exe</span> information, not the typical Internet Explorer information including the Internet Explorer full version number. Therefore, the Internet Explorer full version number is reported as <q>IE11.?</q>.
+        <td colspan='6'>
+         <a id='1_W10_2004'></a><a href='#1_W10_2004_return'>(1)</a> Edge (Chromium based) was released 15 Jan 2020. Windows 10 Version 2004 was released 27 May 2020. Windows 10 Version 2004 includes Edge Legacy (EdgeHTML based), not Edge (Chromium based).<br />
+         <a id='2_W10_2004'></a><a href='#2_W10_2004_return'>(2)</a> Windows 10 Version 20H2 includes Edge (Chromium based), not Edge Legacy (EdgeHTML based).<br />
+         <a id='3_W10_2004'></a><a href='#3_W10_2004_return'>(3)</a><a id='4_W10_2004'></a><a href='#4_W10_2004_return'>(4)</a><a id='5_W10_2004'></a><a href='#5_W10_2004_return'>(5)</a> The Internet Explorer full version number (including version major, minor, and dot values) is obtained via <kbd>Tools | About Internet Explorer</kbd>. However, on Windows 10 Version 21H1 and 21H2, <kbd>Tools | About Internet Explorer</kbd> reports <span class='filename'>winver.exe</span> information, not the typical Internet Explorer information including the Internet Explorer full version number. Therefore, the Internet Explorer full version number is reported as <q>IE11.?</q>.
         </td>
        </tr>
       </tfoot>
@@ -604,6 +616,8 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
          (Build)</th>
         <th>11 Version 21H2<br />
          (10.0.22000.194)</th><!-- 21H2/Original Release -->
+        <th>11 Version 22H2 <a id='1_W11_21H2_return'></a><a href='#1_W11_21H2'>(1)</a><br />
+         (10.0.22621.521)</th><!-- 22H2/Windows 11 2022 Update -->
        </tr>
       </thead>
       <tbody>
@@ -611,16 +625,26 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
         <th>General<br />
          Availability</th>
         <td>04 Oct 2021</td>
+        <td>20 Sep 2022 <a id='2_W11_21H2_return'></a><a href='#2_W11_21H2'>(2)</a></td>
        </tr>
        <tr>
         <th>Included With</th>
         <td>ED90.0.818.66</td>
+        <td>ED100.0.1185.36</td>
        </tr>
        <tr>
         <th>Also Supports</th>
         <td>-</td>
+        <td>-</td>
        </tr>
       <tbody>
+      <tfoot>
+       <tr>
+        <td colspan='3'>
+         <a id='1_W11_21H2'></a><a href='#1_W11_21H2_return'>(1)</a><a id='2_W11_21H2'></a><a href='#2_W11_21H2_return'>(2)</a> Windows 11 Version 22H2 general availability was announced on 20 Sep 2022 when Windows 11 Version 22H2 was at build 10.0.22621.521. However, apparently the first build of Windows 11 Version 22H2 released through official channels as a general availability ISO was 10.0.22621.525 on 28 Sep 2022, not 10.0.22621.521 on 20 Sep 2022. The Windows 11 Version 22H2 information presented in this table is from build 10.0.22621.525, not 10.0.22621.521.
+        </td>
+       </tr>
+      </tfoot>
      </table>
 
     </section>
@@ -640,6 +664,7 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
       <li><a href='https://support.microsoft.com/en-us/help/4533505'>What is Microsoft Edge Legacy? (support.microsoft.com)</a></li>
       <li><a href='https://www.microsoft.com/en-us/edge/business/download'>Microsoft Edge For Business (microsoft.com)</a></li>
       <li><a href='https://docs.microsoft.com/en-us/deployedge/microsoft-edge-supported-operating-systems'>Microsoft Edge Supported Operating Systems (docs.microsoft.com)</a></li>
+      <li><a href='https://blogs.windows.com/windowsexperience/2022/09/20/available-today-the-windows-11-2022-update/'>September 20, 2022 - Available Today: The Windows 11 2022 Update (blogs.windows.com)</a></li>
      </ul>
 
     </section>";
