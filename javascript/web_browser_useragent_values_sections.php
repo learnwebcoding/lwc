@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 25 Jan 2023.
+ * Last reviewed/updated: 07 Feb 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1810,6 +1810,12 @@ return
      <p>Edge 109.0.1518.69 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/109.0.0.0 safari/537.36 edg/109.0.1518.69</p>
 
+     <p>Edge 109.0.1518.70 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/109.0.0.0 safari/537.36 edg/109.0.1518.70</p>
+
+     <p>Edge 109.0.1518.78 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/109.0.0.0 safari/537.36 edg/109.0.1518.78</p>
+
     </section>
     <hr />
     <section>
@@ -3477,6 +3483,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:108.0) gecko/20100101 firefox/108.0</p>
 
      <p>Firefox 109.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:109.0) gecko/20100101 firefox/109.0</p>
+
+     <p>Firefox 109.0.1 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:109.0) gecko/20100101 firefox/109.0</p>
 
     </section>
@@ -5427,6 +5436,11 @@ return
 
      <p>Chrome 109.0.5414.120 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/109.0.0.0 safari/537.36</p>
+
+     <div class='note normal'>Chrome 110 is for Windows 10/11, not Windows 7/8.1.</div>
+
+     <p>Chrome 110.0.5481.78 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/110.0.0.0 safari/537.36</p>
 
     </section>
     <hr />
@@ -8792,6 +8806,9 @@ return
 
      <p>Opera 94.0.4606.76 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/108.0.0.0 safari/537.36 opr/94.0.0.0</p>
+
+     <p>Opera 95.0.4635.25 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/109.0.0.0 safari/537.36 opr/95.0.0.0</p>
 
     </section>
     <hr />
