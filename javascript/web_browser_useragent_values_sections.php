@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 07 Feb 2023.
+ * Last reviewed/updated: 13 Feb 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1815,6 +1815,11 @@ return
 
      <p>Edge 109.0.1518.78 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/109.0.0.0 safari/537.36 edg/109.0.1518.78</p>
+
+     <div class='note normal'>Edge 110 is for Windows 10/11, not Windows 7/8.1.</div>
+
+     <p>Edge 110.0.1587.41 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/110.0.0.0 safari/537.36 edg/110.0.1587.41</p>
 
     </section>
     <hr />
@@ -5442,6 +5447,9 @@ return
      <p>Chrome 110.0.5481.78 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/110.0.0.0 safari/537.36</p>
 
+     <p>Chrome 110.0.5481.97 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/110.0.0.0 safari/537.36</p>
+
     </section>
     <hr />
     <section>
@@ -8808,6 +8816,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/108.0.0.0 safari/537.36 opr/94.0.0.0</p>
 
      <p>Opera 95.0.4635.25 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/109.0.0.0 safari/537.36 opr/95.0.0.0</p>
+
+     <p>Opera 95.0.4635.37 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/109.0.0.0 safari/537.36 opr/95.0.0.0</p>
 
     </section>
