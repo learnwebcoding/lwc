@@ -4638,6 +4638,14 @@ appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 parseFloatAppVersion: 5
 platform: Win32
 
+Edge 111.0.1661.62 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/111.0.0.0 safari/537.36 edg/111.0.1661.62
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62
+parseFloatAppVersion: 5
+platform: Win32
+
 -------------------
 Firefox For Windows
 -------------------
@@ -16004,6 +16012,14 @@ appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 parseFloatAppVersion: 5
 platform: Win32
 
+Chrome 112.0.5615.50 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/112.0.0.0 safari/537.36
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+parseFloatAppVersion: 5
+platform: Win32
+
 -----------------
 Opera For Windows
 -----------------
@@ -25618,6 +25634,22 @@ appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 parseFloatAppVersion: 5
 platform: Win32
 
+Opera 97.0.4719.43 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/111.0.0.0 safari/537.36 opr/97.0.0.0
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0
+parseFloatAppVersion: 5
+platform: Win32
+
+Opera 97.0.4719.63 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/111.0.0.0 safari/537.36 opr/97.0.0.0
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0
+parseFloatAppVersion: 5
+platform: Win32
+
 -------------------
 Vivaldi For Windows
 -------------------
@@ -32652,6 +32684,30 @@ SeaMonkey 2.53.15 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibil
 
 appName: Netscape
 userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 firefox/91.0 seamonkey/2.53.15
+appVersion: 5.0 (Windows)
+parseFloatAppVersion: 5
+platform: Win64
+
+SeaMonkey 2.53.16 64-bit (Identify As Firefox)
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 firefox/91.0
+appVersion: 5.0 (Windows)
+parseFloatAppVersion: 5
+platform: Win64
+
+SeaMonkey 2.53.16 64-bit (Identify As SeaMonkey)
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 seamonkey/2.53.16
+appVersion: 5.0 (Windows)
+parseFloatAppVersion: 5
+platform: Win64
+
+SeaMonkey 2.53.16 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 firefox/91.0 seamonkey/2.53.16
 appVersion: 5.0 (Windows)
 parseFloatAppVersion: 5
 platform: Win64
