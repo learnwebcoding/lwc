@@ -3,11 +3,12 @@
 /* File: /web_server_root_directory/javascripts/lwc/css_font_compare.js.
  * Purpose: Change web page content when; 1.) select CSS font property value, 2.) click Reset button, and 3.) click Add Another To Compare button.
  * Used in: css_font_compare.php.
- * Last reviewed/updated: 10 Mar 2018.
+ * Last reviewed/updated: 13 Aug 2023.
  * Published: 23 Jan 2014.
  * Unobtrusive: 1.) decouple HTML/JavaScript: a.) no register JavaScript event handlers in HTML via HTML attributes (eg, onload and onclick), and b.) no embed JavaScripts in HTML via HTML script element; 2.) as reasonable, decouple CSS/JavaScript. Eg, as reasonable, use JavaScript to change HTML class attribute value assignments (loose coupling), not use JavaScript to change JavaScript style object CSS property value assignments (tight coupling); and 3.) no define JavaScript variables and functions on JavaScript global scope. In this file, use of JavaScript style object is deemed reasonable. Instead, in future, perhaps decouple the HTML from within this file.
  * Web browser support: IE11+, ED12+, FF8+, SM2.5+, SF5.1+, CH7+, OP11.10+, which corresponds to dataset property support (IE11+, SF5.1+, CH7+, OP11.10+) and insertAdjacentHTML() method support (FF8+, SM2.5+).
- * Objects: CssFontCompareUtil. */
+ * Objects: CssFontCompareUtil.
+ * cursive (aka script), fantasy (aka decorative), monospace, serif, sans-seric  = (generic) = all lower case. */
 
 /* -------------------- JAVASCRIPT OBJECT DEFINITIONS -------------------- */
 
@@ -93,64 +94,74 @@ var CssFontCompareUtil = {
   var insertFormItem = "<div id='selectFontId" + n + "' class=''>" +
   n + ".) font-family: " +
   "<select size='1' id='fontFamily_Id" + n + "'>" +
-   "<option value=\"'adobe minion web'\">adobe minion web</option>" +
-   "<option value='arial' selected>arial (sans-serif)</option>" +
-   "<option value=\"'book antiqua'\">book antiqua (serif)</option>" +
-   "<option value='calibri'>calibri</option>" +
-   "<option value='cambria'>cambria</option>" +
-   "<option value='candara'>candara</option>" +
-   "<option value=\"'comic sans ms'\">comic sans ms (fantasy)</option>" +
-   "<option value='consolas'>consolas (monospace)</option>" +
-   "<option value='constantia'>constantia (serif)</option>" +
-   "<option value='courier'>courier (monospace)</option>" +
-   "<option value=\"'courier new'\">courier new (monospace)</option>" +
+   "<option value='Arial' selected>Arial (sans-serif)</option>" +
+   "<option value='Baskerville'>Baskerville (serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Bodoni MT'\">Bodoni MT (serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Book Antiqua'\">Book Antiqua (serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value='Calibri'>Calibri (sans-serif)</option>" +
+   "<option value=\"'Calisto MT'\">Calisto MT (serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value='Cambria'>Cambria (serif)</option>" +
+   "<option value='Candara'>Candara (sans-serif)</option>" +
+   "<option value=\"'Century Gothic'\">Century Gothic (sans-serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Comic Sans MS'\">Comic Sans MS (cursive)</option>" +
+   "<option value='Consolas'>Consolas (monospace)</option>" +
+   "<option value='Constantia'>Constantia (serif)</option>" +
+   "<option value='Copperplate'>Copperplate (fantacy)</option>" + // Not on Windows 10 v22H2.
+   "<option value='Courier'>Courier (monospace)</option>" +
+   "<option value=\"'Courier New'\">Courier New (monospace)</option>" +
    "<option value='cursive'>cursive (generic)</option>" +
-   "<option value='ebrima'>ebrima</option>" +
-   "<option value='euphemia'>euphemia</option>" +
+   "<option value=\"'Dejavu Sans'\">Dejavu Sans (sans-serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value='Didot'>Didot (serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value='Ebrima'>Ebrima (sans-serif)</option>" +
+   "<option value='Euphemia'>Euphemia (sans-serif)</option>" + // Not on Windows 10 v22H2.
    "<option value='fantasy'>fantasy (generic)</option>" +
-   "<option value=\"'franklin gothic medium'\">franklin gothic medium</option>" +
-   "<option value='garamond'>garamond (serif)</option>" +
-   "<option value='gautami'>gautami</option>" +
-   "<option value='geneva'>geneva</option>" +
-   "<option value='georgia'>georgia (serif)</option>" +
-   "<option value='helvetica'>helvetica (sans-serif)</option>" +
-   "<option value='impact'>impact</option>" +
-   "<option value='latha'>latha</option>" +
-   "<option value=\"'lithos pro regular'\">lithos pro regular</option>" +
-   "<option value=\"'lucida console'\">lucida console (monospace)</option>" +
-   "<option value=\"'lucida sans unicode'\">lucida sans unicode (sans-serif)&nbsp;</option>" +
-   "<option value=\"'microsoft sans serif'\">microsoft sans serif</option>" +
-   "<option value=\"'minion pro'\">minion pro</option>" +
-   "<option value=\"'minion web'\">minion web (serif)</option>" +
-   "<option value='modern'>modern</option>" +
+   "<option value=\"'Franklin Gothic'\">Franklin Gothic (sans-serif)</option>" +
+   "<option value='Garamond'>Garamond (serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value='Geneva'>Geneva (sans-serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value='Georgia'>Georgia (serif)</option>" +
+   "<option value=\"'Gill Sans'\">Gill Sans (sans-serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Goudy Old Style'\">Goudy Old Style (serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value='Helvetica'>Helvetica (sans-serif)</option>" +
+   "<option value='Impact'>Impact (sans-serif)</option>" +
+   "<option value='Latha'>Latha (sans-serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Lithos Regular'\">Lithos Regular (sans-serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Lithos Pro Regular'\">Lithos Pro Regular (sans-serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Lucida Console'\">Lucida Console (monospace)</option>" +
+   "<option value=\"'Lucida Sans Unicode'\">Lucida Sans Unicode (sans-serif)</option>" +
+   "<option value='Luminari'>Luminari (fantasy)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Microsoft Sans Serif'\">Microsoft Sans Serif (sans-serif)</option>" +
+   "<option value=\"'Minion Regular'\">Minion Regular (serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Minion Pro Regular'\">Minion Pro Regular (serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value='Monaco'>Monaco (monospace)</option>" +
    "<option value='monospace'>monospace (generic)</option>" +
-   "<option value=\"'ms sans serif'\">ms sans serif</option>" +
-   "<option value=\"'ms serif'\">ms serif (serif)</option>" +
-   "<option value=\"'myriad web'\">myriad web</option>" +
-   "<option value=\"'myriad web pro'\">myriad web pro</option>" +
-   "<option value=\"'nueva std'\">nueva std</option>" +
-   "<option value='palatino'>palatino (serif)</option>" +
-   "<option value=\"'palatino linotype'\">palatino linotype (serif)</option>" +
-   "<option value='roman'>roman</option>" +
-   "<option value='sans-serif'>sans-serif (generic)</option>" +
-   "<option value='script'>script</option>" +
-   "<option value=\"'segoe print'\">segoe print</option>" +
-   "<option value=\"'segoe script'\">segoe script</option>" +
-   "<option value=\"'segoe ui'\">segoe ui</option>" +
+   "<option value=\"'MS Sans Serif'\">MS Sans Serif (sans-serif)</option>" +
+   "<option value=\"'Myriad Pro Regular'\">Myriad Pro Regular (sans-serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Myriad Web Pro'\">Myriad Web Pro (sans-serif)</option>" +
+   "<option value=\"'Neue Helvetica'\">Neue Helvetica (sans-serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Nueva Std Regular'\">Nueva Std Regular (serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value='Optima'>Optima (sans-serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value='Palatino'>Palatino (serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Palatino Linotype'\">Palatino Linotype (serif)</option>" +
+   "<option value='Papyrus'>Papyrus (fantasy)</option>" + // Not on Windows 10 v22H2.
+   "<option value='Perpetua'>Perpetua (serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value='Rockwell'>Rockwell (serif)</option>" + // Not on Windows 10 v22H2.
    "<option value='serif'>serif (generic)</option>" +
-   "<option value='sylfaen'>sylfaen</option>" +
-   "<option value='symbol'>symbol</option>" +
-   "<option value='system'>system</option>" +
-   "<option value='tahoma'>tahoma (sans-serif)</option>" +
-   "<option value=\"'tekton pro'\">tekton pro</option>" +
-   "<option value='terminal'>terminal</option>" +
-   "<option value='times'>times (serif)</option>" +
-   "<option value=\"'times new roman'\">times new roman (serif)</option>" +
-   "<option value=\"'trajan pro'\">trajan pro</option>" +
-   "<option value=\"'trebuchet ms'\">trebuchet ms (sans-serif)</option>" +
-   "<option value='tunga'>tunga</option>" +
-   "<option value='verdana'>verdana (sans-serif)</option>" +
-   "<option value='webdings'>webdings</option>" +
+   "<option value=\"'Segoe Print'\">Segoe Print (cursive)</option>" +
+   "<option value=\"'Segoe Script'\">Segoe Script (cursive)</option>" +
+   "<option value=\"'Segoe UI'\">Segoe UI (sans-serif)</option>" +
+   "<option value='serif'>serif (generic)</option>" +
+   "<option value='Sylfaen'>Sylfaen (serif)</option>" +
+   "<option value='Symbol'>Symbol (serif)</option>" +
+   "<option value='Tahoma'>Tahoma (sans-serif)</option>" +
+   "<option value=\"'Tekton Regular'\">Tekton Regular (cursive)</option>" + // Not on Windows 10 v22H2. Perhaps not cursive?
+   "<option value=\"'Tekton Pro Regular'\">Tekton Pro Regular (cursive)</option>" + // Not on Windows 10 v22H2. Perhaps not cursive?
+   "<option value='Times'>Times (serif)</option>" + // Not on Windows 10 v22H2, or identical to serif.
+   "<option value=\"'Times New Roman'\">Times New Roman (serif)</option>" + // Not on Windows 10 v22H2, or identical to serif.
+   "<option value=\"'Trajan Regular'\">Trajan Regular (serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Trajan Pro Regular'\">Trajan Pro Regular (serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Trebuchet MS'\">Trebuchet MS (sans-serif)</option>" +
+   "<option value='Verdana'>Verdana (sans-serif)</option>" +
+   "<option value='Webdings'>Webdings (fantacy)</option>" +
   "</select>&nbsp;&nbsp; " +
   "font-size: " +
   "<select size='1' id='fontSizeAbs_Id" + n + "'>" +

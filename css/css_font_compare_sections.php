@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/css/css_font_compare_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/css/css_font_compare.php.
- * Last reviewed/updated: 18 Oct 2018.
+ * Last reviewed/updated: 13 Aug 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -87,9 +87,15 @@ return
      <h2><a id='resources'></a>3. Resources And Additional Information</h2>
 
      <ul class='link-list'>
-      <li><a href='http://www.w3.org/TR/CSS2/fonts.html'>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification: 15 Fonts (w3.org)</a></li>
-      <li><a href='http://www.w3.org/TR/css-fonts-3/'>CSS Fonts Module Level 3: W3C Candidate Recommendation 3 October 2013 (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/CSS2/fonts.html'>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification: 15 Fonts (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/CSS22/fonts.html'>Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification: 15 Fonts (w3.org)</a></li>
+      <li><a href='https://www.w3.org/TR/css-fonts-3/'>CSS Fonts Module Level 3: W3C Recommendation 20 September 2018 (w3.org)</a></li>
       <li><a href='http://www.microsoft.com/typography/AboutFontsOverview.mspx'>Microsoft Typography (microsoft.com)</a></li>
+      <li><a href='https://learn.microsoft.com/en-us/typography/fonts/windows_7_font_list'>Windows 7 Font List (learn.microsoft.com)</a></li>
+      <li><a href='https://learn.microsoft.com/en-us/typography/fonts/windows_8_font_list'>Windows 8 Font List (learn.microsoft.com)</a></li>
+      <li><a href='https://learn.microsoft.com/en-us/typography/fonts/windows_81_font_list'>Windows 8.1 Font List (learn.microsoft.com)</a></li>
+      <li><a href='https://learn.microsoft.com/en-us/typography/fonts/windows_10_font_list'>Windows 10 Font List (learn.microsoft.com)</a></li>
+      <li><a href='https://learn.microsoft.com/en-us/typography/fonts/windows_11_font_list'>Windows 11 Font List (learn.microsoft.com)</a></li>
      </ul>
 
     </section>";
