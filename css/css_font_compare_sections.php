@@ -13,6 +13,10 @@ return
 
      <p>The choice of font is an important decision when designing a web page/site. Therefore, it is useful to be able to compare fonts side by side exactly as they would appear online. In this web page, user selected CSS <code>font</code> property values in Section 2.1 are applied to strings of text in Section 2.2, thereby allowing CSS <code>font</code> property values to be compared side by side online.</p>
 
+	<div class='note normal'>Web browsers do not include fonts. Web browsers use the operating system's fonts to display text. If a snippet of HTML is assigned a CSS style rule using the <code>font-family</code> property and the operating system has the corresponding font, the web browser displays the snippet of HTML using the operating system font as specified by the CSS. If an HTML snippet is assigned a CSS style rule using the <code>font-family</code> property and the operating system does not have the corresponding font, the HTML snippet gets <code>font-family</code> style from the user agent default styles Standard/Default font setting, which for Chrome 115 (see image below), Edge 115, Firefox 116, Opera 101, and Vivaldi 6.1 is set to Times New Roman. For Chrome, click Customize and control Google Chrome menu | Settings | Appearance | Customize fonts:</div>
+
+    <img src='/images/html_snippet/chrome115_customize_font_standard_font_arrow_680x567.gif' alt='Chrome 115 Customize fonts | Standard font' class='box-shadow' />
+
     </section>
     <hr />
     <section>
