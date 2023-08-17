@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/css/css_testing_ground/index_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/css/css_testing_ground/index.php.
- * Last reviewed/updated: 20 Nov 2020.
+ * Last reviewed/updated: 16 Aug 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -130,6 +130,18 @@ return
 
      <ul class='link-list'>
       <li><a href='/css/css_testing_ground/web_browser_support_misc.html'>Web Browser Support For Miscellaneous CSS Selectors, Styles, Properties, Values, And Units: Tests And Results (learnwebcoding.com)</a></li>
+     </ul>
+
+    </section>
+    <hr />
+    <section>
+
+     <h2><a id='fontNotInstalled'></a>11. HTML Snippet To Be Styled By Font Not Installed On Computer Operating System Gets <code>font-family</code> Style From User Agent Default Styles Standard/Default Font Setting, Not By Inheritance From <code>body</code> Style Rule</h2>
+
+     <p>Tests to determine how an HTML snippet styled with a font not installed on the computer operating system gets style:</p>
+
+     <ul class='link-list'>
+      <li><a href='/css/css_testing_ground/html_snippet_font_not_installed_font_family_from_user_agent_default_styles.html'>HTML Snippet To Be Styled By Font Not Installed On Computer Operating System Gets <code>font-family</code> Style From User Agent Default Styles Standard/Default Font Setting, Not By Inheritance From <code>body</code> Style Rule (learnwebcoding.com)</a></li>
      </ul>
 
     </section>";

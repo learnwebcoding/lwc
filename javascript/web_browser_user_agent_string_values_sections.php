@@ -1,17 +1,17 @@
 <?php
 /* -------------------- INTRODUCTION -------------------- */
 
-/* File: /web_server_root_directory/bom/web_browser_useragent_values_sections.php.
+/* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
- * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 14 Aug 2023.
+ * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
+ * Last reviewed/updated: 15 Aug 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
 
      <h2><a id='introduction'></a>1. Introduction</h2>
 
-     <p>The BOM <code>window.navigator</code> property is an object known simply as the <code>navigator</code> object. The <code>navigator</code> object properties and methods provide information about the web browser. The <code>navigator.userAgent</code> property represents the web browser user-agent string. The web browser user-agent string is intended to provide web browser vendor and version number information, and has two primary uses. First, when a web browser requests a web page from a web server, the web browser user-agent string is included in the HTTP request header. The web server can be configured to read the user-agent string from the HTTP request header and to make response decisions based on the user-agent string value. Second, programs and scripts compatible with the BOM can be written to read the web browser user-agent string from the BOM <code>navigator.userAgent</code> property and to make program flow decisions based on the user-agent string value. In both cases, the user-agent string is used to identify the web browser vendor and/or version being used, and then decisions are made based on the result.</p>
+     <p>The BOM <code>window.navigator</code> property is an object known simply as the <code>navigator</code> object. The <code>navigator</code> object properties and methods provide information about the web browser. The <code>navigator.userAgent</code> property represents the web browser user agent string. The web browser user agent string is intended to provide web browser vendor and version number information, and has two primary uses. First, when a web browser requests a web page from a web server, the web browser user agent string is included in the HTTP request header. The web server can be configured to read the user agent string from the HTTP request header and to make response decisions based on the user agent string value. Second, programs and scripts compatible with the BOM can be written to read the web browser user agent string from the BOM <code>navigator.userAgent</code> property and to make program flow decisions based on the user agent string value. In both cases, the user agent string is used to identify the web browser vendor and/or version being used, and then decisions are made based on the result.</p>
 
      <h3><a id='abbreviations'></a>1.1. Abbreviations</h3>
 
@@ -402,26 +402,26 @@ return
 
 <!-- Windows 10 Version 1507 (10.0.10240) 32-bit = Installed Windows 10 Home and Windows 10 Professional from MSDN subscriptions: Windows 10 (Multiple Editions) (x86) - DVD (English) en_windows_10_multiple_editions_x86_dvd_6848465.iso. -->
 
-     <p>Edge 20 included with Windows 10 Version 1507 32-bit (Edge 20.10240.16384.0. EdgeHTML not specified but implied to be 12.10240 per the user-agent string.)<br />
+     <p>Edge 20 included with Windows 10 Version 1507 32-bit (Edge 20.10240.16384.0. EdgeHTML not specified but implied to be 12.10240 per the user agent string.)<br />
      mozilla/5.0 (windows nt 10.0) applewebkit/537.36 (khtml, like gecko) chrome/42.0.2311.135 safari/537.36 edge/12.10240</p>
 
      <p>Internet Explorer 11.0 included with Windows 10 Version 1507 32-bit (IE 11.0.10240.16384)<br />
      mozilla/5.0 (windows nt 10.0; trident/7.0; .net4.0c; .net4.0e; rv:11.0) like gecko</p>
 
-     <div class='note normal'>In Compatibility View, the Internet Explorer 11.0 for Windows 10 Version 1507 32-bit user-agent string value reports <q>trident/8.0</q>, not <q>trident/7.0</q>.</div>
+     <div class='note normal'>In Compatibility View, the Internet Explorer 11.0 for Windows 10 Version 1507 32-bit user agent string value reports <q>trident/8.0</q>, not <q>trident/7.0</q>.</div>
 
      <p>Internet Explorer 11.0 included with Windows 10 Version 1507 32-bit (Compatibility View) (IE 11.0.10240.16384)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; trident/8.0; .net4.0c; .net4.0e)</p>
 
 <!-- Windows 10 Version 1507 (10.0.10240) 64-bit = Installed Windows 10 Home and Windows 10 Professional from MSDN subscriptions: Windows 10 (Multiple Editions) (x64) - DVD (English) en_windows_10_multiple_editions_x64_dvd_6846432.iso. -->
 
-     <p>Edge 20 included with Windows 10 Version 1507 64-bit (Edge 20.10240.16384.0. EdgeHTML not specified but implied to be 12.10240 per the user-agent string.)<br />
+     <p>Edge 20 included with Windows 10 Version 1507 64-bit (Edge 20.10240.16384.0. EdgeHTML not specified but implied to be 12.10240 per the user agent string.)<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/42.0.2311.135 safari/537.36 edge/12.10240</p>
 
      <p>Internet Explorer 11.0 included with Windows 10 Version 1507 64-bit (IE 11.0.10240.16384)<br />
      mozilla/5.0 (windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e; rv:11.0) like gecko</p>
 
-     <div class='note normal'>In Compatibility View, the Internet Explorer 11.0 for Windows 10 Version 1507 64-bit user-agent string value reports <q>trident/8.0</q>, not <q>trident/7.0</q>.</div>
+     <div class='note normal'>In Compatibility View, the Internet Explorer 11.0 for Windows 10 Version 1507 64-bit user agent string value reports <q>trident/8.0</q>, not <q>trident/7.0</q>.</div>
 
      <p>Internet Explorer 11.0 included with Windows 10 Version 1507 64-bit (Compatibility View) (IE 11.0.10240.16384)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/8.0; .net4.0c; .net4.0e)</p>
@@ -572,7 +572,7 @@ return
      <p>Internet Explorer 11.0 included with Windows 10 Version 1809 64-bit (Compatibility View) (IE 11.1.17763.0)<br />
      mozilla/4.0 (compatible; msie 7.0; windows nt 10.0; wow64; trident/7.0; .net4.0c; .net4.0e)</p>
 
-     <div class='note normal'>The Windows 10 Version 1809 Build 17763.107 Edge and Internet Explorer user-agent string values are identical to the Windows 10 Version 1809 Build 17763.1 Edge and Internet Explorer user-agent string values.</div>
+     <div class='note normal'>The Windows 10 Version 1809 Build 17763.107 Edge and Internet Explorer user agent string values are identical to the Windows 10 Version 1809 Build 17763.1 Edge and Internet Explorer user agent string values.</div>
 
 <!-- Windows 10 Version 1809 v2 13Nov18 (10.0.17763.107) 32-bit = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer edition) Version 1809 (Updated Sept 2018) (x86) - DVD (English) Win10_1809Oct_English_x32.iso. -->
 
@@ -815,7 +815,7 @@ return
        <li>Installation on Windows 10 replaces Edge Legacy with Edge, which becomes the default web browser.</li>
        <li>The first official version of Edge was Edge 79.0.309.65, released 15 Jan 2020.</li>
        <li>Offline installer: <a href='https://www.microsoft.com/en-us/edge/business/download'>Microsoft Edge For Business (microsoft.com)</a>.</li>
-       <li>Releases of Edge for business and releases of Edge for consumers have identical Edge version number and user-agent string value.</li>
+       <li>Releases of Edge for business and releases of Edge for consumers have identical Edge version number and user agent string value.</li>
       </ul>
      </div>
 
@@ -1607,7 +1607,7 @@ return
      <p>Edge 97.0.1072.76 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/97.0.4692.99 safari/537.36 edg/97.0.1072.76</p>
 
-     <div class='note normal'>Starting with Edge 98, only the 64-bit user-agent string value will be reported.</div>
+     <div class='note normal'>Starting with Edge 98, only the 64-bit user agent string value will be reported.</div>
 
      <p>Edge 98.0.1108.43 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/98.0.4758.80 safari/537.36 edg/98.0.1108.43</p>
@@ -2380,8 +2380,8 @@ return
 
      <div class='note normal'>
       <ul>
-       <li>With Firefox 16.0.1, the Firefox user-agent string value no longer reports point releases.</li>
-       <li>The Firefox 16.0.1 and 16.0.2 user-agent string values are identical to the Firefox 16.0 user-agent string value.</li>
+       <li>With Firefox 16.0.1, the Firefox user agent string value no longer reports point releases.</li>
+       <li>The Firefox 16.0.1 and 16.0.2 user agent string values are identical to the Firefox 16.0 user agent string value.</li>
       </ul>
      </div>
 
@@ -2394,7 +2394,7 @@ return
      <p>Firefox 17.0<br />
      mozilla/5.0 (windows nt 6.1; wow64; rv:17.0) gecko/17.0 firefox/17.0</p>
 
-     <div class='note normal'>The Firefox 17.0.1 user-agent string value is similar to the Firefox 17.0 user-agent string value.</div>
+     <div class='note normal'>The Firefox 17.0.1 user agent string value is similar to the Firefox 17.0 user agent string value.</div>
 
      <p>Firefox 17.0.1<br />
      mozilla/5.0 (windows nt 6.1; wow64; rv:17.0) gecko/20100101 firefox/17.0</p>
@@ -3092,7 +3092,7 @@ return
      <p>Firefox 68.0.2 64-bit<br />
      mozilla/5.0 (windows nt 6.1; win64; x64; rv:68.0) gecko/20100101 firefox/68.0</p>
 
-     <div class='note normal'>With Firefox 69, the Firefox 32-bit user-agent string value is identical to the Firefox 64-bit user-agent string value. In other words, with Firefox 69, the Firefox 32-bit user-agent string value identifies Firefox as Firefox 64-bit, not as Firefox 32-bit.</div>
+     <div class='note normal'>With Firefox 69, the Firefox 32-bit user agent string value is identical to the Firefox 64-bit user agent string value. In other words, with Firefox 69, the Firefox 32-bit user agent string value identifies Firefox as Firefox 64-bit, not as Firefox 32-bit.</div>
 
      <p>Firefox 69.0 32-bit<br />
      mozilla/5.0 (windows nt 6.1; win64; x64; rv:69.0) gecko/20100101 firefox/69.0</p>
@@ -3494,7 +3494,7 @@ return
      <p>Firefox 96.0.3 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:96.0) gecko/20100101 firefox/96.0</p>
 
-     <div class='note normal'>Starting with Firefox 97, only the 64-bit user-agent string value will be reported.</div>
+     <div class='note normal'>Starting with Firefox 97, only the 64-bit user agent string value will be reported.</div>
 
      <p>Firefox 97.0 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:97.0) gecko/20100101 firefox/97.0</p>
@@ -5038,7 +5038,7 @@ return
      <p>Chrome 78.0.3904.70 64-bit<br />
      mozilla/5.0 (windows nt 6.1; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/78.0.3904.70 safari/537.36</p>
 
-     <div class='note normal'>The Chrome 78.0.3904.87 user-agent string value was not obtained.</div>
+     <div class='note normal'>The Chrome 78.0.3904.87 user agent string value was not obtained.</div>
 
      <p>Chrome 78.0.3904.97 32-bit<br />
      mozilla/5.0 (windows nt 6.1; wow64) applewebkit/537.36 (khtml, like gecko) chrome/78.0.3904.97 safari/537.36</p>
@@ -5250,7 +5250,7 @@ return
      <p>Chrome 86.0.4240.183 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/86.0.4240.183 safari/537.36</p>
 
-     <div class='note normal'>The Chrome 86.0.4240.193 user-agent string value was not obtained.</div>
+     <div class='note normal'>The Chrome 86.0.4240.193 user agent string value was not obtained.</div>
 
      <p>Chrome 86.0.4240.198 32-bit<br />
      mozilla/5.0 (windows nt 10.0; wow64) applewebkit/537.36 (khtml, like gecko) chrome/86.0.4240.198 safari/537.36</p>
@@ -5498,7 +5498,7 @@ return
      <p>Chrome 97.0.4692.99 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/97.0.4692.99 safari/537.36</p>
 
-     <div class='note normal'>Starting with Chrome 98, only the 64-bit user-agent string value will be reported.</div>
+     <div class='note normal'>Starting with Chrome 98, only the 64-bit user agent string value will be reported.</div>
 
      <p>Chrome 98.0.4758.80 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/98.0.4758.80 safari/537.36</p>
@@ -5548,7 +5548,7 @@ return
      <p>Chrome 102.0.5005.115 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/102.0.5005.115 safari/537.36</p>
 
-     <div class='note normal'>With Chrome 103, the Chrome user-agent string value no longer reports point releases.</div>
+     <div class='note normal'>With Chrome 103, the Chrome user agent string value no longer reports point releases.</div>
 
      <p>Chrome 103.0.5060.53 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/103.0.0.0 safari/537.36</p>
@@ -5651,7 +5651,7 @@ return
      <p>Chrome 112.0.5615.87 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/112.0.0.0 safari/537.36</p>
 
-     <div class='note normal'>The Chrome 112.0.5615.121 user-agent string value was not obtained.</div>
+     <div class='note normal'>The Chrome 112.0.5615.121 user agent string value was not obtained.</div>
 
      <p>Chrome 112.0.5615.138 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/112.0.0.0 safari/537.36</p>
@@ -6057,7 +6057,7 @@ return
      <p>Opera 7.54u1 (Identify as Mozilla 3.0)<br />
      mozilla/3.0 (windows nt 5.1; u) opera 7.54u1 [en]</p>
 
-     <div class='note normal'>The Opera 7.54u2 user-agent string values are identical to the Opera 7.54 user-agent string values.</div>
+     <div class='note normal'>The Opera 7.54u2 user agent string values are identical to the Opera 7.54 user agent string values.</div>
 
      <p>Opera 7.54u2 (Identify as MSIE 6.0)<br />
      mozilla/4.0 (compatible; msie 6.0; windows nt 5.1) opera 7.54 [en]</p>
@@ -6159,8 +6159,8 @@ return
       <ul>
        <li><q>Identify as MSIE 6.0</q> removed and <q>Identify as Internet Explorer</q> added.</li>
        <li><q>Identify as Mozilla 5.0</q> removed and <q>Identify as Mozilla</q> added.</li>
-       <li><q>Mask as Mozilla</q> added. The Opera 9.0x <q>Mask as Mozilla</q> user-agent string values are similar to the Mozilla user-agent string values.</li>
-       <li><q>Mask as Internet Explorer</q> added. The Opera 9.0+ <q>Mask as Internet Explorer</q> user-agent string values are similar to the Internet Explorer user-agent string values.</li>
+       <li><q>Mask as Mozilla</q> added. The Opera 9.0x <q>Mask as Mozilla</q> user agent string values are similar to the Mozilla user agent string values.</li>
+       <li><q>Mask as Internet Explorer</q> added. The Opera 9.0+ <q>Mask as Internet Explorer</q> user agent string values are similar to the Internet Explorer user agent string values.</li>
       </ul>
      </div>
 
@@ -6213,7 +6213,7 @@ return
       <p>With Opera 9.10:</p>
       <ul>
        <li><q>Identify as Mozilla</q> removed and <q>Identify as Firefox</q> added.</li>
-       <li><q>Mask as Mozilla</q> removed and <q>Mask as Firefox</q> added. The Opera 9.10+ <q>Mask as Firefox</q> user-agent string values are similar to the Firefox user-agent string values.</li>
+       <li><q>Mask as Mozilla</q> removed and <q>Mask as Firefox</q> added. The Opera 9.10+ <q>Mask as Firefox</q> user agent string values are similar to the Firefox user agent string values.</li>
       </ul>
      </div>
 
@@ -6472,7 +6472,7 @@ return
      <p>Opera 9.64 (Mask as Internet Explorer)<br />
      mozilla/4.0 (compatible; msie 6.0; windows nt 5.1; en)</p>
 
-     <div class='note normal'>The syntax of the Opera 10.00+ <q>Identify as Opera</q> user-agent string values is different than the syntax of the Opera 9.64- <q>Identify as Opera</q> user-agent string values.</div>
+     <div class='note normal'>The syntax of the Opera 10.00+ <q>Identify as Opera</q> user agent string values is different than the syntax of the Opera 9.64- <q>Identify as Opera</q> user agent string values.</div>
 
      <p>Opera 10.00 (Identify as Opera)<br />
      opera/9.80 (windows nt 5.1; u; en) presto/2.2.15 version/10.00</p>
@@ -6789,7 +6789,7 @@ return
      <p>Opera 11.61 (Mask as Internet Explorer)<br />
      mozilla/5.0 (compatible; msie 9.0; windows nt 6.1; trident/5.0; en)</p>
 
-     <div class='note normal'>The Opera 11.62 user-agent string values are similar to the Opera 11.61 user-agent string values.</div>
+     <div class='note normal'>The Opera 11.62 user agent string values are similar to the Opera 11.61 user agent string values.</div>
 
      <p>Opera 11.62 (Identify as Opera)<br />
      opera/9.80 (windows nt 6.1; wow64; u; en) presto/2.10.229 version/11.62</p>
@@ -7160,7 +7160,7 @@ return
      <div class='note normal'>
       <ul>
        <li>Opera Next 15.x is essentially Opera 15.x Beta.</li>
-       <li>Opera 15+ source code is based on Chromium and Blink, which are a fork of the WebKit rendering engine. Opera 12.x and earlier were Opera's own code. Accordingly, the syntax of the Opera 15+ user-agent string values is different than the syntax of the Opera 12.x and earlier user-agent string values.</li>
+       <li>Opera 15+ source code is based on Chromium and Blink, which are a fork of the WebKit rendering engine. Opera 12.x and earlier were Opera's own code. Accordingly, the syntax of the Opera 15+ user agent string values is different than the syntax of the Opera 12.x and earlier user agent string values.</li>
       </ul>
      </div>
 
@@ -8888,7 +8888,7 @@ return
      <p>Opera 82.0.4227.58 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/96.0.4664.110 safari/537.36 opr/82.0.4227.58</p>
 
-     <div class='note normal'>Starting with Opera 83, only the 64-bit user-agent string value will be reported.</div>
+     <div class='note normal'>Starting with Opera 83, only the 64-bit user agent string value will be reported.</div>
 
      <p>Opera 83.0.4254.19 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/97.0.4692.71 safari/537.36 opr/83.0.4254.19</p>
@@ -9007,7 +9007,7 @@ return
      <p>Opera 91.0.4516.77 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/105.0.0.0 safari/537.36 opr/91.0.4516.77</p>
 
-     <div class='note normal'>With Opera 92, the Opera user-agent string value no longer reports point releases.</div>
+     <div class='note normal'>With Opera 92, the Opera user agent string value no longer reports point releases.</div>
 
      <p>Opera 92.0.4561.21 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/106.0.0.0 safari/537.36 opr/92.0.0.0</p>
@@ -9327,7 +9327,7 @@ return
      <p>Vivaldi 1.9.818.50 64-bit<br />
      mozilla/5.0 (windows nt 6.1; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/58.0.3029.114 safari/537.36 vivaldi/1.9.818.50</p>
 
-     <div class='note normal'>The Vivaldi 1.1x user-agent string values do not report the correct version of Vivaldi. According to Vivaldi, this is deliberate to avoid poorly written scripts from confusing Vivaldi 1.1x with Vivaldi 1.1.</div>
+     <div class='note normal'>The Vivaldi 1.1x user agent string values do not report the correct version of Vivaldi. According to Vivaldi, this is deliberate to avoid poorly written scripts from confusing Vivaldi 1.1x with Vivaldi 1.1.</div>
 
      <p>Vivaldi 1.10.867.38 32-bit<br />
      mozilla/5.0 (windows nt 6.1; wow64) applewebkit/537.36 (khtml, like gecko) chrome/59.0.3071.90 safari/537.36 vivaldi/1.91.867.38</p>
@@ -9688,8 +9688,8 @@ return
      <div class='note normal'>
       <p>With Vivaldi 2.10:</p>
       <ul>
-       <li>The Vivaldi user-agent string value no longer reports <q>Vivaldi</q> nor the version of Vivaldi. For additional information, see <a href='https://vivaldi.com/blog/vivaldi-2-10-no-strings-attached-2/'>Vivaldi 2.10: No strings attached (vivaldi.com)</a>.</li>
-       <li>The Vivaldi user-agent string values are similar to the Chrome user-agent string values.</li>
+       <li>The Vivaldi user agent string value no longer reports <q>Vivaldi</q> nor the version of Vivaldi. For additional information, see <a href='https://vivaldi.com/blog/vivaldi-2-10-no-strings-attached-2/'>Vivaldi 2.10: No strings attached (vivaldi.com)</a>.</li>
+       <li>The Vivaldi user agent string values are similar to the Chrome user agent string values.</li>
       </ul>
      </div>
 
@@ -10147,7 +10147,7 @@ return
      <p>Vivaldi 5.0.2497.48 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/96.0.4664.175 safari/537.36</p>
 
-     <div class='note normal'>Starting with Vivaldi 5.1, only the 64-bit user-agent string value will be reported.</div>
+     <div class='note normal'>Starting with Vivaldi 5.1, only the 64-bit user agent string value will be reported.</div>
 
      <p>Vivaldi 5.1.2567.39 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/98.0.4758.88 safari/537.36</p>
@@ -10500,7 +10500,7 @@ return
      <p>SeaMonkey 2.3.1 (Advertise Firefox Compatibility)<br />
      mozilla/5.0 (windows nt 6.1; wow64; rv:6.0) gecko/20110820 firefox/6.0 seamonkey/2.3.1</p>
 
-     <div class='note normal'>The SeaMonkey 2.3.2 and SeaMonkey 2.3.2 <q>Advertise Firefox Compatibility</q> user-agent string values report <q>seamonkey/2.3.1</q>, not <q>seamonkey/2.3.2</q>.</div>
+     <div class='note normal'>The SeaMonkey 2.3.2 and SeaMonkey 2.3.2 <q>Advertise Firefox Compatibility</q> user agent string values report <q>seamonkey/2.3.1</q>, not <q>seamonkey/2.3.2</q>.</div>
 
      <p>SeaMonkey 2.3.2<br />
      mozilla/5.0 (windows nt 6.1; wow64; rv:6.0.1) gecko/20110830 seamonkey/2.3.1</p>
@@ -10618,8 +10618,8 @@ return
 
      <div class='note normal'>
       <ul>
-       <li>The SeaMonkey 2.13.1 and 2.13.2 user-agent string values are identical to the SeaMonkey 2.13 user-agent string value.</li>
-       <li>The SeaMonkey 2.13.1 and 2.13.2 <q>Advertise Firefox Compatibility</q> user-agent string values are identical to the SeaMonkey 2.13 <q>Advertise Firefox Compatibility</q> user-agent string value.</li>
+       <li>The SeaMonkey 2.13.1 and 2.13.2 user agent string values are identical to the SeaMonkey 2.13 user agent string value.</li>
+       <li>The SeaMonkey 2.13.1 and 2.13.2 <q>Advertise Firefox Compatibility</q> user agent string values are identical to the SeaMonkey 2.13 <q>Advertise Firefox Compatibility</q> user agent string value.</li>
       </ul>
      </div>
 
@@ -10900,7 +10900,7 @@ return
 
      <div class='note normal'>
       <ul>
-       <li>With SeaMonkey 2.49.5, <q>Advertise Lightning Installation</q> added, which does not change user-agent string value, and both <q>Advertise Firefox Compatibility</q> and <q>Advertise Lightning Installation</q> checked by default.</li>
+       <li>With SeaMonkey 2.49.5, <q>Advertise Lightning Installation</q> added, which does not change user agent string value, and both <q>Advertise Firefox Compatibility</q> and <q>Advertise Lightning Installation</q> checked by default.</li>
        <li>SeaMonkey 2.49.5 released when Firefox was at version 69.0.</li>
       </ul>
      </div>
@@ -11244,7 +11244,7 @@ return
 
      <div class='note normal'>
       <ul>
-       <li>Starting with SeaMonkey 2.53.11, only the 64-bit user-agent string value will be reported.</li>
+       <li>Starting with SeaMonkey 2.53.11, only the 64-bit user agent string value will be reported.</li>
        <li>SeaMonkey 2.53.11 released when Firefox was at version 97.0.1.</li>
       </ul>
      </div>
@@ -11512,8 +11512,8 @@ return
 
      <div class='note normal'>
       <ul>
-       <li>The syntax of the Flock 2.5 - 2.5.2 user-agent string values is different than the syntax of the Flock 2.0.3- user-agent string values.</li>
-       <li>The Flock 2.5 - 2.5.2 user-agent string values are similar to the Firefox user-agent string values.</li>
+       <li>The syntax of the Flock 2.5 - 2.5.2 user agent string values is different than the syntax of the Flock 2.0.3- user agent string values.</li>
+       <li>The Flock 2.5 - 2.5.2 user agent string values are similar to the Firefox user agent string values.</li>
       </ul>
      </div>
 
@@ -11529,7 +11529,7 @@ return
      <div class='note normal'>
       <ul>
        <li>The version of Flock skipped from 2.5.2 to 2.5.5.</li>
-       <li>The Flock 2.5.5 - 2.6.1 user-agent string values are similar to the Flock 2.0.3- user-agent string values.</li>
+       <li>The Flock 2.5.5 - 2.6.1 user agent string values are similar to the Flock 2.0.3- user agent string values.</li>
       </ul>
      </div>
 
@@ -11548,7 +11548,7 @@ return
      <p>Flock 2.6.2<br />
      mozilla/5.0 (windows; u; windows nt 6.1; en-us; rv:1.9.0.19) gecko/2011012620 firefox/3.0.19 flock/2.6.2</p>
 
-     <div class='note normal'>Flock 3.x was based on Chrome. Flock 2.x and earlier were based on Mozilla. Accordingly, the syntax of the Flock 3.x user-agent string values is different than the syntax of the Flock 2.x and earlier user-agent string values.</div>
+     <div class='note normal'>Flock 3.x was based on Chrome. Flock 2.x and earlier were based on Mozilla. Accordingly, the syntax of the Flock 3.x user agent string values is different than the syntax of the Flock 2.x and earlier user agent string values.</div>
 
      <p>Flock 3.5.0.4577<br />
      mozilla/5.0 (windows; u; windows nt 6.1; en-us) applewebkit/534.7 (khtml, like gecko) flock/3.5.0.4577 chrome/7.0.517.441 safari/534.7</p>

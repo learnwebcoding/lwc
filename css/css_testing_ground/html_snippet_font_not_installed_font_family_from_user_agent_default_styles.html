@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>HTML Snippet To Be Styled By Font Not Installed On Computer Operating System Gets font-family Style From User Agent Default Styles Standard/Default Font Setting, Not By Inheritance From body Style Rule</title>
+  <meta charset="UTF-8" />
+  <meta name="Author" content="Steve Taylor" />
+  <meta name="Keywords" content="HTML, snippet, CSS, style, font-family, operating system, font not installed, body, body style rule, font-family property, user agent, user agent default styles, inherit CSS, inherit style, HTML page" />
+  <meta name="Description" content="Tests to determine how an HTML snippet styled with a font not installed on the computer operating system gets styled." />
+  <style>
+   body { font-family: Arial, sans-serif; font-size: 14px; }
+   .arial { font-family: Arial; }
+   .sans-serif { font-family: sans-serif; }
+   .times-new-roman { font-family: "Times New Roman"; }
+   .font-not-installed { font-family: Fontnotinstalled; }
+   img { display: block;  max-width: 100%; border: 0; margin: 1em 0; }
+   .box-shadow { box-shadow: 0 1px 6px 0 #ccc; }
+  </style>
+ </head>
+ <body>
+
+  <h1>HTML Snippet To Be Styled By Font Not Installed On Computer Operating System Gets <code>font-family</code> Style From User Agent Default Styles Standard/Default Font Setting, Not By Inheritance From <code>body</code> Style Rule</h1>
+
+  <ol>
+   <li><a href="#body">HTML Snippet <code>font-family</code> Style By Inheritance From <code>body</code> Style Rule</a></li>
+   <li><a href="#class">HTML Snippets <code>font-family</code> Style From Class Selectors</a></li>
+   <li><a href="#userAgent">HTML Snippet To Be Styled By Font Not Installed On Computer Operating System Gets <code>font-family</code> Style From User Agent Default Styles Standard/Default Font Setting, Not By Inheritance From <code>body</code> Style Rule</a></li>
+  </ol>
+
+  <hr />
+
+  <h3><a id="body"></a>1. HTML Snippet <code>font-family</code> Style By Inheritance From <code>body</code> Style Rule</h3>
+
+  <h4>Test CSS</h4>
+
+<pre>
+body { font-family: Arial, sans-serif; font-size: 14px; }
+</pre>
+
+  <h4>Test HTML</h4>
+
+<pre>
+&lt;p&gt;The quick brown fox jumps over the lazy dog THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG 1234567890 `~!@#$%^&*-_=+()\/[]{}<>;:'|",.?&lt;/p&gt;
+</pre>
+
+  <h4>Test</h4>
+
+  <p>The quick brown fox jumps over the lazy dog THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG 1234567890 `~!@#$%^&*-_=+()\/[]{}<>;:'|",.?</p>
+
+  <h4>Result</h4>
+
+  <p>Paragraph styled Arial by inheritance from <code>body</code> style rule.</p>
+
+  <hr />
+
+  <h3><a id="class"></a>2. HTML Snippets <code>font-family</code> Style From Class Selectors</h3>
+
+  <h4>Test CSS</h4>
+
+<pre>
+.arial { font-family: Arial; }
+.sans-serif { font-family: sans-serif; }
+.times-new-roman { font-family: "Times New Roman"; )
+</pre>
+
+  <h4>Test HTML</h4>
+
+<pre>
+&lt;p class=&quot;arial&quot;&gt;The quick brown fox jumps over the lazy dog THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG 1234567890 `~!@#$%^&*-_=+()\/[]{}<>;:'|",.?&lt;/p&gt;
+
+&lt;p class=&quot;sans-serif&quot;&gt;The quick brown fox jumps over the lazy dog THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG 1234567890 `~!@#$%^&*-_=+()\/[]{}<>;:'|",.?&lt;/p&gt;
+
+&lt;p class=&quot;times-new-roman&quot;&gt;The quick brown fox jumps over the lazy dog THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG 1234567890 `~!@#$%^&*-_=+()\/[]{}<>;:'|",.?&lt;/p&gt;
+</pre>
+
+  <h4>Test</h4>
+
+  <p class="arial">The quick brown fox jumps over the lazy dog THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG 1234567890 `~!@#$%^&*-_=+()\/[]{}<>;:'|",.?</p>
+
+  <p class="sans-serif">The quick brown fox jumps over the lazy dog THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG 1234567890 `~!@#$%^&*-_=+()\/[]{}<>;:'|",.?</p>
+
+  <p class="times-new-roman">The quick brown fox jumps over the lazy dog THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG 1234567890 `~!@#$%^&*-_=+()\/[]{}<>;:'|",.?</p>
+
+  <h4>Result</h4>
+
+  <p>Classed paragraph styled Arial via <code>.arial</code> style rule. A control demonstrating Arial text.</p>
+
+  <p>Classed paragraph styled sans-serif via <code>.sans-serif</code> style rule. A control demonstrating <code>body</code> style rule <code>font-family</code> property fallback value sans-serif text.</p>
+
+  <p>Classed paragraph styled Times New Roman via <code>.times-new-roman</code> style rule. A control demonstrating Times New Roman text.</p>
+
+  <hr />
+
+  <h3><a id="userAgent"></a>3. HTML Snippet To Be Styled By Font Not Installed On Computer Operating System Gets <code>font-family</code> Style From User Agent Default Styles Standard/Default Font Setting, Not By Inheritance From <code>body</code> Style Rule</h3>
+
+  <h4>Test CSS</h4>
+
+<pre>
+.font-not-installed { font-family: Fontnotinstalled; }
+</pre>
+
+  <h4>Test HTML</h4>
+
+<pre>
+&lt;p class=&quot;font-not-installed&quot;&gt;The quick brown fox jumps over the lazy dog THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG 1234567890 `~!@#$%^&*-_=+()\/[]{}<>;:'|",.?&lt;/p&gt;
+</pre>
+
+  <h4>Test</h4>
+
+  <p class="font-not-installed">The quick brown fox jumps over the lazy dog THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG 1234567890 `~!@#$%^&*-_=+()\/[]{}<>;:'|",.?</p>
+
+  <h4>Result</h4>
+
+  <p>Classed paragraph to be styled Fontnotinstalled via <code>.font-not-installed</code> style rule. The Fontnotinstalled font is not installed on computer operating system. Therefore, from where does this HTML snippet get styled? If this HTML snippet inherited style from the <code>body</code> style rule, it would be styled Arial, which it is not. Instead, this HTML snippet is styled Times New Roman. This HTML snippet, intended to be styled by a font not installed on the computer operating system, gets <code>font-family</code> style from the user agent default styles Standard/Default font setting, which for Chrome 115 (see image below), Edge 115, Firefox 116, Opera 101, and Vivaldi 6.1 is set to Times New Roman. For Chrome, click Customize and control Google Chrome menu | Settings | Appearance | Customize fonts:</p>
+
+  <img src="/images/html_snippet/chrome115_customize_font_standard_font_arrow_680x567.gif" alt="Chrome 115 Customize fonts | Standard font" class="box-shadow" />
+
+  <p>Note: To prove the HTML snippet gets <code>font-family</code> style from user agent default styles Standard font setting, change the Standard font setting to Webdings and notice the Test text style changes to Webdings. Then change it back to Times New Roman.</p>
+
+  <p>Last reviewed/updated: 16 Aug 2023 | Published: 16 Aug 2023 | Status: Active</p>
+
+  <p><a href="http://www.learnwebcoding.com/">Learn Web Coding</a></p>
+
+  <p><a href="https://validator.w3.org/check?uri=referer"><img src="/images/HTML5_Logo_48.gif" alt="Valid HTML5" /></a>&nbsp;<a href="https://jigsaw.w3.org/css-validator/check?uri=referer&amp;profile=css3"><img src="/images/valid-css.gif" alt="Valid CSS Level 3" /></a></p>
+
+ </body>
+</html>

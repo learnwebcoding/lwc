@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/css/index_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/css/index.php.
- * Last reviewed/updated: 15 Aug 2021.
+ * Last reviewed/updated: 16 Aug 2021.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -51,6 +51,7 @@ return
         <li><a href='/css/css_testing_ground/web_browser_support_new_semantic.php'>Web Browser Support For The New HTML5 Semantic Elements: Tests And Results (learnwebcoding.com)</a></li>
         <li><a href='/css/css_testing_ground/web_browser_support_noscript.php'>Web Browser Support For The HTML <code>noscript</code> Element As A CSS Type Selector And As A Classed Element: Tests And Results (learnwebcoding.com)</a></li>
         <li><a href='/css/css_testing_ground/web_browser_support_misc.html'>Web Browser Support For Miscellaneous CSS Selectors, Styles, Properties, Values, And Units: Tests And Results (learnwebcoding.com)</a></li>
+        <li><a href='/css/css_testing_ground/html_snippet_font_not_installed_font_family_from_user_agent_default_styles.html'>HTML Snippet To Be Styled By Font Not Installed On Computer Operating System Gets <code>font-family</code> Style From User Agent Default Styles Standard/Default Font Setting, Not By Inheritance From <code>body</code> Style Rule (learnwebcoding.com)</a></li>
        </ul>
       </li>
      </ul>

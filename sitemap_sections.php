@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/sitemap_sections.php.
  * Purpose: Web page sections.
  * Used in: /web_server_root_directory/sitemap.php.
- * Last reviewed/updated: 04 Jan 2020.
+ * Last reviewed/updated: 16 Aug 2023.
  * Published: 21 Sep 2016. */
 return
    "<!-- This web page does not have an h2-h6 element in the section element. To avoid W3C Markup Validation Service (http://validator.w3.org/) warning, not error (Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.), comment out the section element. Same for index.php, sitemap.php, glossary.php, and whats_new.php.
@@ -71,6 +71,8 @@ return
         <li><a href='http://www.learnwebcoding.com/css/css_testing_ground/web_browser_support_new_semantic.php'>Web Browser Support For The New HTML5 Semantic Elements: Tests And Results</a></li>
         <li><a href='http://www.learnwebcoding.com/css/css_testing_ground/web_browser_support_noscript.php'>Web Browser Support For The HTML <code>noscript</code> Element As A CSS Type Selector And As A Classed Element: Tests And Results</a></li>
         <li><a href='http://www.learnwebcoding.com/css/css_testing_ground/web_browser_support_misc.html'>Web Browser Support For Miscellaneous CSS Selectors, Styles, Properties, Values, And Units: Tests And Results</a></li>
+        <li><a href='http://www.learnwebcoding.com/css/css_testing_ground/html_snippet_font_not_installed_font_family_from_user_agent_default_styles.html'>HTML Snippet To Be Styled By Font Not Installed On Computer Operating System Gets <code>font-family</code> Style From User Agent Default Styles Standard/Default Font Setting, Not By Inheritance From <code>body</code> Style Rule</a></li>
+
        </ul>
       </li>
      </ul>
@@ -164,7 +166,7 @@ return
         <li><a href='http://www.learnwebcoding.com/javascript/javascript_reference/values_method_set.php'>JavaScript Feature Reference: <code>values()</code> Method On Sets Web Browser Support Test</a></li>
         <li><a href='http://www.learnwebcoding.com/javascript/jquery_techniques/index.php'>jQuery Techniques</a></li>
         <li><a href='http://www.learnwebcoding.com/javascript/jquery_techniques/fix_content_top_viewport_upon_scrolling.php'>jQuery Technique: Fix Web Page Content To Top Of Viewport Upon Scrolling</a></li>
-        <li><a href='http://www.learnwebcoding.com/javascript/web_browser_useragent_values.php'>Web Browser User-Agent String Values</a></li>
+        <li><a href='http://www.learnwebcoding.com/javascript/web_browser_user_agent_string_values.php'>Web Browser User Agent String Values</a></li>
        </ul>
       </li>
      </ul>

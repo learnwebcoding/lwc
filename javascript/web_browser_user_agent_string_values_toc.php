@@ -1,10 +1,10 @@
 <?php
 /* -------------------- INTRODUCTION -------------------- */
 
-/* File: /web_server_root_directory/bom/web_browser_useragent_values_toc.php.
+/* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_toc.php.
  * Purpose: Web page table of contents.
- * Used in: /web_server_root_directory/bom/web_browser_useragent_values.php.
- * Last reviewed/updated: 06 Jan 2023.
+ * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
+ * Last reviewed/updated: 15 Aug 2023.
  * Published: 21 Sep 2016. */
 return
     "<div class='toc-sec'><div class='toc-num'>1.</div><div class='toc-sec-title'><a href='#introduction'>Introduction</a></div></div>

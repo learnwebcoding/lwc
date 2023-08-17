@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/javascript/index_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/javascript/index.php.
- * Last reviewed/updated: 17 Aug 2021.
+ * Last reviewed/updated: 15 Aug 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -149,7 +149,7 @@ return
      <h3><a id='bomOriginal'></a>2.2. BOM Original Content</h3>
 
      <ul class='link-list'>
-      <li><a href='/javascript/web_browser_useragent_values.php'>Web Browser User-Agent String Values (learnwebcoding.com)</a></li>
+      <li><a href='/javascript/web_browser_user_agent_string_values.php'>Web Browser User Agent String Values (learnwebcoding.com)</a></li>
      </ul>
 
     </section>

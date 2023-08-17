@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <!-- The Learn Web Coding Home Site Map (XML Version Per Sitemaps.org) -->
-<!-- Last reviewed/updated: 04 Jan 2020 | Published: 08 Jan 2014 | Status: Active -->
+<!-- Last reviewed/updated: 16 Aug 2023 | Published: 08 Jan 2014 | Status: Active -->
 
 <!-- /public_html/ Home -->
 
@@ -126,6 +126,10 @@
  <url>
   <loc>http://www.learnwebcoding.com/css/css_testing_ground/web_browser_support_misc.html</loc>
  </url>
+ <url>
+  <loc>http://www.learnwebcoding.com/css/css_testing_ground/html_snippet_font_not_installed_font_family_from_user_agent_default_styles.html</loc>
+ </url>
+
 
 <!-- /public_html/javascript/ Home | JavaScript -->
 
@@ -382,7 +386,7 @@
   <loc>http://www.learnwebcoding.com/javascript/jquery_techniques/fix_content_top_viewport_upon_scrolling.php</loc>
  </url>
  <url>
-  <loc>http://www.learnwebcoding.com/javascript/web_browser_useragent_values.php</loc>
+  <loc>http://www.learnwebcoding.com/javascript/web_browser_user_agent_string_values.php</loc>
  </url>
 
 <!-- /public_html/php/ Home | PHP -->
