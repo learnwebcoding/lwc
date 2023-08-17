@@ -1,0 +1,3 @@
+Identical image in:
+/images/css_font_compare/chrome115_customize_font_standard_font_arrow_680x354.gif
+/images/html_snippet/chrome115_customize_font_standard_font_arrow_680x354.gif

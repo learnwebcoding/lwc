@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/css/css_font_compare_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/css/css_font_compare.php.
- * Last reviewed/updated: 13 Aug 2023.
+ * Last reviewed/updated: 17 Aug 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -13,11 +13,15 @@ return
 
      <p>The choice of font is an important decision when designing a web page/site. Therefore, it is useful to be able to compare fonts side by side exactly as they would appear online. In this web page, user selected CSS <code>font</code> property values in Section 2.1 are applied to strings of text in Section 2.2, thereby allowing CSS <code>font</code> property values to be compared side by side online.</p>
 
-	<div class='note normal'>Web browsers do not include fonts. Web browsers use the operating system's fonts to display text. If a snippet of HTML is assigned a CSS style rule using the <code>font-family</code> property and the operating system has the corresponding font, the web browser displays the snippet of HTML using the operating system font as specified by the CSS. If an HTML snippet is assigned a CSS style rule using the <code>font-family</code> property and the operating system does not have the corresponding font, the HTML snippet gets <code>font-family</code> style from the user agent default styles Standard/Default font setting, which for Chrome 115 (see image below), Edge 115, Firefox 116, Opera 101, and Vivaldi 6.1 is set to Times New Roman. For Chrome, click Customize and control Google Chrome menu | Settings | Appearance | Customize fonts:</div>
+     <p>Web browsers do not include fonts. Web browsers use the computer operating system fonts to display text. If an HTML snippet is assigned a CSS style rule that includes the <code>font-family</code> property and the computer operating system has the corresponding font, the web browser displays the HTML snippet using the computer operating system font as specified by the CSS. If an HTML snippet is assigned a CSS style rule that includes the <code>font-family</code> property and the computer operating system does not have the corresponding font, the HTML snippet gets <code>font-family</code> style from the user agent default styles Standard/Default font setting, which for Chrome 115 (see image below), Edge 115, Firefox 116, Opera 101, and Vivaldi 6.1 is set to Times New Roman. For Chrome, click <kbd>Menu (Customize and control Google Chrome) | Settings | Appearance | Customize fonts</kbd>:</p>
 
-    <img src='/images/html_snippet/chrome115_customize_font_standard_font_arrow_680x567.gif' alt='Chrome 115 Customize fonts | Standard font' class='box-shadow' />
+    <img src='/images/html_snippet/chrome115_customize_font_standard_font_arrow_680x354.gif' alt='Chrome 115 Standard font' class='box-shadow' />
 
-    </section>
+     <p>Therefore, in the form below, when a <code>font-family</code> property value is selected and the string of text is styled Times New Roman (as shown in the image above), it is because the corresponding font is not installed on the computer operating system.</p>
+
+     <p>Windows and macOS share many fonts, but they also have many different fonts. Therefore, it is a good idea to view this web page to test the fonts you want to use on both Windows and macOS.</p>
+
+     </section>
     <hr />
     <section>
 

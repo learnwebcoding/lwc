@@ -12,8 +12,9 @@ return
 -->
 <!-- Resources are \"Added\". Instructional pages are \"Published\". Always keep when a page is \"Added/Published\". When a page is \"Major update\" remove prior \"Updated/Major update\". When a page is \"Updated\" remove prior \"Updated\". When a page is \"Updated\" keep prior \"Major update\". When a page is \"Updated/Major update\" remove prior \"Renamed\". When a page is \"Renamed\" without being \"Updated\" keep prior \"Updated/Major update\". When a page is \"Renamed\" and \"Updated\" remove prior \"Updated\" and keep prior \"Major update\". When a page is \"Renamed\" rename all refs to the page (including Updated/Major update/Added/Published) to the new name. When a page is \"Deleted\" remove prior \"Published\", remove prior \"Updated\, and mention page \"Deleted.\". When a page is \"Moved to discontinued\" keep prior \"Published\", remove prior \"Updated\", and do not mention page \"Moved to discontinued\". -->
      <ul class='link-list'>
-      <li><a href='/javascript/web_browser_user_agent_string_values.php'>Web Browser User Agent String Values (learnwebcoding.com)</a>: Updated: 17 Aug 2023.</li>
+      <li><a href='/css/css_font_compare.php'>Select And Compare CSS <code>font</code> Property Values Side By Side Online (learnwebcoding.com)</a>: Major update: 17 Aug 2023.</li>
       <li><a href='/css/css_testing_ground/html_snippet_font_not_installed_font_family_from_user_agent_default_styles.html'>HTML Snippet To Be Styled By Font Not Installed On Computer Operating System Gets <code>font-family</code> Style From User Agent Default Styles Standard/Default Font Setting, Not By Inheritance From <code>body</code> Style Rule (learnwebcoding.com)</a>: Updated: 17 Aug 2023.</li>
+      <li><a href='/javascript/web_browser_user_agent_string_values.php'>Web Browser User Agent String Values (learnwebcoding.com)</a>: Updated: 17 Aug 2023.</li>
       <li><a href='/css/css_testing_ground/html_snippet_font_not_installed_font_family_from_user_agent_default_styles.html'>HTML Snippet To Be Styled By Font Not Installed On Computer Operating System Gets <code>font-family</code> Style From User Agent Default Styles Standard/Default Font Setting, Not By Inheritance From <code>body</code> Style Rule (learnwebcoding.com)</a>: Published: 16 Aug 2023.</li>
       <li><a href='/css/index.php'>CSS (learnwebcoding.com)</a> Landing Page: Updated: 16 Aug 2021.</li>
       <li><a href='/css/css_testing_ground/index.php'>CSS Testing Ground Landing Page (learnwebcoding.com)</a>: Updated: 16 Aug 2023.</li>
@@ -21,7 +22,6 @@ return
       <li><a href='/sitemap.xml'>Learn Web Coding Site Map (XML Version Per Sitemaps.org) (learnwebcoding.com)</a>: Updated: 16 Aug 2023.</li>
       <li><a href='/sitemap.php'>Learn Web Coding Site Map (HTML Version) (learnwebcoding.com)</a>: Updated: 16 Aug 2023.</li>
       <li><a href='/javascript/index.php'>JavaScript (learnwebcoding.com)</a> Landing Page: Updated: 15 Aug 2023.</li>
-      <li><a href='/css/css_font_compare.php'>Select And Compare CSS <code>font</code> Property Values Side By Side Online (learnwebcoding.com)</a>: Major update: 13 Aug 2023.</li>
       <li><a href='/misc/versions_ie_ed_windows.php'>Versions Of Internet Explorer And Edge Included With And Supported By Windows 98/ME/2000/XP/Vista/7/8/8.1/10/11 (learnwebcoding.com)</a>: Updated: 07 Jan 2023.</li>
       <li><a href='/misc/original_content.php'>Original Content (learnwebcoding.com)</a>: Updated: 05 Mar 2022.</li>
       <li><a href='/javascript/index.php'>JavaScript (learnwebcoding.com)</a> Landing Page: Major update: 17 Aug 2021.</li>
