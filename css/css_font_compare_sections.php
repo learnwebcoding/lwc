@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/css/css_font_compare_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/css/css_font_compare.php.
- * Last reviewed/updated: 17 Aug 2023.
+ * Last reviewed/updated: 18 Aug 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -83,9 +83,11 @@ return
 
      <h3><a id='compare'></a>2.2. Compare CSS <code>font</code> Property Values Side By Side Online</h3>
 
+     <div class='note normal'>If the style of the text does not change when a <code>font-family</code> property value is selected, it is because the corresponding font is not installed on the computer operating system.</div>
+
      <p id='compareId'>
-      <span id='compareFontId1' class='line-height-normal'>1.) <span id='stringId1'>$reusableCode->allCharactersString</span><br /></span>
-      <span id='compareFontId2' class='line-height-normal'>2.) <span id='stringId2'>$reusableCode->allCharactersString</span><br /></span>
+      <span id='compareFontId1' class='line-height-normal'>1.) <span id='stringId1' style='font-family: &quot;Times New Roman&quot;'>$reusableCode->allCharactersString</span><br /></span>
+      <span id='compareFontId2' class='line-height-normal'>2.) <span id='stringId2' style='font-family: &quot;Times New Roman&quot;'>$reusableCode->allCharactersString</span><br /></span>
      </p>
 
     </section>

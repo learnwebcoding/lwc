@@ -4,14 +4,14 @@
 /* File: /web_server_root_directory/templates/Reusable_Code.class.php.
  * Purpose: Reusable code object definition file. Assign reusable code as object property values.
  * Used in: css_font_compare_sections.php and css_font_sizes.php.
- * Last reviewed/updated: 13 Aug 2023.
+ * Last reviewed/updated: 18 Aug 2023.
  * Published: 11 Oct 2016.
  * NOTE: Copy changes to css_font_compare.js.
  * cursive (aka script), fantasy (aka decorative), monospace, serif, sans-seric  = (generic) = all lower case. */
 class Reusable_Code {
  public $allCharactersString ="The quick brown fox jumps over the lazy dog THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG 1234567890 `~!@#$%^&amp;*-_=+()\/[]{}&lt;&gt;;:'|&quot;,.?";
  public $fontFamilySelectboxOptions ="
-  <option value='Arial' selected>Arial (sans-serif)</option>
+  <option value='Arial'>Arial (sans-serif)</option>
   <option value='Baskerville'>Baskerville (serif)</option>
   <option value='\"Bodoni MT\"'>Bodoni MT (serif)</option>
   <option value='\"Book Antiqua\"'>Book Antiqua (serif)</option>
@@ -39,6 +39,7 @@ class Reusable_Code {
   <option value='\"Gill Sans\"'>Gill Sans (sans-serif)</option>
   <option value='\"Goudy Old Style\"'>Goudy Old Style (serif)</option>
   <option value='Helvetica'>Helvetica (sans-serif)</option>
+  <option value='\"Helvetica Neue\"'>Helvetica Neue (sans-serif)</option>
   <option value='Impact'>Impact (sans-serif)</option>
   <option value='Latha'>Latha (sans-serif)</option>
   <option value='\"Lithos Regular\"'>Lithos Regular (sans-serif)</option>
@@ -46,11 +47,13 @@ class Reusable_Code {
   <option value='\"Lucida Console\"'>Lucida Console (monospace)</option>
   <option value='\"Lucida Sans Unicode\"'>Lucida Sans Unicode (sans-serif)</option>
   <option value='Luminari'>Luminari (fantasy)</option>
+  <option value='\"Merriweather Regular\"'>Merriweather Regular (serif)</option>
   <option value='\"Microsoft Sans Serif\"'>Microsoft Sans Serif (sans-serif)</option>
   <option value='\"Minion Regular\"'>Minion Regular (serif)</option>
   <option value='\"Minion Pro Regular\"'>Minion Pro Regular (serif)</option>
   <option value='Monaco'>Monaco (monospace)</option>
   <option value='monospace'>monospace (generic)</option>
+  <option value='Montserrat'>Montserrat (sans-serif)</option>
   <option value='\"MS Sans Serif\"'>MS Sans Serif (sans-serif)</option>
   <option value='\"Myriad Pro Regular\"'>Myriad Pro Regular (sans-serif)</option>
   <option value='\"Myriad Web Pro\"'>Myriad Web Pro (sans-serif)</option>
@@ -73,9 +76,9 @@ class Reusable_Code {
   <option value='\"Tekton Regular\"'>Tekton Regular (cursive)</option>
   <option value='\"Tekton Pro Regular\"'>Tekton Pro Regular (cursive)</option>
   <option value='Times'>Times (serif)</option>
-  <option value='\"Times New Roman\"'>Times New Roman (serif)</option>
-  <option value='Trajan'>Trajan (serif)</option>
-  <option value='\"Trajan Pro\"'>Trajan Pro (serif)</option>
+  <option value='\"Times New Roman\"' selected>Times New Roman (serif)</option>
+  <option value='\"Trajan Regular\"'>Trajan Regular (serif)</option>
+  <option value='\"Trajan Pro Regular\"'>Trajan Pro Regular (serif)</option>
   <option value='\"Trebuchet MS\"'>Trebuchet MS (sans-serif)</option>
   <option value='Verdana'>Verdana (sans-serif)</option>
   <option value='Webdings'>Webdings (fantacy)</option>";

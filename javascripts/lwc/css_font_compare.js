@@ -3,7 +3,7 @@
 /* File: /web_server_root_directory/javascripts/lwc/css_font_compare.js.
  * Purpose: Change web page content when; 1.) select CSS font property value, 2.) click Reset button, and 3.) click Add Another To Compare button.
  * Used in: css_font_compare.php.
- * Last reviewed/updated: 13 Aug 2023.
+ * Last reviewed/updated: 18 Aug 2023.
  * Published: 23 Jan 2014.
  * Unobtrusive: 1.) decouple HTML/JavaScript: a.) no register JavaScript event handlers in HTML via HTML attributes (eg, onload and onclick), and b.) no embed JavaScripts in HTML via HTML script element; 2.) as reasonable, decouple CSS/JavaScript. Eg, as reasonable, use JavaScript to change HTML class attribute value assignments (loose coupling), not use JavaScript to change JavaScript style object CSS property value assignments (tight coupling); and 3.) no define JavaScript variables and functions on JavaScript global scope. In this file, use of JavaScript style object is deemed reasonable. Instead, in future, perhaps decouple the HTML from within this file.
  * Web browser support: IE11+, ED12+, FF8+, SM2.5+, SF5.1+, CH7+, OP11.10+, which corresponds to dataset property support (IE11+, SF5.1+, CH7+, OP11.10+) and insertAdjacentHTML() method support (FF8+, SM2.5+).
@@ -74,7 +74,7 @@ var CssFontCompareUtil = {
   var count = (addAnotherBtn.dataset.addanothercounter - 1);
   for (var i = 1; i <= count; i++){
    var string = document.getElementById("stringId" + i);
-   string.style.fontFamily = "arial";
+   string.style.fontFamily = "Times New Roman";
    string.style.fontSize = "14px";
    string.style.fontWeight = "normal";
    string.style.fontStyle = "normal";
@@ -94,7 +94,7 @@ var CssFontCompareUtil = {
   var insertFormItem = "<div id='selectFontId" + n + "' class=''>" +
   n + ".) font-family: " +
   "<select size='1' id='fontFamily_Id" + n + "'>" +
-   "<option value='Arial' selected>Arial (sans-serif)</option>" +
+   "<option value='Arial'>Arial (sans-serif)</option>" +
    "<option value='Baskerville'>Baskerville (serif)</option>" + // Not on Windows 10 v22H2.
    "<option value=\"'Bodoni MT'\">Bodoni MT (serif)</option>" + // Not on Windows 10 v22H2.
    "<option value=\"'Book Antiqua'\">Book Antiqua (serif)</option>" + // Not on Windows 10 v22H2.
@@ -122,6 +122,7 @@ var CssFontCompareUtil = {
    "<option value=\"'Gill Sans'\">Gill Sans (sans-serif)</option>" + // Not on Windows 10 v22H2.
    "<option value=\"'Goudy Old Style'\">Goudy Old Style (serif)</option>" + // Not on Windows 10 v22H2.
    "<option value='Helvetica'>Helvetica (sans-serif)</option>" +
+   "<option value=\"'Helvetica Neue'\">Helvetica Neue (sans-serif)</option>" + // Not on Windows 10 v22H2. AKA Neue Helvetica below.
    "<option value='Impact'>Impact (sans-serif)</option>" +
    "<option value='Latha'>Latha (sans-serif)</option>" + // Not on Windows 10 v22H2.
    "<option value=\"'Lithos Regular'\">Lithos Regular (sans-serif)</option>" + // Not on Windows 10 v22H2.
@@ -129,15 +130,17 @@ var CssFontCompareUtil = {
    "<option value=\"'Lucida Console'\">Lucida Console (monospace)</option>" +
    "<option value=\"'Lucida Sans Unicode'\">Lucida Sans Unicode (sans-serif)</option>" +
    "<option value='Luminari'>Luminari (fantasy)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Merriweather Regular'\">Merriweather Regular (serif)</option>" + // Not on Windows 10 v22H2. Nor is Merriweather.
    "<option value=\"'Microsoft Sans Serif'\">Microsoft Sans Serif (sans-serif)</option>" +
    "<option value=\"'Minion Regular'\">Minion Regular (serif)</option>" + // Not on Windows 10 v22H2.
    "<option value=\"'Minion Pro Regular'\">Minion Pro Regular (serif)</option>" + // Not on Windows 10 v22H2.
    "<option value='Monaco'>Monaco (monospace)</option>" +
    "<option value='monospace'>monospace (generic)</option>" +
+   "<option value='Montserrat'>Montserrat (sans-serif)</option>" + // Not on Windows 10 v22H2.
    "<option value=\"'MS Sans Serif'\">MS Sans Serif (sans-serif)</option>" +
    "<option value=\"'Myriad Pro Regular'\">Myriad Pro Regular (sans-serif)</option>" + // Not on Windows 10 v22H2.
    "<option value=\"'Myriad Web Pro'\">Myriad Web Pro (sans-serif)</option>" +
-   "<option value=\"'Neue Helvetica'\">Neue Helvetica (sans-serif)</option>" + // Not on Windows 10 v22H2.
+   "<option value=\"'Neue Helvetica'\">Neue Helvetica (sans-serif)</option>" + // Not on Windows 10 v22H2. AKA Helvetica Neue above.
    "<option value=\"'Nueva Std Regular'\">Nueva Std Regular (serif)</option>" + // Not on Windows 10 v22H2.
    "<option value='Optima'>Optima (sans-serif)</option>" + // Not on Windows 10 v22H2.
    "<option value='Palatino'>Palatino (serif)</option>" + // Not on Windows 10 v22H2.
@@ -145,7 +148,7 @@ var CssFontCompareUtil = {
    "<option value='Papyrus'>Papyrus (fantasy)</option>" + // Not on Windows 10 v22H2.
    "<option value='Perpetua'>Perpetua (serif)</option>" + // Not on Windows 10 v22H2.
    "<option value='Rockwell'>Rockwell (serif)</option>" + // Not on Windows 10 v22H2.
-   "<option value='serif'>serif (generic)</option>" +
+   "<option value='sans-serif'>sans-serif (generic)</option>" +
    "<option value=\"'Segoe Print'\">Segoe Print (cursive)</option>" +
    "<option value=\"'Segoe Script'\">Segoe Script (cursive)</option>" +
    "<option value=\"'Segoe UI'\">Segoe UI (sans-serif)</option>" +
@@ -156,7 +159,7 @@ var CssFontCompareUtil = {
    "<option value=\"'Tekton Regular'\">Tekton Regular (cursive)</option>" + // Not on Windows 10 v22H2. Perhaps not cursive?
    "<option value=\"'Tekton Pro Regular'\">Tekton Pro Regular (cursive)</option>" + // Not on Windows 10 v22H2. Perhaps not cursive?
    "<option value='Times'>Times (serif)</option>" + // Not on Windows 10 v22H2, or identical to serif.
-   "<option value=\"'Times New Roman'\">Times New Roman (serif)</option>" + // Not on Windows 10 v22H2, or identical to serif.
+   "<option value=\"'Times New Roman'\" selected>Times New Roman (serif)</option>" + // Not on Windows 10 v22H2, or identical to serif.
    "<option value=\"'Trajan Regular'\">Trajan Regular (serif)</option>" + // Not on Windows 10 v22H2.
    "<option value=\"'Trajan Pro Regular'\">Trajan Pro Regular (serif)</option>" + // Not on Windows 10 v22H2.
    "<option value=\"'Trebuchet MS'\">Trebuchet MS (sans-serif)</option>" +
@@ -223,7 +226,7 @@ var CssFontCompareUtil = {
    "<option value='italic'>italic</option>" +
   "</select>" +
   "</div>";
-  var insertCompareItem = "<span id='compareFontId" + n + "' class='line-height-normal'>" + n + ".) <span id='stringId" + n + "'>The quick brown fox jumps over the lazy dog THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG 1234567890 `~!@#$%^&amp;*-_=+()\\/[]{}&lt;&gt;;:'|&quot;,.?</span><br /></span>";
+  var insertCompareItem = "<span id='compareFontId" + n + "' class='line-height-normal'>" + n + ".) <span id='stringId" + n + "' style='font-family: &quot;Times New Roman&quot;'>The quick brown fox jumps over the lazy dog THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG 1234567890 `~!@#$%^&amp;*-_=+()\\/[]{}&lt;&gt;;:'|&quot;,.?</span><br /></span>";
   form.insertAdjacentHTML("beforeend", insertFormItem);
   compare.insertAdjacentHTML("beforeend", insertCompareItem);
   var incrementAddAnotherCounter = ++n;
