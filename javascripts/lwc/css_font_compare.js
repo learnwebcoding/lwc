@@ -3,7 +3,7 @@
 /* File: /web_server_root_directory/javascripts/lwc/css_font_compare.js.
  * Purpose: Change web page content when; 1.) select CSS font property value, 2.) click Reset button, and 3.) click Add Another To Compare button.
  * Used in: css_font_compare.php.
- * Last reviewed/updated: 18 Aug 2023.
+ * Last reviewed/updated: 22 Aug 2023.
  * Published: 23 Jan 2014.
  * Unobtrusive: 1.) decouple HTML/JavaScript: a.) no register JavaScript event handlers in HTML via HTML attributes (eg, onload and onclick), and b.) no embed JavaScripts in HTML via HTML script element; 2.) as reasonable, decouple CSS/JavaScript. Eg, as reasonable, use JavaScript to change HTML class attribute value assignments (loose coupling), not use JavaScript to change JavaScript style object CSS property value assignments (tight coupling); and 3.) no define JavaScript variables and functions on JavaScript global scope. In this file, use of JavaScript style object is deemed reasonable. Instead, in future, perhaps decouple the HTML from within this file.
  * Web browser support: IE11+, ED12+, FF8+, SM2.5+, SF5.1+, CH7+, OP11.10+, which corresponds to dataset property support (IE11+, SF5.1+, CH7+, OP11.10+) and insertAdjacentHTML() method support (FF8+, SM2.5+).
@@ -197,9 +197,41 @@ var CssFontCompareUtil = {
    "<option value='27'>27</option>" +
    "<option value='28'>28</option>" +
    "<option value='29'>29</option>" +
-   "<option value='30'>30&nbsp;</option>" +
+   "<option value='30'>30</option>" +
    "<option value='31'>31</option>" +
    "<option value='32'>32</option>" +
+   "<option value='33'>33</option>" +
+   "<option value='34'>34</option>" +
+   "<option value='35'>35</option>" +
+   "<option value='36'>36</option>" +
+   "<option value='37'>37</option>" +
+   "<option value='38'>38</option>" +
+   "<option value='39'>39</option>" +
+   "<option value='40'>40</option>" +
+   "<option value='41'>41</option>" +
+   "<option value='42'>42</option>" +
+   "<option value='43'>43</option>" +
+   "<option value='44'>44</option>" +
+   "<option value='45'>45</option>" +
+   "<option value='46'>46</option>" +
+   "<option value='47'>47</option>" +
+   "<option value='48'>48</option>" +
+   "<option value='49'>49</option>" +
+   "<option value='50'>50</option>" +
+   "<option value='51'>51</option>" +
+   "<option value='52'>52</option>" +
+   "<option value='53'>53</option>" +
+   "<option value='54'>54</option>" +
+   "<option value='55'>55</option>" +
+   "<option value='56'>56</option>" +
+   "<option value='57'>57</option>" +
+   "<option value='58'>58</option>" +
+   "<option value='59'>59</option>" +
+   "<option value='60'>60</option>" +
+   "<option value='61'>61</option>" +
+   "<option value='62'>62</option>" +
+   "<option value='63'>63</option>" +
+   "<option value='64'>64</option>" +
   "</select>&nbsp;&nbsp; " +
   "px or pt: " +
   "<select size='1' id='fontSizePxPt_Id" + n + "'>" +

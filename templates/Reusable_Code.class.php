@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/templates/Reusable_Code.class.php.
  * Purpose: Reusable code object definition file. Assign reusable code as object property values.
  * Used in: css_font_compare_sections.php and css_font_sizes.php.
- * Last reviewed/updated: 18 Aug 2023.
+ * Last reviewed/updated: 22 Aug 2023.
  * Published: 11 Oct 2016.
  * NOTE: Copy changes to css_font_compare.js.
  * cursive (aka script), fantasy (aka decorative), monospace, serif, sans-seric  = (generic) = all lower case. */
@@ -112,9 +112,41 @@ class Reusable_Code {
   <option value='27'>27</option>
   <option value='28'>28</option>
   <option value='29'>29</option>
-  <option value='30'>30&nbsp;</option>
+  <option value='30'>30</option>
   <option value='31'>31</option>
-  <option value='32'>32</option>";
+  <option value='32'>32</option>
+  <option value='33'>33</option>
+  <option value='34'>34</option>
+  <option value='35'>35</option>
+  <option value='36'>36</option>
+  <option value='37'>37</option>
+  <option value='38'>38</option>
+  <option value='39'>39</option>
+  <option value='40'>40</option>
+  <option value='41'>41</option>
+  <option value='42'>42</option>
+  <option value='43'>43</option>
+  <option value='44'>44</option>
+  <option value='45'>45</option>
+  <option value='46'>46</option>
+  <option value='47'>47</option>
+  <option value='48'>48</option>
+  <option value='49'>49</option>
+  <option value='50'>50</option>
+  <option value='51'>51</option>
+  <option value='52'>52</option>
+  <option value='53'>53</option>
+  <option value='54'>54</option>
+  <option value='55'>55</option>
+  <option value='56'>56</option>
+  <option value='57'>57</option>
+  <option value='58'>58</option>
+  <option value='59'>59</option>
+  <option value='60'>60</option>
+  <option value='61'>61</option>
+  <option value='62'>62</option>
+  <option value='63'>63</option>
+  <option value='64'>64</option>";
  public $fontSizePxPtSelectboxOptions ="
   <option value='px' selected>px&nbsp;</option>
   <option value='pt'>pt</option>";
