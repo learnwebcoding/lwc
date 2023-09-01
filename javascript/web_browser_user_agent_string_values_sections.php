@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 22 Aug 2023.
+ * Last reviewed/updated: 31 Aug 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1940,6 +1940,12 @@ return
 
      <p>Edge 116.0.1938.54 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 edg/116.0.1938.54</p>
+
+     <p>Edge 116.0.1938.62 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 edg/116.0.1938.62</p>
+
+     <p>Edge 116.0.1938.69 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 edg/116.0.1938.69</p>
 
     </section>
     <hr />
@@ -5699,6 +5705,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
 
      <p>Chrome 116.0.5845.111 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
+
+     <p>Chrome 116.0.5845.141 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
 
     </section>
