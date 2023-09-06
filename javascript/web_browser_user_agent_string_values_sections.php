@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 31 Aug 2023.
+ * Last reviewed/updated: 06 Sep 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -3682,6 +3682,9 @@ return
      <p>Firefox 116.0.3 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:109.0) gecko/20100101 firefox/116.0</p>
 
+     <p>Firefox 117.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:109.0) gecko/20100101 firefox/117.0</p>
+
     </section>
     <hr />
     <section>
@@ -5708,6 +5711,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
 
      <p>Chrome 116.0.5845.141 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
+
+     <p>Chrome 116.0.5845.180 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
 
     </section>
@@ -9171,6 +9177,18 @@ return
      <p>Opera 101.0.4843.58 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/115.0.0.0 safari/537.36 opr/101.0.0.0</p>
 
+     <p>Opera 102.0.4880.16 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 opr/102.0.0.0</p>
+
+     <p>Opera 102.0.4880.29 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 opr/102.0.0.0</p>
+
+     <p>Opera 102.0.4880.33 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 opr/102.0.0.0</p>
+
+     <p>Opera 102.0.4880.40 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 opr/102.0.0.0</p>
+
     </section>
     <hr />
     <section>
@@ -10363,6 +10381,21 @@ return
 
      <p>Vivaldi 6.1.3035.302 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/114.0.0.0 safari/537.36</p>
+
+     <p>Vivaldi 6.2.3105.35 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
+
+     <p>Vivaldi 6.2.3105.39 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
+
+     <p>Vivaldi 6.2.3105.43 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
+
+     <p>Vivaldi 6.2.3105.45 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
+
+     <p>Vivaldi 6.2.3105.47 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
 
     </section>
     <hr />
