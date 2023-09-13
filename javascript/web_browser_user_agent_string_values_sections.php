@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 11 Sep 2023.
+ * Last reviewed/updated: 12 Sep 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1950,6 +1950,9 @@ return
      <p>Edge 116.0.1938.76 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 edg/116.0.1938.76</p>
 
+     <p>Edge 116.0.1938.81 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 edg/116.0.1938.81</p>
+
     </section>
     <hr />
     <section>
@@ -3686,6 +3689,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:109.0) gecko/20100101 firefox/116.0</p>
 
      <p>Firefox 117.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:109.0) gecko/20100101 firefox/117.0</p>
+
+     <p>Firefox 117.0.1 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:109.0) gecko/20100101 firefox/117.0</p>
 
     </section>
@@ -5721,6 +5727,9 @@ return
 
      <p>Chrome 116.0.5845.188 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
+
+     <p>Chrome 117.0.5938.63 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/117.0.0.0 safari/537.36</p>
 
     </section>
     <hr />
@@ -10404,6 +10413,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
 
      <p>Vivaldi 6.2.3105.47 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
+
+     <p>Vivaldi 6.2.3105.48 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36</p>
 
     </section>
