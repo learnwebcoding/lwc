@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 12 Sep 2023.
+ * Last reviewed/updated: 18 Sep 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -1952,6 +1952,9 @@ return
 
      <p>Edge 116.0.1938.81 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 edg/116.0.1938.81</p>
+
+     <p>Edge 117.0.2045.31 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/117.0.0.0 safari/537.36 edg/117.0.2045.31</p>
 
     </section>
     <hr />
@@ -5731,6 +5734,9 @@ return
      <p>Chrome 117.0.5938.63 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/117.0.0.0 safari/537.36</p>
 
+     <p>Chrome 117.0.5938.89 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/117.0.0.0 safari/537.36</p>
+
     </section>
     <hr />
     <section>
@@ -9205,6 +9211,15 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 opr/102.0.0.0</p>
 
      <p>Opera 102.0.4880.46 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 opr/102.0.0.0</p>
+
+     <p>Opera 102.0.4880.51 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 opr/102.0.0.0</p>
+
+     <p>Opera 102.0.4880.51 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 opr/102.0.0.0</p>
+
+     <p>Opera 102.0.4880.56 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 opr/102.0.0.0</p>
 
     </section>
