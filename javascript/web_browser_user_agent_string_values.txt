@@ -4902,6 +4902,46 @@ appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 parseFloatAppVersion: 5
 platform: Win32
 
+Edge 117.0.2045.35 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/117.0.0.0 safari/537.36 edg/117.0.2045.35
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.35
+parseFloatAppVersion: 5
+platform: Win32
+
+Edge 117.0.2045.36 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/117.0.0.0 safari/537.36 edg/117.0.2045.36
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.36
+parseFloatAppVersion: 5
+platform: Win32
+
+Edge 117.0.2045.40 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/117.0.0.0 safari/537.36 edg/117.0.2045.40
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.40
+parseFloatAppVersion: 5
+platform: Win32
+
+Edge 117.0.2045.41 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/117.0.0.0 safari/537.36 edg/117.0.2045.41
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.41
+parseFloatAppVersion: 5
+platform: Win32
+
+Edge 117.0.2045.43 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/117.0.0.0 safari/537.36 edg/117.0.2045.43
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43
+parseFloatAppVersion: 5
+platform: Win32
+
 -------------------
 Firefox For Windows
 -------------------
@@ -11160,6 +11200,22 @@ appVersion: 5.0 (Windows)
 parseFloatAppVersion: 5
 platform: Win32
 
+Firefox 118.0 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:109.0) gecko/20100101 firefox/118.0
+appVersion: 5.0 (Windows)
+parseFloatAppVersion: 5
+platform: Win32
+
+Firefox 118.0.1 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:109.0) gecko/20100101 firefox/118.0
+appVersion: 5.0 (Windows)
+parseFloatAppVersion: 5
+platform: Win32
+
 ------------------
 Chrome For Windows
 ------------------
@@ -16589,6 +16645,14 @@ parseFloatAppVersion: 5
 platform: Win32
 
 Chrome 117.0.5938.92 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/117.0.0.0 safari/537.36
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+parseFloatAppVersion: 5
+platform: Win32
+
+Chrome 117.0.5938.132 64-bit
 
 appName: Netscape
 userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/117.0.0.0 safari/537.36
@@ -26450,6 +26514,14 @@ appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 parseFloatAppVersion: 5
 platform: Win32
 
+Opera 102.0.4880.70 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36 opr/102.0.0.0
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0
+parseFloatAppVersion: 5
+platform: Win32
+
 -------------------
 Vivaldi For Windows
 -------------------
@@ -29591,6 +29663,22 @@ parseFloatAppVersion: 5
 platform: Win32
 
 Vivaldi 6.2.3105.48 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+parseFloatAppVersion: 5
+platform: Win32
+
+Vivaldi 6.2.3105.51 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+parseFloatAppVersion: 5
+platform: Win32
+
+Vivaldi	6.2.3105.54 64-bit
 
 appName: Netscape
 userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/116.0.0.0 safari/537.36
@@ -33728,7 +33816,29 @@ appVersion: 5.0 (Windows)
 parseFloatAppVersion: 5
 platform: Win64
 
+SeaMonkey 2.53.17.1 64-bit (Identify As Firefox)
 
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 firefox/91.0
+appVersion: 5.0 (Windows)
+parseFloatAppVersion: 5
+platform: Win64
+
+SeaMonkey 2.53.17.1 64-bit (Identify As SeaMonkey)
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 seamonkey/2.53.17.1
+appVersion: 5.0 (Windows)
+parseFloatAppVersion: 5
+platform: Win64
+
+SeaMonkey 2.53.17.1 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 firefox/91.0 seamonkey/2.53.17.1
+appVersion: 5.0 (Windows)
+parseFloatAppVersion: 5
+platform: Win64
 
 ------------------
 Safari For Windows
