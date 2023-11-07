@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 31 Oct 2023.
+ * Last reviewed/updated: 06 Nov 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -798,6 +798,13 @@ return
      <h3><a id='ediew11v22H2'></a>10.2. Edge Included With Windows 11 Version 22H2</h3>
 
 <!-- Windows 11 Version 22H2 (10.0.22621.525) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 22H2 (Updated Sep 2022) (x64) - DVD (English) en-us_windows_11_consumer_editions_version_22h2_updated_sep_2022_x64_dvd_f408dad5.iso. NOTE: This is Windows 11 v22H2 28Sep22 build 10.0.22621.525, not 20Sep22 build 10.0.22621.521. -->
+
+     <p>Edge 100.0.1185.36 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/100.0.4896.75 safari/537.36 edg/100.0.1185.36</p>
+
+     <h3><a id='ediew11v23H2'></a>10.3. Edge Included With Windows 11 Version 23H2</h3>
+
+<!-- Windows 11 Version 23H2 (10.0.22631.2428) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 23H2 (x64) - DVD (English) en-us_windows_11_consumer_editions_version_23h2_x64_dvd_8ea907fb.iso. -->
 
      <p>Edge 100.0.1185.36 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/100.0.4896.75 safari/537.36 edg/100.0.1185.36</p>

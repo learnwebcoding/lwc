@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/versions_ie_ed_windows_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/versions_ie_ed_windows.php.
- * Last reviewed/updated: 07 Jan 2023.
+ * Last reviewed/updated: 06 Nov 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -608,6 +608,8 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
 
      <h2><a id='w11'></a>7. Versions Of Edge Included With And Supported By Windows 11</h2>
 
+     <div class='note normal'>On Windows 11, Internet Explorer does not exist.</div>
+
      <table>
       <caption>Versions Of Edge Included With And Supported By Windows 11</caption>
       <thead>
@@ -618,6 +620,8 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
          (10.0.22000.194)</th><!-- 21H2/Original Release -->
         <th>11 Version 22H2 <a id='1_W11_21H2_return'></a><a href='#1_W11_21H2'>(1)</a><br />
          (10.0.22621.521)</th><!-- 22H2/Windows 11 2022 Update -->
+        <th>11 Version 23H2<br />
+         (10.0.22631.2428)</th><!-- 23H2/Windows 11 2023 Update -->
        </tr>
       </thead>
       <tbody>
@@ -626,21 +630,24 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
          Availability</th>
         <td>04 Oct 2021</td>
         <td>20 Sep 2022 <a id='2_W11_21H2_return'></a><a href='#2_W11_21H2'>(2)</a></td>
+        <td>31 Oct 2023</td>
        </tr>
        <tr>
         <th>Included With</th>
         <td>ED90.0.818.66</td>
+        <td>ED100.0.1185.36</td>
         <td>ED100.0.1185.36</td>
        </tr>
        <tr>
         <th>Also Supports</th>
         <td>-</td>
         <td>-</td>
+        <td>-</td>
        </tr>
       <tbody>
       <tfoot>
        <tr>
-        <td colspan='3'>
+        <td colspan='4'>
          <a id='1_W11_21H2'></a><a href='#1_W11_21H2_return'>(1)</a><a id='2_W11_21H2'></a><a href='#2_W11_21H2_return'>(2)</a> Windows 11 Version 22H2 general availability was announced on 20 Sep 2022 when Windows 11 Version 22H2 was at build 10.0.22621.521. However, apparently the first build of Windows 11 Version 22H2 released through official channels as a general availability ISO was 10.0.22621.525 on 28 Sep 2022, not 10.0.22621.521 on 20 Sep 2022. The Windows 11 Version 22H2 information presented in this table is from build 10.0.22621.525, not 10.0.22621.521.
         </td>
        </tr>

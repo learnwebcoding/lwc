@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_toc.php.
  * Purpose: Web page table of contents.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 15 Aug 2023.
+ * Last reviewed/updated: 06 Nov 2023.
  * Published: 21 Sep 2016. */
 return
     "<div class='toc-sec'><div class='toc-num'>1.</div><div class='toc-sec-title'><a href='#introduction'>Introduction</a></div></div>
@@ -37,6 +37,7 @@ return
      <div class='toc-sec'><div class='toc-num'>10.</div><div class='toc-sec-title'><a href='#ediew11'>Edge Included With Windows 11</a></div></div>
      <div class='toc-sub1sec'><div class='toc-num'>10.1.</div><div class='toc-sub1sec-title'><a href='#ediew11v21H2'>Edge Included With Windows 11 Version 21H2</a></div></div>
      <div class='toc-sub1sec'><div class='toc-num'>10.2.</div><div class='toc-sub1sec-title'><a href='#ediew11v22H2'>Edge Included With Windows 11 Version 22H2</a></div></div>
+     <div class='toc-sub1sec'><div class='toc-num'>10.3.</div><div class='toc-sub1sec-title'><a href='#ediew11v23H2'>Edge Included With Windows 11 Version 23H2</a></div></div>
      <div class='toc-sec'><div class='toc-num'>11.</div><div class='toc-sec-title'><a href='#ed'>Edge (Chromium Based) For Windows</a></div></div>
      <div class='toc-sec'><div class='toc-num'>12.</div><div class='toc-sec-title'><a href='#ff'>Firefox For Windows</a></div></div>
      <div class='toc-sec'><div class='toc-num'>13.</div><div class='toc-sec-title'><a href='#ch'>Chrome For Windows</a></div></div>
