@@ -95,6 +95,7 @@ return
       <li>Windows 10 Version 22H2 (10.0.19045.2006) = Installed Windows 10 Professional from MSDN subscriptions: Windows 10 (consumer editions) Version 22H2 (x64) - DVD (English) en-us_windows_10_consumer_editions_version_22h2_x64_dvd_8da72ab3.iso.</li>
       <li>Windows 11 Version 21H2 (10.0.22000.194) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) (x64) - DVD (English) en-us_windows_11_consumer_editions_x64_dvd_bd3cf8df.iso.</li>
       <li>Windows 11 Version 22H2 (10.0.22621.525) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 22H2 (Updated Sep 2022) (x64) - DVD (English) en-us_windows_11_consumer_editions_version_22h2_updated_sep_2022_x64_dvd_f408dad5.iso. NOTE: This is Windows 11 Version 22H2 28Sep22 build 10.0.22621.525, not Windows 11 Version 22H2 20Sep22 build 10.0.22621.521, the latter of which, apparently, was not released through official channels as a general availability ISO.)</li>
+      <li>Windows 11 Version 23H2 (10.0.22631.2428) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 23H2 (x64) - DVD (English) en-us_windows_11_consumer_editions_version_23h2_x64_dvd_8ea907fb.iso.</li>
      </ul>
 -->
 
