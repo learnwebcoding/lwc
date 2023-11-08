@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 06 Nov 2023.
+ * Last reviewed/updated: 07 Nov 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -2002,6 +2002,14 @@ return
      <p>Edge 118.0.2088.76 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/118.0.0.0 safari/537.36 edg/118.0.2088.76</p>
 
+     <p>Edge 118.0.2088.88 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/118.0.0.0 safari/537.36 edg/118.0.2088.88</p>
+
+     <div class='note normal'>With Edge 119, the Edge user agent string value no longer reports point releases.</div>
+
+     <p>Edge 119.0.2151.44 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/119.0.0.0 safari/537.36 edg/119.0.0.0</p>
+
     </section>
     <hr />
     <section>
@@ -3753,6 +3761,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:109.0) gecko/20100101 firefox/118.0</p>
 
      <p>Firefox 119.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:109.0) gecko/20100101 firefox/119.0</p>
+
+     <p>Firefox 119.0.1 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:109.0) gecko/20100101 firefox/119.0</p>
 
     </section>
@@ -5814,6 +5825,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/118.0.0.0 safari/537.36</p>
 
      <p>Chrome 119.0.6045.106 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/119.0.0.0 safari/537.36</p>
+
+     <p>Chrome 119.0.6045.124 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/119.0.0.0 safari/537.36</p>
 
     </section>
@@ -10554,6 +10568,9 @@ return
      <div class='note normal'>The version of Vivaldi skipped from 6.2 to 6.4.</div>
 
      <p>Vivaldi 6.4.3160.34 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/118.0.0.0 safari/537.36</p>
+
+     <p>Vivaldi 6.4.3160.41 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/118.0.0.0 safari/537.36</p>
 
     </section>
