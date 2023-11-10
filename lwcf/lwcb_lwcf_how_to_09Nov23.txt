@@ -1,0 +1,34 @@
+lwcb_how_to_09Nov23.txt
+
+1.) Use Learn Web Coding Home Template Download on XAMPP to create new LWC Blog/Forums as LWC Blog was deleted years ago and LWC Forums was deleted 01Nov23.
+2.)
+	2a.) View new LWC Blog in web browser | View Source | save source as /lwc/lwcb/index.html.
+	2b.) View new LWC Forums in web browser | View Source | save source as /lwc/lwcf/index.html.
+3.) For recent changes in CSS validation, replace the /bootstrap/, /fontawesome/, and /lwc/ stylesheets in Learn Web Coding Home Template Download (old and need to be updated for recent changes in CSS validation) with the same from Learn Web Coding Home (updated for recent changes in CSS validation):
+	3a.) Delete the following:
+		/lwc/lwcb/stylesheets/*.*
+		/lwc/lwcf/stylesheets/*.*
+	3b.) Copy the following from:
+		/lwc/stylesheets/bootstrap/
+		/lwc/stylesheets/fontawesome/
+		/lwc/stylesheets/lwc/
+			to
+		/lwc/lwcb/stylesheets/*.*
+		/lwc/lwcf/stylesheets/*.*
+4.)
+	4a.) Upload new LWC Blog as /lwc/lwcb/index.html only (NOTE: Alternatively can upload all new LWC Blog files).
+	     Upload new LWC Blog as /lwc/lwcb/images/
+	     Upload new LWC Blog as /lwc/lwcb/javascripts/
+	     Upload new LWC Blog as /lwc/lwcb/stylesheets/
+	4b.) Upload new LWC Forums as /lwc/lwcb/index.html only (NOTE: Alternatively can upload all new LWC Forums files).
+	     Upload new LWC Blog as /lwc/lwcb/images/
+	     Upload new LWC Blog as /lwc/lwcf/javascripts/
+	     Upload new LWC Blog as /lwc/lwcf/stylesheets/
+5.) On WebzPro server log into cPanel | Domains  - Domains | change as follows:
+		Domain						Document Root
+	5a.) blog.learnwebcoding.com 	/public/wp
+		to
+									/public/lwcb
+	5b.) forums.learnwebcoding.com 	/public/phpbb
+		to
+									/public/lwcf
