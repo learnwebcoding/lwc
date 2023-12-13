@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 07 Dec 2023.
+ * Last reviewed/updated: 12 Dec 2023.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -11640,6 +11640,17 @@ return
 
      <p>SeaMonkey 2.53.17.1 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 firefox/91.0 seamonkey/2.53.17.1</p>
+
+     <div class='note normal'>SeaMonkey 2.53.18 released when Firefox was at version 120.0.1.</div>
+
+     <p>SeaMonkey 2.53.18 64-bit (Identify As Firefox)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 firefox/91.0</p>
+
+     <p>SeaMonkey 2.53.18 64-bit (Identify As SeaMonkey)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 seamonkey/2.53.18</p>
+
+     <p>SeaMonkey 2.53.18 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 firefox/91.0 seamonkey/2.53.18</p>
 
     </section>
     <hr />

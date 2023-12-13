@@ -34250,6 +34250,30 @@ appVersion: 5.0 (Windows)
 parseFloatAppVersion: 5
 platform: Win64
 
+SeaMonkey 2.53.18 64-bit (Identify As Firefox)
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 firefox/91.0
+appVersion: 5.0 (Windows)
+parseFloatAppVersion: 5
+platform: Win64
+
+SeaMonkey 2.53.18 64-bit (Identify As SeaMonkey)
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 seamonkey/2.53.18
+appVersion: 5.0 (Windows)
+parseFloatAppVersion: 5
+platform: Win64
+
+SeaMonkey 2.53.18 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 firefox/91.0 seamonkey/2.53.18
+appVersion: 5.0 (Windows)
+parseFloatAppVersion: 5
+platform: Win64
+
 ------------------
 Safari For Windows
 ------------------
