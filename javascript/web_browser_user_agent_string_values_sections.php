@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 26 Mar 2024.
+ * Last reviewed/updated: 28 Mar 2024.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -2084,6 +2084,12 @@ return
 
      <p>Edge 122.0.2365.106 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/122.0.0.0 safari/537.36 edg/122.0.0.0</p>
+
+     <p>Edge 122.0.2365.113 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/122.0.0.0 safari/537.36 edg/122.0.0.0</p>
+
+     <p>Edge 123.0.2420.65 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/123.0.0.0 safari/537.36 edg/123.0.0.0</p>
 
     </section>
     <hr />
@@ -9572,6 +9578,12 @@ return
      <p>Opera 108.0.5067.40 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/122.0.0.0 safari/537.36 opr/108.0.0.0</p>
 
+     <p>Opera 109.0.5097.33 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/123.0.0.0 safari/537.36 opr/109.0.0.0</p>
+
+     <p>Opera 109.0.5097.35 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/123.0.0.0 safari/537.36 opr/109.0.0.0</p>
+
     </section>
     <hr />
     <section>
@@ -10857,6 +10869,9 @@ return
      <p>Vivaldi 6.6.3271.53 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/122.0.0.0 safari/537.36</p>
 
+     <p>Vivaldi 6.6.3271.55 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/122.0.0.0 safari/537.36</p>
+
     </section>
     <hr />
     <section>
@@ -11887,6 +11902,17 @@ return
 
      <p>SeaMonkey 2.53.18.1 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 firefox/91.0 seamonkey/2.53.18.1</p>
+
+     <div class='note normal'>SeaMonkey 2.53.18.2 released when Firefox was at version 124.0.1.</div>
+
+     <p>SeaMonkey 2.53.18.2 64-bit (Identify As Firefox)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 firefox/91.0</p>
+
+     <p>SeaMonkey 2.53.18.2 64-bit (Identify As SeaMonkey)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 seamonkey/2.53.18.2</p>
+
+     <p>SeaMonkey 2.53.18.2 64-bit (Identify As SeaMonkey And Advertise Firefox Compatibility)<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:91.0) gecko/20100101 firefox/91.0 seamonkey/2.53.18.2</p>
 
     </section>
     <hr />
