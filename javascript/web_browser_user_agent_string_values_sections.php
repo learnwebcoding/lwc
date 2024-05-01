@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 25 Apr 2024.
+ * Last reviewed/updated: 30 Apr 2024.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -2100,6 +2100,9 @@ return
      <p>Edge 124.0.2478.51 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/124.0.0.0 safari/537.36 edg/124.0.0.0</p>
 
+     <p>Edge 124.0.2478.67 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/124.0.0.0 safari/537.36 edg/124.0.0.0</p>
+
     </section>
     <hr />
     <section>
@@ -3895,6 +3898,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:125.0) gecko/20100101 firefox/125.0</p>
 
      <p>Firefox 125.0.2 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:125.0) gecko/20100101 firefox/125.0</p>
+
+     <p>Firefox 125.0.3 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:125.0) gecko/20100101 firefox/125.0</p>
 
     </section>
@@ -6024,6 +6030,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/124.0.0.0 safari/537.36</p>
 
      <p>Chrome 124.0.6367.92 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/124.0.0.0 safari/537.36</p>
+
+     <p>Chrome 124.0.6367.119 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/124.0.0.0 safari/537.36</p>
 
     </section>
@@ -10920,6 +10929,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/122.0.0.0 safari/537.36</p>
 
      <p>Vivaldi 6.7.3329.17 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/124.0.0.0 safari/537.36</p>
+
+     <p>Vivaldi 6.7.3329.21 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/124.0.0.0 safari/537.36</p>
 
     </section>
