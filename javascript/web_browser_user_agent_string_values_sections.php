@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 14 May 2024.
+ * Last reviewed/updated: 16 May 2024.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -6055,6 +6055,9 @@ return
      <p>Chrome 124.0.6367.208 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/124.0.0.0 safari/537.36</p>
 
+     <p>Chrome 125.0.6422.61 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/125.0.0.0 safari/537.36</p>
+
     </section>
     <hr />
     <section>
@@ -10970,6 +10973,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/124.0.0.0 safari/537.36</p>
 
      <p>Vivaldi 6.7.3329.29 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/124.0.0.0 safari/537.36</p>
+
+     <p>Vivaldi 6.7.3329.31 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/124.0.0.0 safari/537.36</p>
 
     </section>
