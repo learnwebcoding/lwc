@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 11 Jun 2024.
+ * Last reviewed/updated: 18 Jun 2024.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -2130,6 +2130,12 @@ return
      <p>Edge 125.0.2535.92 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/125.0.0.0 safari/537.36 edg/125.0.0.0</p>
 
+     <p>Edge 126.0.2592.56 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/126.0.0.0 safari/537.36 edg/126.0.0.0</p>
+
+     <p>Edge 126.0.2592.61 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/126.0.0.0 safari/537.36 edg/126.0.0.0</p>
+
     </section>
     <hr />
     <section>
@@ -3937,6 +3943,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:126.0) gecko/20100101 firefox/126.0</p>
 
      <p>Firefox 127.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:127.0) gecko/20100101 firefox/127.0</p>
+
+     <p>Firefox 127.0.1 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:127.0) gecko/20100101 firefox/127.0</p>
 
     </section>
@@ -6092,6 +6101,11 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/125.0.0.0 safari/537.36</p>
 
      <p>Chrome 126.0.6478.57 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/126.0.0.0 safari/537.36</p>
+
+     <div class='note normal'>The Chrome 126.0.6478.62 user agent string value was not obtained.</div>
+
+     <p>Chrome 126.0.6478.115 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/126.0.0.0 safari/537.36</p>
 
     </section>
@@ -9712,6 +9726,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/124.0.0.0 safari/537.36 opr/110.0.0.0</p>
 
      <p>Opera 110.0.5130.66 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/124.0.0.0 safari/537.36 opr/110.0.0.0</p>
+
+     <p>Opera 110.0.5130.82 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/124.0.0.0 safari/537.36 opr/110.0.0.0</p>
 
     </section>
