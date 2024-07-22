@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/css/how_to_override_unwanted_css_styles_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/css/how_to_override_unwanted_css_styles.php.
- * Last reviewed/updated: 18 Oct 2018.
+ * Last reviewed/updated: 21 Jul 2024.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -140,6 +140,15 @@ return
         </td>
        </tr>
        <tr>
+        <td><code>letter-spacing</code></td>
+        <td><code>normal</code></td>
+        <td>
+         <ul>
+          <li>W3C recommended initial value.</li>
+         </ul>
+        </td>
+       </tr>
+       <tr>
         <td><code>line-height</code></td>
         <td><code>normal</code></td>
         <td>
@@ -231,6 +240,15 @@ min-height: unset (works for overriding in FF3805 and CH43, not IE11)
        <tr>
         <td><code>padding</code></td>
         <td><code>0</code></td>
+        <td>
+         <ul>
+          <li>W3C recommended initial value.</li>
+         </ul>
+        </td>
+       </tr>
+       <tr>
+        <td><code>text-transform</code></td>
+        <td><code>none</code></td>
         <td>
          <ul>
           <li>W3C recommended initial value.</li>
