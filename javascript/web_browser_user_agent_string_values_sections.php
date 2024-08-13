@@ -2157,6 +2157,9 @@ return
      <p>Edge 127.0.2651.86 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/127.0.0.0 safari/537.36 edg/127.0.0.0</p>
 
+     <p>Edge 127.0.2651.98 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/127.0.0.0 safari/537.36 edg/127.0.0.0</p>
+
     </section>
     <hr />
     <section>
@@ -3984,6 +3987,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:128.0) gecko/20100101 firefox/128.0</p>
 
      <p>Firefox 129.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:129.0) gecko/20100101 firefox/129.0</p>
+
+     <p>Firefox 129.0.1 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:129.0) gecko/20100101 firefox/129.0</p>
 
     </section>
@@ -6159,6 +6165,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/127.0.0.0 safari/537.36</p>
 
      <p>Chrome 127.0.6533.100 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/127.0.0.0 safari/537.36</p>
+
+     <p>Chrome 127.0.6533.120 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/127.0.0.0 safari/537.36</p>
 
     </section>
@@ -11151,6 +11160,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/126.0.0.0 safari/537.36</p>
 
      <p>Vivaldi 6.8.3381.50 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/126.0.0.0 safari/537.36</p>
+
+     <p>Vivaldi 6.8.3381.53 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/126.0.0.0 safari/537.36</p>
 
     </section>
