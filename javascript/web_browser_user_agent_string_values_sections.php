@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 02 Oct 2024.
+ * Last reviewed/updated: 08 Oct 2024.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -2154,6 +2154,9 @@ return
      <p>Edge 126.0.2592.132 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/126.0.0.0 safari/537.36 edg/126.0.0.0</p>
 
+     <p>Edge 126.0.2592.132 64-bit<br />
+     Soon.</p>
+
      <p>Edge 127.0.2651.74 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/127.0.0.0 safari/537.36 edg/127.0.0.0</p>
 
@@ -2184,10 +2187,19 @@ return
      <p>Edge 128.0.2739.90 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/128.0.0.0 safari/537.36 edg/128.0.0.0</p>
 
+     <p>Edge 128.0.2739.97 64-bit<br />
+     Soon.</p>
+
+     <p>Edge 128.0.2739.107 64-bit<br />
+     Soon.</p>
+
      <p>Edge 129.0.2792.52 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/129.0.0.0 safari/537.36 edg/129.0.0.0</p>
 
      <p>Edge 129.0.2792.65 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/129.0.0.0 safari/537.36 edg/129.0.0.0</p>
+
+     <p>Edge 129.0.2792.79 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/129.0.0.0 safari/537.36 edg/129.0.0.0</p>
 
     </section>
@@ -6232,6 +6244,9 @@ return
      <p>Chrome 129.0.6668.90 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/129.0.0.0 safari/537.36</p>
 
+     <p>Chrome 129.0.6668.101 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/129.0.0.0 safari/537.36</p>
+
     </section>
     <hr />
     <section>
@@ -9908,6 +9923,12 @@ return
 
      <p>Opera 113.0.5230.142 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/127.0.0.0 safari/537.36 opr/113.0.0.0</p>
+
+     <p>Opera 114.0.5282.21 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/128.0.0.0 safari/537.36 opr/114.0.0.0</p>
+
+     <p>Opera 114.0.5282.86 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/128.0.0.0 safari/537.36 opr/114.0.0.0</p>
 
     </section>
     <hr />
