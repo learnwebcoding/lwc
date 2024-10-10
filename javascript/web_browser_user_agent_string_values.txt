@@ -5416,7 +5416,13 @@ appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 parseFloatAppVersion: 5
 platform: Win32
 
-Edge 126.0.2592.132 64-bit
+Edge 126.0.2592.137 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/126.0.0.0 safari/537.36 edg/126.0.0.0
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+parseFloatAppVersion: 5
+platform: Win32
 
 Edge 127.0.2651.74 64-bit
 
@@ -5500,7 +5506,19 @@ platform: Win32
 
 Edge 128.0.2739.97 64-bit
 
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/128.0.0.0 safari/537.36 edg/128.0.0.0
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0
+parseFloatAppVersion: 5
+platform: Win32
+
 Edge 128.0.2739.107 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/128.0.0.0 safari/537.36 edg/128.0.0.0
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0
+parseFloatAppVersion: 5
+platform: Win32
 
 Edge 129.0.2792.52 64-bit
 
