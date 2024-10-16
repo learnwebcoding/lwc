@@ -1896,6 +1896,16 @@ appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 parseFloatAppVersion: 5
 platform: Win32
 
+<!-- Windows 11 Version 24H2 (10.0.26100.1742) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 24H2 (x64) - DVD (English) en-us_windows_11_consumer_editions_version_24h2_x64_dvd_1d5fcad3.iso. -->
+
+Edge 122.0.2365.106 64-bit
+
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/122.0.0.0 safari/537.36 edg/122.0.0.0
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0
+parseFloatAppVersion: 5
+platform: Win32
+
 ---------------------------------
 Edge (Chromium Based) For Windows
 ---------------------------------

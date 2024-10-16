@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 15 Oct 2024.
+ * Last reviewed/updated: 16 Oct 2024.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -808,6 +808,13 @@ return
 
      <p>Edge 100.0.1185.36 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/100.0.4896.75 safari/537.36 edg/100.0.1185.36</p>
+
+     <h3><a id='ediew11v24H2'></a>10.4. Edge Included With Windows 11 Version 24H2</h3>
+
+<!-- Windows 11 Version 24H2 (10.0.26100.1742) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 24H2 (x64) - DVD (English) en-us_windows_11_consumer_editions_version_24h2_x64_dvd_1d5fcad3.iso. -->
+
+     <p>Edge 122.0.2365.106 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/122.0.0.0 safari/537.36 edg/122.0.0.0</p>
 
     </section>
     <hr />
