@@ -4049,6 +4049,8 @@ return
      <p>Firefox 131.0 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:131.0) gecko/20100101 firefox/131.0</p>
 
+     <div class='note normal'>The version of Firefox skipped from 131.0 to 131.0.2.</div>
+
      <p>Firefox 131.0.2 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:131.0) gecko/20100101 firefox/131.0</p>
 
