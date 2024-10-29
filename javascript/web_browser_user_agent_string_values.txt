@@ -5532,7 +5532,11 @@ platform: Win32
 
 Edge 128.0.2739.113 64-bit
 
-TBD
+appName: Netscape
+userAgent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/128.0.0.0 safari/537.36 edg/128.0.0.0
+appVersion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0
+parseFloatAppVersion: 5
+platform: Win32
 
 Edge 129.0.2792.52 64-bit
 
