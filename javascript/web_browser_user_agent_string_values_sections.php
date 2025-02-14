@@ -2281,6 +2281,12 @@ return
      <p>Edge 132.0.2957.140 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/132.0.0.0 safari/537.36 edg/132.0.0.0</p>
 
+     <p>Edge 132.0.2957.158 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/132.0.0.0 safari/537.36 edg/132.0.0.0</p>
+
+     <p>Edge 132.0.2957.164 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/132.0.0.0 safari/537.36 edg/132.0.0.0</p>
+
      <p>Edge 133.0.3065.51 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/133.0.0.0 safari/537.36 edg/133.0.0.0</p>
 
