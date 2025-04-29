@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 22 Apr 2025.
+ * Last reviewed/updated: 29 Apr 2025.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -2341,6 +2341,9 @@ return
      <p>Edge 135.0.3179.85 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/135.0.0.0 safari/537.36 edg/135.0.0.0</p>
 
+     <p>Edge 135.0.3179.98 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/135.0.0.0 safari/537.36 edg/135.0.0.0</p>
+
     </section>
     <hr />
     <section>
@@ -4248,6 +4251,9 @@ return
 
      <p>Firefox 137.0.2 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64; rv:137.0) gecko/20100101 firefox/137.0</p>
+
+     <p>Firefox 138.0 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64; rv:138.0) gecko/20100101 firefox/138.0</p>
 
     </section>
     <hr />
@@ -6530,6 +6536,9 @@ return
 
      <p>Chrome 135.0.7049.115 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/135.0.0.0 safari/537.36</p>
+
+     <p>Chrome 136.0.7103.49 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/136.0.0.0 safari/537.36</p>
 
     </section>
     <hr />
@@ -10293,6 +10302,9 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/132.0.0.0 safari/537.36 opr/117.0.0.0</p>
 
      <p>Opera 118.0.5461.41 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/133.0.0.0 safari/537.36 opr/118.0.0.0</p>
+
+     <p>Opera 118.0.5461.60 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/133.0.0.0 safari/537.36 opr/118.0.0.0</p>
 
     </section>
