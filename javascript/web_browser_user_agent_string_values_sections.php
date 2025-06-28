@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 24 Jun 2025.
+ * Last reviewed/updated: 27 Jun 2025.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -2329,6 +2329,12 @@ return
      <p>Edge 134.0.3124.93 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/134.0.0.0 safari/537.36 edg/134.0.0.0</p>
 
+     <p>Edge 134.0.3124.119 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/134.0.0.0 safari/537.36 edg/134.0.0.0</p>
+
+     <p>Edge 134.0.3124.129 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/134.0.0.0 safari/537.36 edg/134.0.0.0</p>
+
      <p>Edge 135.0.3179.54 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/135.0.0.0 safari/537.36 edg/135.0.0.0</p>
 
@@ -2357,6 +2363,15 @@ return
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/136.0.0.0 safari/537.36 edg/136.0.0.0</p>
 
      <p>Edge 136.0.3240.104 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/136.0.0.0 safari/537.36 edg/136.0.0.0</p>
+
+     <p>Edge 136.0.3240.115 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/136.0.0.0 safari/537.36 edg/136.0.0.0</p>
+
+     <p>Edge 136.0.3240.124 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/136.0.0.0 safari/537.36 edg/136.0.0.0</p>
+
+     <p>Edge 136.0.3240.131 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/136.0.0.0 safari/537.36 edg/136.0.0.0</p>
 
      <p>Edge 137.0.3296.52 64-bit<br />
