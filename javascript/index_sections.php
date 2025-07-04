@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/javascript/index_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/javascript/index.php.
- * Last reviewed/updated: 15 Aug 2023.
+ * Last reviewed/updated: 03 Jul 2025.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -183,6 +183,16 @@ return
       <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262-10th-edition-June-2019.pdf'>ECMA-262 10th Edition / June 2019: ECMAScript 2019 Language Specification (.pdf) (ecma-international.org)</a></li>
       <li><a href='https://262.ecma-international.org/11.0/'>ECMA-262 11th Edition / June 2020: ECMAScript 2020 Language Specification (262.ecma-international.org)</a></li>
       <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_11th_edition_june_2020.pdf'>ECMA-262 11th Edition / June 2020: ECMAScript 2020 Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://262.ecma-international.org/12.0/'>ECMA-262 12th Edition / June 2021: ECMAScript 2021 Language Specification (262.ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_12th_edition_june_2021.pdf'>ECMA-262 12th Edition / June 2021: ECMAScript 2021 Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://262.ecma-international.org/13.0/'>ECMA-262 13th Edition / June 2022: ECMAScript 2022 Language Specification (262.ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_13th_edition_june_2022.pdf'>ECMA-262 13th Edition / June 2022: ECMAScript 2022 Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://262.ecma-international.org/14.0/'>ECMA-262 14th Edition / June 2023: ECMAScript 2023 Language Specification (262.ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_14th_edition_june_2023.pdf'>ECMA-262 14th Edition / June 2023: ECMAScript 2023 Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://262.ecma-international.org/15.0/'>ECMA-262 15th Edition / June 2024: ECMAScript 2024 Language Specification (262.ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_15th_edition_june_2024.pdf'>ECMA-262 15th Edition / June 2024: ECMAScript 2024 Language Specification (.pdf) (ecma-international.org)</a></li>
+      <li><a href='https://262.ecma-international.org/16.0/'>ECMA-262 16th Edition / June 2025: ECMAScript 2025 Language Specification (262.ecma-international.org)</a></li>
+      <li><a href='https://www.ecma-international.org/wp-content/uploads/ECMA-262_16th_edition_june_2025.pdf'>ECMA-262 16th Edition / June 2025: ECMAScript 2025 Language Specification (.pdf) (ecma-international.org)</a></li>
      </ul>
 
      <h4><a id='webIdlApi'></a>3.1.2. W3C And WHATWG Web IDL/API Recommendations/Etc.</h4>
