@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/web_browser_user_agent_string_values_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/web_browser_user_agent_string_values.php.
- * Last reviewed/updated: 03 Oct 2025.
+ * Last reviewed/updated: 04 Oct 2025.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -784,37 +784,44 @@ return
     <hr />
     <section>
 
-     <h2><a id='ediew11'></a>10. Edge Included With Windows 11</h2>
+     <h2><a id='edw11'></a>10. Edge Included With Windows 11</h2>
 
      <div class='note normal'>Windows 11 is 64-bit only and Edge 64-bit is the only web browser.</div>
 
-     <h3><a id='ediew11v21H2'></a>10.1. Edge Included With Windows 11 Version 21H2</h3>
+     <h3><a id='edw11v21H2'></a>10.1. Edge Included With Windows 11 Version 21H2</h3>
 
 <!-- Windows 11 Version 21H2 (10.0.22000.194) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) (x64) - DVD (English) en-us_windows_11_consumer_editions_x64_dvd_bd3cf8df.iso. -->
 
      <p>Edge 90.0.818.66 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/90.0.4430.212 safari/537.36 edg/90.0.818.66</p>
 
-     <h3><a id='ediew11v22H2'></a>10.2. Edge Included With Windows 11 Version 22H2</h3>
+     <h3><a id='edw11v22H2'></a>10.2. Edge Included With Windows 11 Version 22H2</h3>
 
 <!-- Windows 11 Version 22H2 (10.0.22621.525) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 22H2 (Updated Sep 2022) (x64) - DVD (English) en-us_windows_11_consumer_editions_version_22h2_updated_sep_2022_x64_dvd_f408dad5.iso. NOTE: This is Windows 11 v22H2 28Sep22 build 10.0.22621.525, not 20Sep22 build 10.0.22621.521. -->
 
      <p>Edge 100.0.1185.36 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/100.0.4896.75 safari/537.36 edg/100.0.1185.36</p>
 
-     <h3><a id='ediew11v23H2'></a>10.3. Edge Included With Windows 11 Version 23H2</h3>
+     <h3><a id='edw11v23H2'></a>10.3. Edge Included With Windows 11 Version 23H2</h3>
 
 <!-- Windows 11 Version 23H2 (10.0.22631.2428) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 23H2 (x64) - DVD (English) en-us_windows_11_consumer_editions_version_23h2_x64_dvd_8ea907fb.iso. -->
 
      <p>Edge 100.0.1185.36 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/100.0.4896.75 safari/537.36 edg/100.0.1185.36</p>
 
-     <h3><a id='ediew11v24H2'></a>10.4. Edge Included With Windows 11 Version 24H2</h3>
+     <h3><a id='edw11v24H2'></a>10.4. Edge Included With Windows 11 Version 24H2</h3>
 
 <!-- Windows 11 Version 24H2 (10.0.26100.1742) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 24H2 (x64) - DVD (English) en-us_windows_11_consumer_editions_version_24h2_x64_dvd_1d5fcad3.iso. -->
 
      <p>Edge 122.0.2365.106 64-bit<br />
      mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/122.0.0.0 safari/537.36 edg/122.0.0.0</p>
+
+     <h3><a id='edw11v25H2'></a>10.5. Edge Included With Windows 11 Version 25H2</h3>
+
+<!-- Windows 11 Version 25H2 (10.0.26200.6584) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 25H2 (x64) - DVD (English) en-us_windows_11_consumer_editions_version_25h2_x64_dvd_9934ee4c.iso. -->
+
+     <p>Edge 140.0.3485.66 64-bit<br />
+     mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/140.0.0.0 safari/537.36 edg/140.0.0.0</p>
 
     </section>
     <hr />

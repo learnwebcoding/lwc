@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/bom/versions_ie_ed_windows_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/bom/versions_ie_ed_windows.php.
- * Last reviewed/updated: 16 Oct 2024.
+ * Last reviewed/updated: 04 Oct 2025.
  * Published: 21 Sep 2016. */
 return
    "<section>
@@ -96,6 +96,8 @@ return
       <li>Windows 11 Version 21H2 (10.0.22000.194) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) (x64) - DVD (English) en-us_windows_11_consumer_editions_x64_dvd_bd3cf8df.iso.</li>
       <li>Windows 11 Version 22H2 (10.0.22621.525) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 22H2 (Updated Sep 2022) (x64) - DVD (English) en-us_windows_11_consumer_editions_version_22h2_updated_sep_2022_x64_dvd_f408dad5.iso. NOTE: This is Windows 11 Version 22H2 28Sep22 build 10.0.22621.525, not Windows 11 Version 22H2 20Sep22 build 10.0.22621.521, the latter of which, apparently, was not released through official channels as a general availability ISO.)</li>
       <li>Windows 11 Version 23H2 (10.0.22631.2428) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 23H2 (x64) - DVD (English) en-us_windows_11_consumer_editions_version_23h2_x64_dvd_8ea907fb.iso.</li>
+      <li>Windows 11 Version 24H2 (10.0.26100.1742) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 24H2 (x64) - DVD (English) en-us_windows_11_consumer_editions_version_24h2_x64_dvd_1d5fcad3.iso.</li>
+      <li>Windows 11 Version 25H2 (10.0.26200.6584) = Installed Windows 11 Professional from MSDN subscriptions: Windows 11 (consumer editions) Version 25H2 (x64) - DVD (English) en-us_windows_11_consumer_editions_version_25h2_x64_dvd_9934ee4c.iso.</li>
      </ul>
 -->
 
@@ -108,6 +110,7 @@ return
       <li>98 = Windows 98 = Windows 98 Second Edition.</li>
       <li>ME = Windows ME = Windows Millennium Edition.</li>
       <li>2000 = 2000 Pro = Windows 2000 Pro = Windows 2000 Professional.</li>
+      <li>NA = Not applicable.</li>
      </ul>
 
     </section>
@@ -586,10 +589,10 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
        <tr>
         <th>Also Supports</th>
         <td>ED79+</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>NA</td>
+        <td>NA</td>
+        <td>NA</td>
+        <td>NA</td>
        </tr>
       <tbody>
       <tfoot>
@@ -625,6 +628,8 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
          (10.0.22631.2428)</th><!-- 23H2/Windows 11 2023 Update -->
         <th>11 Version 24H2<br />
          (10.0.26100.1742)</th><!-- 24H2/Windows 11 2024 Update -->
+        <th>11 Version 25H2<br />
+         (10.0.26200.6584)</th><!-- 24H5/Windows 11 2025 Update -->
        </tr>
       </thead>
       <tbody>
@@ -635,6 +640,7 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
         <td>20 Sep 2022 <a id='2_W11_21H2_return'></a><a href='#2_W11_21H2'>(2)</a></td>
         <td>31 Oct 2023</td>
         <td>01 Oct 2024</td>
+        <td>30 Sep 2025</td>
        </tr>
        <tr>
         <th>Included With</th>
@@ -642,18 +648,12 @@ http://blogs.windows.com/windows/b/windowsexperience/archive/2014/04/08/why-i-lo
         <td>ED100.0.1185.36</td>
         <td>ED100.0.1185.36</td>
         <td>ED122.0.2365.106</td>
-       </tr>
-       <tr>
-        <th>Also Supports</th>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>ED140.0.3485.66</td>
        </tr>
       <tbody>
       <tfoot>
        <tr>
-        <td colspan='5'>
+        <td colspan='6'>
          <a id='1_W11_21H2'></a><a href='#1_W11_21H2_return'>(1)</a><a id='2_W11_21H2'></a><a href='#2_W11_21H2_return'>(2)</a> Windows 11 Version 22H2 general availability was announced on 20 Sep 2022 when Windows 11 Version 22H2 was at build 10.0.22621.521. However, apparently the first build of Windows 11 Version 22H2 released through official channels as a general availability ISO was 10.0.22621.525 on 28 Sep 2022, not 10.0.22621.521 on 20 Sep 2022. The Windows 11 Version 22H2 information presented in this table is from build 10.0.22621.525, not 10.0.22621.521.
         </td>
        </tr>
