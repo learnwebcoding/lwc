@@ -4,7 +4,7 @@
 /* File: /web_server_root_directory/html/template_explained_sections.php.
  * Purpose: Web page <section></section> sections.
  * Used in: /web_server_root_directory/html/template_explained.php.
- * Last reviewed/updated: 20 Nov 2020.
+ * Last reviewed/updated: 04 Oct 2025.
  * Published: 21 Sep 2016.
  * NOTE: Horizontal scrollbar induced by; 1.) table in 25.1.1. Bootstrap 3.3.5 - 3.4.x Button Colors, 2.) consecutive characters in 7.4. LWC Home Breadcrumbs Navigation, 3.) consecutive characters in 8.3.2. LWC Home Tools Icon Dropdown, and 4.) consecutive characters in 8.3.2. LWC Home Tools Icon Dropdown. */
 return
@@ -90,6 +90,7 @@ selector { property-one: value-one; property-two: value-two; property-three: val
       <li>FF = Firefox.</li>
       <li>CH = Chrome.</li>
       <li>OP = Opera.</li>
+      <li>NA = Not applicable.</li>
      </ul>
 
     </section>
